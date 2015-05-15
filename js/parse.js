@@ -1,43 +1,128 @@
-function split(arr, n) {
-  if(n <= 1) return [arr];
-  var partLength = Math.ceil(arr.length/n),
-      part1 = arr.slice(0, partLength),
-      result = split(arr.slice(partLength), n - 1);
-  result.unshift(part1);
-  return result;
-}
+/*
+	This file will serve as the main data-munging library
+*/
 
-function splitTree(arr, m) {
-  if(m.length < 1) return arr;
-  var result = split(arr, m[0]);
-  //console.log(result);
-  return result.map(function(sublist) {
-    return splitTree(sublist, m.slice(1));
-  });
-}
+/*
+	DATASET
+
+	constructor arguments:
+		path = url/path of raw CHIP file
+
+	attributes:
+		title = string, title of dataset
+		varNames = array, names of variables
+		numVars = int, number of variables
+		varNums = array, number of categories per variable
+		varVarLabels = array of array, names of categories for each variable
+		data = array, collection of objects representing records
+
+*/
 
 var Dataset = function(path) {
 	$.get(path, function(data) {
 		var lines = data.split('\r\n')
 		this.title = lines[0];
+		//independent variable names
 		this.varNames = lines[2].split(',');
-		this.varNums = lines[3].split(','); //num of categories per var
+		//number of categories per variables
+		this.varNums = lines[3].split(',');
+		//parse varNums into ints
+		this.varNums = _.map(this.varNums, function(num) {
+			return parseInt(num);
+		});
+		//number of variables
 		this.numVars = this.varNames.length;
+
+		//grab lines of data (non-metadata)
 		var firstDataLineIndex = 4 + this.varNames.length;
 		var dataPoints = 1;
-
 		var firstThree = _.initial(this.varNums);
 		for(var i in firstThree) {
 			dataPoints *= firstThree[i];
 		}
-
-		var varLabels = [];
-		for(var i=4; i<(4+this.numVars); i++) {
-			varLabels.push(lines[i].split(',')); //list of lists
-		}
-
 		var lastDataLineIndex = firstDataLineIndex + dataPoints;
 		var dataLines = lines.slice(firstDataLineIndex, lastDataLineIndex);
 
+		//increment through categories when applying label, reset if at end of array
+		function increment(max, cur) {
+			if(cur == max-1) {
+				return 0;
+			} else {
+				return(cur + 1);
+			}
+		}
+
+		/*
+		  Loop through object array, give each object a new attribute and a value for it
+		  returns new array with new attributes
+		  l = object array
+		  varName = name of the attribute you're setting
+		  labels = labels for that attribute
+		  reset = how many times to apply the same label until changing it
+		*/
+		function applyLabel(l, varName, labels, reset) {
+			var m = l;
+
+			var i = 0;
+			var j = 0;
+			var labelLen = labels.length;
+			currentLabel = labels[0];
+			for(var k in m) {
+				m[k][varName] = currentLabel;
+				i++;
+				if(i == reset) {
+					j = increment(labelLen, j);
+					currentLabel = labels[j];
+					i = 0;
+				} else {
+					continue;
+				}
+			}
+			return m;
+		}
+
+		//push variable labels into array, push those arrays in single array
+		this.varLabels = [];
+		for(var i=4; i<(4+this.numVars); i++) {
+			this.varLabels.push(lines[i].split(',')); //list of lists
+		}
+
+		//this works backwards to build objects, so reverse each array
+		var varNamesReversed = this.varNames;
+		varNamesReversed.reverse()
+		var varLabelsReversed = this.varLabels;
+		varLabelsReversed.reverse();
+		var varNumBuffer = this.varNums;
+		varNumBuffer.reverse()
+
+		//build array of numbers to use as "reset" arguments in applyLabel
+		var branchers = _.initial(varNumBuffer);
+		var multiplier = 1;
+		var multipliers = [1];
+		for(var i in branchers) {
+			multiplier *= branchers[i];
+			multipliers.push(multiplier);		
+		}
+		
+		//create objects out of each dependent variable value, name = "Dep"
+		objects = [];
+		for(var line in dataLines) {
+			line = dataLines[line];
+			var vals = line.split(",")
+			vals = _.initial(vals)
+			_.each(vals, function(val) {
+				objects.push({"Dep": val})
+			})
+		}
+
+		//add each variable with its value to the object array
+		for(var i in multipliers) {
+			objects = applyLabel(objects, varNamesReversed[i], varLabelsReversed[i], multipliers[i]);
+		}
+
+		this.data = objects;
+		
+
+
 	});
-}
+}}}
