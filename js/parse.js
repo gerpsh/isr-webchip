@@ -182,3 +182,96 @@ function marginals(dataset) {
 	});
 	return margs;
 }
+
+
+/*
+  Compute frequency table numbers
+  Returns an object collection, e.g. [{"row":"25-44", "col":"male", "total": 3645}, ...]
+  Object will be ordered by row then column, allowing for easier output
+  "row total" cells will be interspersed throughout the dictionary, at regular intervals,
+  and "column total" cells will be the final elements of the collections
+*/
+function frequency(dataset, row, col) {
+	var data = dataset.data;
+	var vars = dataset.varNames;
+	var cats = dataset.varLabels
+	var rowIndex = vars.indexOf(row);
+	var colIndex = vars.indexOf(col);
+	var rowCats = cats[rowIndex];
+	var colCats = cats[colIndex];
+	var freqs = [];
+	_.each(rowCats, function(rc) {
+		_.each(colCats, function(cc) {
+			var searchObj = {}
+			searchObj[row] = rc;
+			searchObj[col] = cc;
+			var matches = _.where(data, searchObj);
+			var total = nSum(matches);
+			var returnObj = {"row": rc, "col": cc, "total": parseInt(total)}
+			freqs.push(returnObj);
+		});
+		var searchObj = {};
+		searchObj[row] = rc;
+		var matches = _.where(data, searchObj);
+		var rowTotal = nSum(matches);
+		var returnObj = {"row": rc, "col": "all", "total": rowTotal};
+		freqs.push(returnObj);
+	});
+	_.each(colCats, function(cc) {
+		var searchObj = {}
+		searchObj[col] = cc;
+		var matches = _.where(data, searchObj);
+		var returnObj = {"row": "all", "col": c, "total": total};
+		freqs.push(returnObj);
+	});
+	return freqs;
+}
+
+/*
+	Return object collection similar to frequency return value, except with percents and not counts
+*/
+function pctAcross(dataset, row, col) {
+	var data = dataset.data;
+	var grandTotal = nSum(data);
+	var vars = dataset.varNames;
+	var cats = dataset.varLabels
+	var rowIndex = vars.indexOf(row);
+	var colIndex = vars.indexOf(col);
+	var rowCats = cats[rowIndex];
+	var colCats = cats[colIndex];
+	var pcts = [];
+	_.each(rowCats, function(rc) {
+		var rowSearch = {};
+		rowSearch[row] = rc;
+		var rowMatches = _.where(data, rowSearch);
+		rowTotal = nSum(rowMatches);
+		_.each(colCats, function(cc) {
+			var colSearch = {};
+			colSearch[col] = cc;
+			var colMatches = _.where(rowMatches, colSearch);
+			var colTotal = nSum(colMatches);
+			var cellPct = parseFloat((parseFloat(colTotal/rowTotal) * 100).toFixed(1));
+			var cellObj = {"row": rc, "col": cc, "pct": cellPct}
+			pcts.push(cellObj);
+		});
+		pcts.push({"row": rc, "col": "all", "pct": 100.0 });
+	});
+	_.each(colCats, function(cc) {
+		var searchObj = {};
+		searchObj[col] = cc;
+		var matches = _where(data, searchObj);
+		var colTotal = parseFloat((parseFloat(nSum(matches)/grandTotal) * 100).toFixed(1));
+		pcts.push({"row": "all", "col": cc, "pct": colTotal});
+	});
+	return pcts;
+}
+
+
+
+function singleBarChart(dataset, variable, targetW, targetH) {
+	var data = marginals(dataset.data);
+	var match = _.where(data, {"name": variable});
+	//to finish later
+
+	
+}
