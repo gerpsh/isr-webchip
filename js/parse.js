@@ -17,7 +17,7 @@
 		data = array, collection of objects representing records
 
 */
-
+$.ajaxSetup({async:false});
 var Dataset = function(path) {
 	$.get(path, function(data) {
 		var lines = data.split('\r\n')
@@ -129,27 +129,55 @@ var Dataset = function(path) {
 		}
 
 		this.data = objects;
+		console.log(nSum(this.data));
+		console.log(JSON.stringify(marginals(this)));
 
 
 	});
 }
 
+//get dependent variable (count) sum from data collection, gotta love underscore
+function nSum(data) {
+	return _.reduce(_.pluck(data, "Dep"), function(sum, el) { return sum + parseInt(el); }, 0);
+}
+
+
+
+/*
+compute marginals, returns object like:
+	[
+		{"name": "VariableName1",
+		 "margs": [
+		 	{"category": "categoryName1",
+		 	 "pct": percent1},
+		 	{"category": "categoryName2",
+		 	 "pct": percent2},
+		 	...
+		 ]
+		}
+		...
+	]
+*/
 function marginals(dataset) {
 	var data = dataset.data;
-	var dsize = data.length;
+	var totalSum = nSum(data);
 	var vars = dataset.varNames;
 	var cats = dataset.varLabels;
 	var margs = [];
+	//counter to keep track of category names within variables
 	var i = 0;
 	_.each(vars, function(v) {
 		var rcd = {"name": String(v), "margs": []}
 		_.each(cats[i], function(cat) {
-			var matches = _.where(data, {String(v): String(cat)});
-			var pct = dsize/matches.length;
-			var margObj = {"category": String(cat), "pct": float(pct)};
+			var searchObj = {};
+			searchObj[v] = cat;
+			var matches = _.where(data, searchObj);
+			var localSum = nSum(matches);
+			var pct = localSum/totalSum;
+			var margObj = {"category": String(cat), "pct": parseFloat((parseFloat(pct) * 100).toFixed(2))};
 			rcd["margs"].push(margObj);
 		});
-		marg.push(rcd);
+		margs.push(rcd);
 		i++;
 	});
 	return margs;
