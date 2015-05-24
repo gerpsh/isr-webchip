@@ -228,7 +228,7 @@ function frequency(dataset, row, col) {
 }
 
 /*
-	Return object collection similar to frequency return value, except with percents and not counts
+	Returns object collection similar to frequency return value, except with percents and not counts
 */
 function pctAcross(dataset, row, col) {
 	var data = dataset.data;
@@ -254,7 +254,7 @@ function pctAcross(dataset, row, col) {
 			var cellObj = {"row": rc, "col": cc, "pct": cellPct}
 			pcts.push(cellObj);
 		});
-		pcts.push({"row": rc, "col": "all", "pct": 100.0 });
+		pcts.push({"row": rc, "col": "all", "pct": 100.0});
 	});
 	_.each(colCats, function(cc) {
 		var searchObj = {};
@@ -266,7 +266,42 @@ function pctAcross(dataset, row, col) {
 	return pcts;
 }
 
+/*
+	Same as pct across, same return object	
+*/
 
+function pctDown(dataset, row, col) {
+	var data = dataset.data;
+	var grandTotal = nSum(data);
+	var vars = dataset.varNames;
+	var cats = dataset.varLabels
+	var rowIndex = vars.indexOf(row);
+	var colIndex = vars.indexOf(col);
+	var rowCats = cats[rowIndex];
+	var colCats = cats[colIndex];
+	var pcts = [];
+	_.each(rowCats, function(rc) {
+		_.each(colCat, function(cc) {
+			var totalObj = {};
+			totalObj[col] = cc;
+			var totalSum = nSum(_.where(data, totalObj));
+			var cellObj = {};
+			cellObj[row] = rc;
+			cellObj[col] = cc;
+			var cellSum = nSum(_.where(data, cellObj));
+			var cellPct = parseFloat((parseFloat(cellTotal/totalSum) * 100).toFixed(1));
+			pcts.push("row": rc, "col": cc, "pct": cellPct);
+		});
+		var rowObj = {};
+		rowObj[row] = rc;
+		var rowSum = nSum(_where(data, totalObj));
+		var rowTotalPct = parseFloat((parseFloat(rowSum/grandTotal) * 100).toFixed(1));
+		pcts.push({"row": rc, "col": "all", "pct": rowTotalPct});
+	});
+	_.each(colCats, function(cc) {
+		pcts.push({"row": "all", "col": cc, "pct": 100.0});
+	});
+}
 
 function singleBarChart(dataset, variable, targetW, targetH) {
 	var data = marginals(dataset.data);
