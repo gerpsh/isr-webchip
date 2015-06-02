@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>charts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="c3.min.css">
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="c3.min.js"></script>
+	<script type="text/javascript" src="d3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script> 
+<!-- 	<script type="text/javascript" src="charts.js"></script> -->
+</head>
+<body>
+	<div>using "Lawyers.json" as an example</div><br/>
+    <input type="button" value="Marginals" class="button" onclick='load("Lawyers.json","marginals")'/>
+	<input type="button" value="Crosstab" class="button" onclick='load("Lawyers.json","crosstab")'/>
+	<input type="button" value="CrosstabFreq" class="button" onclick='load("Lawyers.json","crosstab")'/>
+	<input type="button" value="crosstabPerAcross" class="button" onclick='load("Lawyers.json","crosstab")'/>
+	<input type="button" value="crosstabPerDown" class="button" onclick='load("Lawyers.json","crosstab")'/>
+	<input type="button" value="crosstabPerAcrossLineChart" class="button" onclick='load("Lawyers.json","linechartPA")'/>
+	<input type="button" value="crosstabPerDownLineChart" class="button" onclick='load("Lawyers.json","linechartPD")'/>
+	<input type="button" value="crosstabPerAcrossBarChart" class="button" onclick='load("Lawyers.json","barchartPA")'/>
+	<input type="button" value="crosstabPerDownBarChart" class="button" onclick='load("Lawyers.json","barchartPD")'/>
+	<input type="button" value="crosstabPerAcrossStackedBar" class="button" onclick='load("Lawyers.json","stackedbarPA")'/>
+	<input type="button" value="crosstabPerDownStackedBar" class="button" onclick='load("Lawyers.json","stackedbarPD")'/>
+	<input type="button" value="crosstabPerAcrossPieChart" class="button" onclick='load("Lawyers.json","piechartPA")'/>
+	<input type="button" value="crosstabPerDownPieChart" class="button" onclick='load("Lawyers.json","piechartPD")'/>
+	<br/><br/>
+    <div id='table1'></div>
+	<div id='chart1'></div>
+</body>
+</html>
