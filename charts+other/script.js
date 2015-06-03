@@ -31,7 +31,18 @@ function load(filename, func) {
 		else if (func == "piechartPD") {
 			pieChart(data,"crosstabPerDown");
 		}
-		
+		else if (func == "singleLC") {
+			singleLineChart(data);
+		}
+		else if (func == "singleBC") {
+			singleBarChart(data);
+		}
+		else if (func == "singleSB") {
+			singleStackedBar(data);
+		}
+		else if (func == "singlePC") {
+			singlePieChart(data);
+		}
 	});
 }
 
@@ -46,8 +57,69 @@ function discoverVar(data) {
 	return variables;
 }
 
+//prepare data for Marginals and charts for single variable
+function marginalsData(data) {
+	var variables = discoverVar(data);
+	var tdata = new Object();
+	var total = new Object();
+	for (var i=0; i<variables.length; i++) {
+		var variable = variables[i];
+		tdata[variable] = {};
+		total[variable] = 0; 
+		//"total" will be the same for every variable. Using an object is for preparing for omit/combine.
+		for (var j=0; j<data.length; j++) {
+			var value = Number(data[j].Dep);
+			var valOfVar = data[j][variable];
+			if (tdata[variable].hasOwnProperty(valOfVar)) {
+				tdata[variable][valOfVar] += value;
+				total[variable] += value;
+			}
+			else {
+				tdata[variable][valOfVar] = value;
+				total[variable] += value;
+			}
+		}
+	}
+	return [tdata,total];
+}
+
 //Marginals function 
 function marginals(data) {
+	var processedData = marginalsData(data);
+	var tdata = processedData[0];
+	var total = processedData[1];
+	var html = "";
+	for (var variable in tdata) {
+		html += "<br/>";
+		html += variable;
+		html += "<br/><table><tr>";
+		//print names of the variable 
+		for (var name in tdata[variable]) {
+			html += "<td>";
+			html += name;
+			html += "</td>"
+		}
+		html += "</tr><tr>"
+		//print percentages
+		for (var name in tdata[variable]) {
+			html += "<td>";
+			html += ((tdata[variable][name]/total[variable])*100).toFixed(1);
+			html += "%</td>";
+		}
+		html += "</tr><tr>"
+		//print numbers
+		for (var name in tdata[variable]) {
+			html += "<td>";
+			html += tdata[variable][name].toLocaleString();
+			html += "</td>";
+		}
+		html += "</tr></table>";
+	}
+	$(html).appendTo( "#table1" );
+}
+
+//previous Marginals function
+function marginals1(data) {
 	var variables = discoverVar(data);
 	var html = "";
 	for (var i=0; i<variables.length; i++) {
@@ -96,8 +168,8 @@ function marginals(data) {
 
 //read row name and column name of Crosstab
 function crosstabReadVar(data) {
-	rowname = "RaceEth";
-	colname = "Earn2";
+	var rowname = "RaceEth";
+	var colname = "Earn2";
 	crosstab(data, rowname,colname)
 }
 
@@ -242,7 +314,7 @@ function crosstab(data,rowname,colname) {
 
 //function crosstabFreq
  
-//process data for charts
+//process data for charts of two variables
 function chartData(data,rowname,colname) {
 	var tdata = new Object();
 	//var total = 0;
@@ -290,8 +362,8 @@ function chartData(data,rowname,colname) {
 }
 
 function lineChart(data, corssway) {
-	rowname = "RaceEth";
-	colname = "Earn2";
+	var rowname = "RaceEth";
+	var colname = "Earn2";
 	var processedData = chartData(data,rowname,colname);
  	var finalData = new Array();
 	var catename = new Array();
@@ -335,8 +407,8 @@ function lineChart(data, corssway) {
 }
 
 function barChart(data, corssway) {
-	rowname = "RaceEth";
-	colname = "Earn2";
+	var rowname = "RaceEth";
+	var colname = "Earn2";
 	var processedData = chartData(data,rowname,colname);
  	var finalData = new Array();
 	var catename = new Array();
@@ -386,8 +458,8 @@ function barChart(data, corssway) {
 }
 
 function stackedBar(data, corssway) {
-	rowname = "RaceEth";
-	colname = "Earn2";
+	var rowname = "RaceEth";
+	var colname = "Earn2";
 	var processedData = chartData(data,rowname,colname);
  	var finalData = new Array();
 	var catename = new Array();
@@ -444,26 +516,20 @@ function stackedBar(data, corssway) {
 }
 
 function pieChart(data, corssway) {
-	rowname = "RaceEth";
-	colname = "Earn2";
+	var rowname = "RaceEth";
+	var colname = "Earn2";
 	var processedData = chartData(data,rowname,colname);
  	var finalData = new Array();
-	var catename = new Array();
-	var dataname = new Array();
 	var html = '';
 	//crosstabPerAcross
 	if (corssway == "crosstabPerAcross") {		
 		var chartdata1 = dataPerDown(processedData);
 		finalData = chartdata1[3];
-		catename = chartdata1[1];
-		dataname = chartdata1[2];
 	}
 	//crosstabPerDown
 	else if (corssway == "crosstabPerDown") {
 		var chartdata1 = dataPerAcross(processedData);
 		finalData = chartdata1[3];
-		catename = chartdata1[1];
-		dataname = chartdata1[2];
 	}
 	for (var title in finalData) {
 		html = '<h2>';
@@ -483,7 +549,7 @@ function pieChart(data, corssway) {
 					threshold: 0.001
 				}
 			}, */
-			tooltip:{
+			tooltip: {
 				format:{
 					value:function(x){
 						return x.toLocaleString();
@@ -552,4 +618,199 @@ function dataPerDown(data) {
 		catename.push(nameCol);
 	}
 	return [finalData,catename,dataname,finalDataPie]; 
+}
+
+/* functions for charts of single variable */
+//can be combined with crosstabReadVar (run this function when any value is "".)
+//this function will be changed after having UI
+function singleVarChartReader(variable) {
+	return variable;
+}
+
+function singleVarChartData(data,variable) {
+	var processedData = marginalsData(data);
+	var variable = variable;
+	var tdata = processedData[0];
+	var total = processedData[1];
+	var finalData = new Array();
+	var catename = new Array();
+	var finalDataSB = new Array();
+	var finalDataPC = new Array();
+	for (var name in tdata[variable]) {
+		catename.push(name);
+		var value = tdata[variable][name];
+		var valuePer = (tdata[variable][name]/total[variable]*100).toFixed(3);
+		finalData.push(valuePer);
+		var tempSB = [];
+		tempSB.push(name);
+		tempSB.push(valuePer);
+		finalDataSB.push(tempSB);
+		var tempPC = [];
+		tempPC.push(name);
+		tempPC.push(value);
+		finalDataPC.push(tempPC);
+	}
+	finalData.unshift(variable);
+	return [finalData,catename,finalDataSB,finalDataPC];
+}
+
+//line chart of single variable
+function singleLineChart(data) {
+	var variable = "AgePro";
+	var processedData = singleVarChartData(data,variable);
+	var finalData = processedData[0];
+	var catename = processedData[1];
+	var html = '<h2>'+variable+'</h2>';
+	var chart = c3.generate({
+		bindto: '#chart1',
+		size: {
+			height: 390
+		},
+		data: {
+			columns: [finalData],
+		},
+		tooltip: {
+			format:{
+				value:function(x){
+					return x+'%';
+				}
+			}
+		},
+		axis: {
+			x: {
+				type: 'category',
+				categories: catename
+			},
+			y: {
+				label: {
+					text: 'Percentage',
+					position: 'outer-middle'
+				}
+			}
+		}
+	});
+	$(html).appendTo( "#chart1" ); 
+}
+
+//bar chart of single variable
+function singleBarChart(data) {
+	var variable = "AgePro";
+	var processedData = singleVarChartData(data,variable);
+	var finalData = processedData[0];
+	var catename = processedData[1];
+	var html = '<h2>'+variable+'</h2>';
+	var chart = c3.generate({
+		bindto: '#chart1',
+		size: {
+			height: 390
+		},
+		data: {
+			columns: [finalData],
+			type: 'bar'
+		},
+		bar: {
+			width: {
+				rato:0.5
+			}
+		},
+		tooltip: {
+			format:{
+				value:function(x){
+					return x+'%';
+				}
+			}
+		},
+		axis: {
+			x: {
+				type: 'category',
+				categories: catename
+			},
+			y: {
+				label: {
+					text: 'Percentage',
+					position: 'outer-middle'
+				}
+			}
+		}
+	});
+	$(html).appendTo( "#chart1" ); 
+}
+
+function singleStackedBar(data) {
+	var variable = "AgePro";
+	var processedData = singleVarChartData(data,variable);
+	var finalData = processedData[2];
+	var catename = processedData[1];
+	var html = '<h2>'+variable+'</h2>';
+	var chart = c3.generate({
+		bindto: '#chart1',
+		size: {
+			height: 390
+		},
+		data: {
+			columns: finalData,
+			type: 'bar',
+			groups: [
+				catename
+			],
+			order: null
+		},
+		tooltip: {
+			format:{
+				value:function(x){
+					return x+'%';
+				}
+			}
+		},
+		bar: {
+			width: {
+				rato:0.5
+			}
+		},
+		axis: {
+			x: {
+				type: 'category',
+				categories: [variable]
+			},
+			y: {
+				label: {
+					text: 'Percentage',
+					position: 'outer-middle'
+				}
+			}
+		}
+	});
+	$(html).appendTo( "#chart1" ); 	
+}
+
+function singlePieChart(data) {
+	var variable = "AgePro";
+	var processedData = singleVarChartData(data,variable);
+	var finalData = processedData[3];
+	var html = '<h2>'+variable+'</h2>';
+	var chart = c3.generate({
+		bindto: '#chart1',
+		size: {
+			height: 390
+		},
+		data: {
+			columns: finalData,
+			type: 'pie',
+			order: null
+		},
+		/* pie: {
+			label: {
+				threshold: 0.001
+			}
+		}, */
+		tooltip: {
+			format:{
+				value:function(x){
+					return x.toLocaleString();
+				}
+			}
+		}
+	});
+	$(html).appendTo("#chart1");
+	//$(chart.element).appendTo("#chart1");
 }
