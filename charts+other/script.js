@@ -383,12 +383,19 @@ function lineChart(data, corssway) {
 		catename = chartdata1[1];
 	}
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
 		data: {
 			columns: finalData,
+		},
+		tooltip: {
+			format:{
+				value:function(x){
+					return x+'%';
+				}
+			}
 		},
 		axis: {
 			x: {
@@ -403,7 +410,8 @@ function lineChart(data, corssway) {
 			}
 		}
 	});
-	$(html).appendTo( "#chart1" ); 	
+	$(html).appendTo( "#chart1" ); 
+	$(chart.element).appendTo("#chart1");
 }
 
 function barChart(data, corssway) {
@@ -428,13 +436,20 @@ function barChart(data, corssway) {
 		catename = chartdata1[1];
 	}
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
 		data: {
 			columns: finalData,
 			type: 'bar'
+		},
+		tooltip: {
+			format:{
+				value:function(x){
+					return x+'%';
+				}
+			}
 		},
 		bar: {
 			width: {
@@ -455,6 +470,7 @@ function barChart(data, corssway) {
 		}
 	});
 	$(html).appendTo( "#chart1" );	
+	$(chart.element).appendTo("#chart1");
 }
 
 function stackedBar(data, corssway) {
@@ -482,7 +498,7 @@ function stackedBar(data, corssway) {
 		dataname = chartdata1[2];
 	}
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
@@ -493,6 +509,13 @@ function stackedBar(data, corssway) {
 				dataname
 			],
 			order: null
+		},
+		tooltip: {
+			format:{
+				value:function(x){
+					return x+'%';
+				}
+			}
 		},
 		bar: {
 			width: {
@@ -512,7 +535,8 @@ function stackedBar(data, corssway) {
 			}
 		}
 	});
-	$(html).appendTo( "#chart1" ); 	
+	$(html).appendTo( "#chart1" ); 
+	$(chart.element).appendTo("#chart1");
 }
 
 function pieChart(data, corssway) {
@@ -543,19 +567,19 @@ function pieChart(data, corssway) {
 				columns: finalData[title],
 				type: 'pie',
 				order: null
-			},
+			}
 			/* pie: {
 				label: {
 					threshold: 0.001
 				}
 			}, */
-			tooltip: {
+/* 			tooltip: {
 				format:{
 					value:function(x){
 						return x.toLocaleString();
 					}
 				}
-			}
+			} */
 		});
 		$(html).appendTo("#chart1");
 		$(chart.element).appendTo("#chart1");
@@ -662,7 +686,7 @@ function singleLineChart(data) {
 	var catename = processedData[1];
 	var html = '<h2>'+variable+'</h2>';
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
@@ -690,6 +714,7 @@ function singleLineChart(data) {
 		}
 	});
 	$(html).appendTo( "#chart1" ); 
+	$(chart.element).appendTo("#chart1");
 }
 
 //bar chart of single variable
@@ -700,7 +725,7 @@ function singleBarChart(data) {
 	var catename = processedData[1];
 	var html = '<h2>'+variable+'</h2>';
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
@@ -733,7 +758,8 @@ function singleBarChart(data) {
 			}
 		}
 	});
-	$(html).appendTo( "#chart1" ); 
+	$(html).appendTo( "#chart1" );
+	$(chart.element).appendTo("#chart1");
 }
 
 function singleStackedBar(data) {
@@ -743,7 +769,7 @@ function singleStackedBar(data) {
 	var catename = processedData[1];
 	var html = '<h2>'+variable+'</h2>';
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
@@ -780,7 +806,8 @@ function singleStackedBar(data) {
 			}
 		}
 	});
-	$(html).appendTo( "#chart1" ); 	
+	$(html).appendTo( "#chart1" ); 
+	$(chart.element).appendTo("#chart1");	
 }
 
 function singlePieChart(data) {
@@ -789,7 +816,7 @@ function singlePieChart(data) {
 	var finalData = processedData[3];
 	var html = '<h2>'+variable+'</h2>';
 	var chart = c3.generate({
-		bindto: '#chart1',
+		//bindto: '#chart1',
 		size: {
 			height: 390
 		},
@@ -797,20 +824,20 @@ function singlePieChart(data) {
 			columns: finalData,
 			type: 'pie',
 			order: null
-		},
+		}
 		/* pie: {
 			label: {
 				threshold: 0.001
 			}
 		}, */
-		tooltip: {
+	/* 	tooltip: {
 			format:{
 				value:function(x){
 					return x.toLocaleString();
 				}
 			}
-		}
+		} */
 	});
 	$(html).appendTo("#chart1");
-	//$(chart.element).appendTo("#chart1");
+	$(chart.element).appendTo("#chart1");
 }
