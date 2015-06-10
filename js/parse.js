@@ -303,10 +303,20 @@ function pctDown(dataset, row, col) {
 	});
 }
 
-function singleBarChart(dataset, variable, targetW, targetH) {
-	var data = marginals(dataset.data);
-	var match = _.where(data, {"name": variable});
-	//to finish later
+//returns data with omitted values excluded
+function omit(data, variable, cats) {
+	var omitted = _.reject(data, function(d) {
+		return(_.indexOf(cats, d[variable]) > -1);
+	});
+	return omitted;
+}
 
-	
+//return data with values combined
+function combine(data, variable, cats, name) {
+	_.each(data, function(d) {
+		if(_.indexOf(cats, d[variable]) > -1) {
+			d[variable] = name;
+		}	
+	})
+	return data;
 }
