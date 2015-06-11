@@ -1,0 +1,119 @@
+.container {
+	border: 2px gray;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.menu {
+	background-color: lightgray;
+    height: 1000px;
+    width: 220px;
+    padding-top: 10px;
+    float: left;
+    /*display: inline-block;*/
+    /*padding: 25px;*/
+    /*border: 25px solid navy;*/
+    /*margin: 25px;*/
+}
+
+.title {
+	/*color: ;*/
+	/*margin-top: 10px;*/
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.chooseFile {
+	background-color: white;
+	height: 200px;
+	margin: 10px;
+}
+
+.infoTitle {
+	background-color: #0B43E7;
+	color: white;
+	/*margin-top: 10px;*/
+}
+
+.dataInfo {
+
+	border-width: 3px;
+	border-style: groove;
+}
+
+.infoContent {
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	overflow: scroll;
+	background-color: white;
+}
+
+.chooseData {
+	height: 240px;
+	border-width: 3px;
+	border-style: groove;
+}
+
+.control {
+	margin: 10px;
+}
+.dropDown {
+	margin: 10px;
+	width: 130px;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.step {
+	/*display: inline-block;*/
+	float: left;
+	margin: 10px;
+}
+
+.multiple {
+	margin: 10px;
+	width: 130px;
+	height: 100px;
+	overflow: scroll;
+	/*display: inline-block;*/
+	float: left;
+}
+
+.createTable {
+	border-width: 3px;
+	border-style: groove;
+}
+
+.tableTitle {
+	background-color: #0B43E7;
+	color: white;
+}
+
+.chooseTable {
+	margin: 10px;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.result {
+	/*display: inline-block;*/
+	float: left;
+	height: 1000px;
+	width: 500px;
+	border-width: 3px;
+	border-style: groove;
+	overflow: scroll;
+}
+
+.log {
+	float: left;
+	height: 1000px;
+	width: 200px;
+	border-width: 3px;
+	border-style: groove;
+	overflow: scroll;
+}

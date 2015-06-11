@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Webchip</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="menu">
+			<div class="title">
+				WEB CHIP by ISR
+			</div>
+			
+			<div class="chooseFile">
+				/* Here should be choices of datasets */
+			</div>
+
+			<div class="dataInfo">
+				<div class="infoTitle">DATA INFO</div>
+
+				<div class="infoContent">
+					/* Here comes the basic information of the dataset chosen by the user. Text box size is fixed and if the text overflows, you can scroll it down. */  
+				</div>
+			</div>
+
+			<div class="chooseData">
+				<div>
+					<div class="infoTitle">
+						CHOOSE DATA
+					</div>
+
+					<select id="row" class="dropDown">
+						<option value="Null">Select Row</option>
+						<option value="a">Row A</option>
+						<option value="b">Row B</option>
+						<option value="c">Row C</option>
+					</select>
+					
+					<p class="step">Step 1</p>
+				</div>
+
+				<div>
+					<select id="col" class="dropDown">
+						<option value="Null">Select Column</option>
+						<option value="a">Column A</option>
+						<option value="b">Column B</option>
+						<option value="c">Column C</option>
+					</select>
+
+					<p class="step">Step 2</p>
+				</div>
+
+				<div>
+					<select multiple name="var" class="multiple" >
+						<option value="a">Variable A</option>
+						<option value="b">Variable B</option>
+						<option value="c">Variable C</option>
+						<option value="d">Variable D</option>
+						<option value="e">Variable E</option>
+						<option value="f">Variable F</option>
+					</select>
+					<p class="step">Step 3</p>
+				</div>
+
+
+			</div>
+
+			<div class="control">
+				<button type="button">Control</button>
+				<button type="button">Release</button>
+			</div>
+
+			<div class="createTable">
+				<div class="tableTitle">
+					CREATE TABLE
+				</div>
+
+				<form class="chooseTable">
+					<input type="radio" name="table" id="frequency">
+					<label for="frequency" class="cursor"><i>Frequency</i></label><br>
+					<input type="radio" name="table" id="percenta">
+					<label for="percenta" class="cursor"><i>Percent Across</i></label><br>
+					<input type="radio" name="table" id="percentd">
+					<label for="percentd" class="cursor"><i>Percent Down</i></label><br>
+				</form>
+			</div>
+
+			<!-- Now is the create charts part -->
+			<div class="createTable">
+				<div class="tableTitle">
+					CREATE CHART
+				</div>
+				
+				<form class="chooseTable">
+					<input type="radio" name="chart" id="barchart">
+					<label for="barchart" class="cursor"><i>Bar Chart</i></label><br>
+					<input type="radio" name="chart" id="piechart">
+					<label for="piechart" class="cursor"><i>Pie Chart</i></label><br>
+					<input type="radio" name="chart" id="linechart">
+					<label for="linechart" class="cursor"><i>Line Chart</i></label><br>
+					<input type="radio" name="chart" id="stackedbar">
+					<label for="stackedbar" class="cursor"><i>Stacked Bar</i></label><br>
+				</form>
+			</div>
+
+
+		</div>
+
+
+
+
+
+		<div class="result">
+			<p>/* Here comes the result */</p>
+		</div>
+
+		<div class="log">
+			<p>/* Here comes the log */</p>
+		</div>
+
+	</div>
+</body>
