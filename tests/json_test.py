@@ -74,7 +74,6 @@ for o in objects:
 	for m in o:
 		final_objects.append(m)
 
-import json
 with open('Lawyers.json', 'w') as outfile:
     j = json.dumps(final_objects, indent=4)
     outfile.write(j)

@@ -105,12 +105,14 @@ var Dataset = function(path) {
 
 		//build array of numbers to use as "reset" arguments in applyLabel
 		var branchers = _.initial(varNumBuffer);
+		console.log(branchers)
 		var multiplier = 1;
 		var multipliers = [1];
 		for(var i in branchers) {
 			multiplier *= branchers[i];
 			multipliers.push(multiplier);		
 		}
+		console.log(multipliers);
 		
 		//create objects out of each dependent variable value, name = "Dep"
 		objects = [];
@@ -129,8 +131,9 @@ var Dataset = function(path) {
 		}
 
 		this.data = objects;
-		console.log(nSum(this.data));
-		console.log(JSON.stringify(marginals(this)));
+		console.log(JSON.stringify(this.data));
+		//console.log(nSum(this.data));
+		//console.log(JSON.stringify(marginals(this)));
 
 
 	});
@@ -290,7 +293,7 @@ function pctDown(dataset, row, col) {
 			cellObj[col] = cc;
 			var cellSum = nSum(_.where(data, cellObj));
 			var cellPct = parseFloat((parseFloat(cellTotal/totalSum) * 100).toFixed(1));
-			pcts.push("row": rc, "col": cc, "pct": cellPct);
+			pcts.push({"row": rc, "col": cc, "pct": cellPct});
 		});
 		var rowObj = {};
 		rowObj[row] = rc;
@@ -320,3 +323,4 @@ function combine(data, variable, cats, name) {
 	})
 	return data;
 }
+
