@@ -8,6 +8,9 @@ webchipControllers.controller("default", ['$scope', '$http',
 			$scope.varNames = data["varNames"];
 			$scope.data = data["data"];
 		});
+		$http.get('data/index.json').success(function(data) {
+			$scope.availableDatasets = _.pluck(data, 'fileName');
+		});
 
 		$scope.omitVar = function(variable, cats) {
 			$scope.data = omit($scope.data, variable, cats);
@@ -17,17 +20,14 @@ webchipControllers.controller("default", ['$scope', '$http',
 			$scope.data = combine($scope.data, variable, cats, name);
 		};
 
-
+		$scope.changeDataset = function(dataset) {
+			$http.get('data/' + datatset).success(function(data) {
+				$scope.varCategories = data["varCats"];
+				$scope.title = data["title"];
+				$scope.varNames = data["varNames"];
+				$scope.data = data["data"];
+			});
+		};
 	}]);
 
-webchipControllers.controller("selection", ['$scope', '$http', '$routeParams'
-	function($scope, $http, $routeParams) {
-		var datasetName = 'data/' + $routeParams.dataset + '.json';
-		$http.get(datasetName).success(function(data) {
-			$scope.varCategories = data["varCats"];
-			$scope.title = data["title"];
-			$scope.varNames = data["varNames"];
-			$scope.data = data["data"];
-		});
-	}]);
 

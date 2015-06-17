@@ -1,6 +1,11 @@
 from functools import reduce
 import json
 import os
+import sys
+
+def chunk(l, n):
+    n = max(1, n)
+    return [l[i:i + n] for i in range(0, len(l), n)]
 
 def parse(file_name):
 	final_object = {}
@@ -23,11 +28,30 @@ def parse(file_name):
 		i += 1
 
 	first_data_line_index = 4 + num_of_vars
-	z = num_vars[:(len(num_vars) - 1)]
-	num_of_data_lines = reduce(lambda x,y: x*y, z)
-	z = first_data_line_index + num_of_data_lines
-	data_lines = lines[first_data_line_index:z]
-	data_lines = [x.rstrip(',\n') for x in data_lines]
+	data_lines_plus_end = lines[first_data_line_index:]
+	data_lines_raw = ''
+	for ind, val in enumerate(data_lines_plus_end):
+		if val == '*****':
+			data_lines_raw = data_lines_plus_end[:ind]
+			break
+
+	data_lines_combined = []
+	for line in data_lines_raw:
+		line = line.rstrip(',\n')
+		data_lines_combined += line.split(',')
+	line_item_count = num_vars[-1]
+	data_lines_split = chunk(data_lines_combined, line_item_count)
+	data_lines = []
+	for line in data_lines_split:
+		line = ','.join(line)
+		data_lines.append(line)
+
+	#z = len(data_lines)
+	#z = num_vars[:(len(num_vars) - 1)]
+	#num_of_data_lines = reduce(lambda x,y: x*y, z)
+	#z = first_data_line_index + num_of_data_lines
+	#data_lines = lines[first_data_line_index:z]
+	#data_lines = [x.rstrip(',\n') for x in data_lines]
 
 	def increment(the_max, cur):
 		if(cur == the_max-1):
@@ -86,11 +110,14 @@ def parse(file_name):
 		out_file.write(j)
 
 def main():
-	files = [f for f in os.listdir('.') if os.path.isfile(f)]
-	for f in files:
-		if '.dat' in f:
+	if (len(sys.argv) > 1):
+		for f in sys.argv:
 			parse(f)
-	#x = parse("Lawyers.txt")
+	else:
+		files = [f for f in os.listdir('.') if os.path.isfile(f)]
+		for f in files:
+			if '.dat' in f:
+				parse(f)
 
 if __name__ == "__main__": 
 	main()
