@@ -1,13 +1,13 @@
+<!-- Last Editted 8:00 PM 6/17/2015 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<title>Webchip</title>
-	<link rel="stylesheet" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<script type="text/javascript" src="jquery.collapsible.js"></script>
+	<link rel="stylesheet" href="style.css">
 	<script>
 		$('#sidebar a').on('click', function () {
 	    	$(this).closest('div').find('.collapse').collapse('hide');
@@ -25,111 +25,136 @@
 			
 			<div class="chooseFile">
 				<div class="panel panel-default">
-				    <div class="panel-heading">
-				        	<h3>Navigation</h3>
+					<div id="sidebar" class="list-group"> 
+						<a href="#" class="list-group-item active">
+							<i class="icon-dashboard"></i> Choose the Data</a>
 
-				    </div>
-    					<div id="sidebar" class="list-group"> 
-    						<a href="#" class="list-group-item active"><i class="icon-dashboard"></i> Dashboard</a><a href="#users" class="list-group-item" data-toggle="collapse" data-parent="#sidebar"><i class="icon-group"></i> Users<span class="badge bg_danger">0</span></a>
+						<a href="#acs2005i" class="list-group-item listItem" data-toggle="collapse" data-parent="#sidebar"><i class="icon-group"></i> acs2005i</a>
 
-					        <div id="users" class="list-group subitem collapse in">	<a href="#" class="list-group-item"><i class="icon-caret-right"></i> Users<span class="badge bg_danger">0</span></a><a href="#" class="list-group-item"><i class="icon-caret-right"></i> Create User</a><a href="#" class="list-group-item"><i class="icon-caret-right"></i> Create Group</a>
+				        <div id="acs2005i" class="list-group subitem collapse">	
+				        	<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> educim05.dat</a>
+				        	<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> empim05.dat</a>
+				        	<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> engim05.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> hincim05.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> hpovim05.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> marim05.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> workim05.dat</a>
+				        </div>	
 
-					        </div>	
-					        <a href="#articles" class="list-group-item" data-toggle="collapse" data-parent="#sidebar"><i class="icon-file-text"></i> Articles<span class="badge bg_danger">0</span></a>
+						<a href="#acs2008" class="list-group-item listItem" data-toggle="collapse" data-parent="#sidebar"><i class="icon-group"></i> acs2008</a>
 
-				        <div id="articles" class="list-group subitem collapse">	<a href="#" class="list-group-item bg_warning"><i class="icon-caret-right"></i> Articles<span class="badge bg_danger">0</span></a><a href="#" class="list-group-item"><i class="icon-caret-right"></i> Create Article</a>
+						<div id="acs2008" class="list-group subitem collapse">
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> AsianPop.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> ChildGrad.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> ChildPov.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> ChildSch.dat</a>
+							<a href="#" class="list-group-item listItem"><i class="icon-caret-right"></i> Cohab-M.dat</a>
+						</div>
 
-				        </div>
+
 				    </div>
 				</div>
 			</div>
 
 			<div class="dataInfo">
-				<div class="infoTitle">DATA INFO</div>
+				<div class="panel panel-default">
+					<div id="sidebar" class="list-group"> 
+						<a href="#" class="list-group-item active">
+							<i class="icon-dashboard"></i> Data Info</a>
 
-				<div class="infoContent">
-					/* Here comes the basic information of the dataset chosen by the user. Text box size is fixed and if the text overflows, you can scroll it down. */  
+						<div class="infoContent">
+							/* Here comes the basic information of the dataset chosen by the user. Text box size is fixed and if the text overflows, you can scroll it down. */  
+						</div>
+					</div>
 				</div>
 			</div>
 
 			<div class="chooseData">
-				<div>
-					<div class="infoTitle">
-						CHOOSE DATA
+				<div class="panel panel-default">
+					<div id="sidebar" class="list-group"> 
+						<a href="#" class="list-group-item active">
+							<i class="icon-dashboard"></i> Choose Variable</a>
+						<div>
+							<select id="row" class="dropDown">
+								<option value="Null">Select Row</option>
+								<option value="a">Row A</option>
+								<option value="b">Row B</option>
+								<option value="c">Row C</option>
+							</select>
+						
+							<p class="step">Step 1</p>
+						</div>
+
+						<div>
+							<select id="col" class="dropDown">
+								<option value="Null">Select Column</option>
+								<option value="a">Column A</option>
+								<option value="b">Column B</option>
+								<option value="c">Column C</option>
+							</select>
+
+							<p class="step">Step 2</p>
+						</div>
+
+						<div>
+
+							<div class="multiple">
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Variable A</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Variable B</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Variable C</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Variable D</label>
+								</div>
+							</div>
+							<p class="step">Step 3</p>	
+						</div>							
 					</div>
-
-					<select id="row" class="dropDown">
-						<option value="Null">Select Row</option>
-						<option value="a">Row A</option>
-						<option value="b">Row B</option>
-						<option value="c">Row C</option>
-					</select>
-					
-					<p class="step">Step 1</p>
 				</div>
-
-				<div>
-					<select id="col" class="dropDown">
-						<option value="Null">Select Column</option>
-						<option value="a">Column A</option>
-						<option value="b">Column B</option>
-						<option value="c">Column C</option>
-					</select>
-
-					<p class="step">Step 2</p>
-				</div>
-
-				<div>
-					<select multiple name="var" class="multiple" >
-						<option value="a">Variable A</option>
-						<option value="b">Variable B</option>
-						<option value="c">Variable C</option>
-						<option value="d">Variable D</option>
-						<option value="e">Variable E</option>
-						<option value="f">Variable F</option>
-					</select>
-					<p class="step">Step 3</p>
-				</div>
-
-
-			</div>
-
-			<div class="control">
-				<button type="button">Control</button>
-				<button type="button">Release</button>
 			</div>
 
 			<div class="createTable">
-				<div class="tableTitle">
-					CREATE TABLE
-				</div>
+				<div class="panel panel-default">
+					<div id="sidebar" class="list-group"> 
+						<a href="#" class="list-group-item active">
+							<i class="icon-dashboard"></i> Show Table</a>
 
-				<form class="chooseTable">
-					<input type="radio" name="table" id="frequency">
-					<label for="frequency" class="cursor"><i>Frequency</i></label><br>
-					<input type="radio" name="table" id="percenta">
-					<label for="percenta" class="cursor"><i>Percent Across</i></label><br>
-					<input type="radio" name="table" id="percentd">
-					<label for="percentd" class="cursor"><i>Percent Down</i></label><br>
-				</form>
+						<form class="chooseTable">
+							<input type="radio" name="table" id="frequency">
+							<label for="frequency" class="cursor"><i>Frequency</i></label><br>
+							<input type="radio" name="table" id="percenta">
+							<label for="percenta" class="cursor"><i>Percent Across</i></label><br>
+							<input type="radio" name="table" id="percentd">
+							<label for="percentd" class="cursor"><i>Percent Down</i></label><br>
+						</form>
+					</div>
+				</div>
 			</div>
 
 			<!-- Now is the create charts part -->
 			<div class="createTable">
-				<div class="tableTitle">
-					CREATE CHART
-				</div>
+				<div class="panel panel-default">
+					<div id="sidebar" class="list-group"> 
+						<a href="#" class="list-group-item active">
+							<i class="icon-dashboard"></i> Show Chart</a>
 				
-				<form class="chooseTable">
-					<input type="radio" name="chart" id="barchart">
-					<label for="barchart" class="cursor"><i>Bar Chart</i></label><br>
-					<input type="radio" name="chart" id="piechart">
-					<label for="piechart" class="cursor"><i>Pie Chart</i></label><br>
-					<input type="radio" name="chart" id="linechart">
-					<label for="linechart" class="cursor"><i>Line Chart</i></label><br>
-					<input type="radio" name="chart" id="stackedbar">
-					<label for="stackedbar" class="cursor"><i>Stacked Bar</i></label><br>
-				</form>
+						<form class="chooseTable">
+							<input type="radio" name="chart" id="barchart">
+							<label for="barchart" class="cursor"><i>Bar Chart</i></label><br>
+							<input type="radio" name="chart" id="piechart">
+							<label for="piechart" class="cursor"><i>Pie Chart</i></label><br>
+							<input type="radio" name="chart" id="linechart">
+							<label for="linechart" class="cursor"><i>Line Chart</i></label><br>
+							<input type="radio" name="chart" id="stackedbar">
+							<label for="stackedbar" class="cursor"><i>Stacked Bar</i></label><br>
+						</form>
+					</div>
+				</div>
 			</div>
 
 
