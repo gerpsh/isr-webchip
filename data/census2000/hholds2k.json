@@ -1,0 +1,5942 @@
+{
+    "numCats": [
+        7, 
+        6, 
+        4, 
+        5
+    ], 
+    "varCats": [
+        {
+            "name": "RaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Asian", 
+                "Latino", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }, 
+        {
+            "name": "Age", 
+            "vars": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ]
+        }, 
+        {
+            "name": "Pov", 
+            "vars": [
+                "Poverty", 
+                "NearPoor", 
+                "Middle", 
+                "Comf"
+            ]
+        }, 
+        {
+            "name": "HHType", 
+            "vars": [
+                "MrrdCpl", 
+                "MaleFam", 
+                "FemlFam", 
+                "MaleNonf", 
+                "FemlNonf"
+            ]
+        }
+    ], 
+    "title": "HHOLDS2K: 2000 Households by household type, poverty, and race/ethnicity, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceLat", 
+        "Age", 
+        "Pov", 
+        "HHType"
+    ], 
+    "data": [
+        {
+            "Dep": "90191", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "35818", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "192647", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "327816", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "387059", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "103795", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "32494", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "71663", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "157682", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "158512", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "599236", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "111484", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "116312", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "549412", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "402642", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "92532", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "15321", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "11572", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "62731", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "21247", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "249694", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "62543", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "383850", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "191585", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "140369", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "339796", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "50140", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "204840", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "129003", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "90114", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3849326", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "308276", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "514120", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1434029", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "977546", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2010136", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "72276", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "55079", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "676944", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "309321", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "324343", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "73386", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "363434", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "237173", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "159853", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "395288", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "58915", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "258293", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "133099", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "93747", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5966645", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "474370", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1084967", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1258472", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "748318", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4002370", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "142818", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "164890", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "873237", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "453822", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "229247", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "41297", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "130181", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "244450", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "269182", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "222150", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "35808", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "105349", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "134978", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "132057", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4116033", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "310011", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "792362", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "954146", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1005745", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5493968", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "190746", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "272931", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "794121", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "602019", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "238209", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "18304", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "59812", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "197115", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "359127", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "207539", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "15822", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "55157", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "131235", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "191909", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2864978", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "117752", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "379334", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "581607", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1016698", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3676329", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "84246", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "157645", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "405935", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "432029", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "268726", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "17591", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "82757", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "248287", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1086179", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "439169", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "20857", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "103876", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "316790", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1294877", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4930624", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "187660", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "736984", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1130220", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3428620", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2876565", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "102033", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "277761", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "454208", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "814505", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "18063", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "22012", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "221219", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "52316", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "59120", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "15181", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "10419", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "49244", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "16236", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "28831", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "55723", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "29825", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "65397", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "55699", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "62819", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5352", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5745", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4661", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4629", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3293", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "60054", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "34233", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "403763", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "62499", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "48080", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "66359", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "22267", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "161942", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "25594", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "20956", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "460840", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "91949", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "303901", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "208711", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "179816", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "122879", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "13147", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "21503", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "49883", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "38307", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "78856", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "36661", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "355928", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "87758", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "71299", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "73460", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "22787", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "173295", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "37378", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "26025", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "683352", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "104420", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "475451", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "211452", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "144555", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "263711", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "22252", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "49273", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "79096", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "54027", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "60460", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "19819", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "151993", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "92616", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "104544", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "46852", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12930", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "78509", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "31880", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "35847", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "468924", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "67896", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "320003", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "163424", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "175301", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "330221", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "23552", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "71209", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "73726", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "80047", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "47210", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12635", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "84489", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "73656", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "112660", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "34900", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "6825", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "39156", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "29818", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "34176", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "269580", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "34311", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "165080", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "85271", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "129668", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "194189", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12063", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "39943", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "36763", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "41378", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "49162", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16005", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "95492", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "87573", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "269368", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "57026", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12071", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "66939", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "63405", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "133054", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "285878", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "46147", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "211945", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "105997", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "183829", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "118866", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "10564", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "46060", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "20963", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "34218", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3404", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "4664", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "5803", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "38744", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "33238", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2675", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1250", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2616", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "8808", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "7355", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "11092", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8259", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "5882", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "17064", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "15487", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3304", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1867", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2168", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5430", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3238", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "33116", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "4085", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "14952", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "27976", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "22831", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "24236", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2858", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "6394", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "8197", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "6200", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "173027", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "24572", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "24876", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "74020", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "48460", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "143879", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12133", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "7408", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "64542", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "26462", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "48562", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3938", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "18171", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "8859", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "6994", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "41123", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2201", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "8868", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3406", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2655", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "317023", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "21915", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "33525", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "29313", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "21811", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "221991", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12054", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "11046", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "34094", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "17981", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "35402", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2906", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "11926", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "6857", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "9744", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "28330", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2324", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "7055", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3679", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "4100", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "234944", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "14781", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "42595", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "18145", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "19758", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "211381", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7984", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "17095", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "20567", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "16345", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "15557", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1417", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "5436", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4010", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "10840", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "12356", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1154", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3765", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1653", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "4175", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "108438", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "6082", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "19044", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "7647", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "13695", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "123169", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3609", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "8170", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "9267", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "9062", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "20265", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1037", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3431", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "8282", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "24055", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "21997", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "667", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3632", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4220", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "17994", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "77531", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7117", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "21514", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "11270", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "26834", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "62750", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3547", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "10790", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5083", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "11735", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "65511", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "31361", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "85630", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "46405", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "32828", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "50929", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "21268", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "25113", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "23526", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "14334", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "139736", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "64095", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "33473", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "58218", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "34640", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "9820", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "4853", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2556", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4740", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1617", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "245798", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "46948", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "178072", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "42216", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "17906", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "232067", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "40155", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "72412", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "31946", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "11917", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "766561", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "136448", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "121662", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "153988", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "70331", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "143689", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "18389", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "9107", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "36521", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "18587", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "221396", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "38521", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "175260", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "38846", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "20308", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "210350", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "30988", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "84653", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "20702", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "9795", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "861879", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "106670", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "180053", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "115388", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "45259", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "215011", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "17814", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "15034", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "44924", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "21488", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "94566", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "17246", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "75103", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "26331", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "31615", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "95169", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "13083", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "40968", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "18062", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "13490", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "537290", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "65774", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "146238", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "69378", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "53156", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "209105", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "14584", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "23849", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "32642", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "21842", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "47583", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7602", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "32770", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "21774", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "42284", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "45483", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5811", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "18887", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "12138", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "15987", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "252078", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "24600", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "69153", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "35266", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "42569", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "115095", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5832", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "10000", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "13732", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "12936", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "47173", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "6133", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "24999", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "35266", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "98170", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "57571", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "4123", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "25991", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "18544", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "50283", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "220816", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "21261", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "70624", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "38124", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "67445", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "65837", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5126", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "16218", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "8600", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "12561", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4221", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2272", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "7216", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3575", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5268", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3199", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "888", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3314", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1569", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1423", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "6565", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1871", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1929", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4381", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3640", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "239", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "464", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "257", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "444", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "45", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "10934", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2423", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "18196", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3891", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3495", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "8458", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3477", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "6743", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3477", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1053", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "44100", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5948", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "9191", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "11748", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5381", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "10396", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "769", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "946", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "2741", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1392", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "13735", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3970", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "19559", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "8309", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3704", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "11384", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2253", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "6776", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "2412", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1396", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "62649", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7292", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "18290", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "12605", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "7622", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "15835", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1293", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1671", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5461", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2018", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "7158", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3599", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "8970", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5229", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "4922", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4229", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1120", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3485", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1944", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1927", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "43363", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5093", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "13785", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "10745", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "8496", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "26725", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1526", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2415", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4253", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2435", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5725", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "812", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4909", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4313", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "7364", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4594", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "442", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1854", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1832", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2527", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "24604", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2238", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "7399", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4896", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5612", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "13923", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "989", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1066", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "2290", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2414", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3305", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "784", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4694", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4113", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "10533", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5032", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "839", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3196", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "2457", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "6056", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "18410", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1655", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "8290", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4177", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5860", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "6252", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "411", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1422", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1785", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1084", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "618", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "280", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "510", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1329", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "966", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "259", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "184", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "131", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "76", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1282", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "368", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "600", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1156", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "329", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "223", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "148", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "151", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1215", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "403", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2524", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "955", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "567", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "831", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "150", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "208", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "702", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "364", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "7894", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "758", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1823", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4192", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2452", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3005", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "362", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "989", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "106", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1563", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "319", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1108", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "674", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "813", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1329", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "397", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "582", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "93", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "92", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "11389", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1709", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2902", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "2141", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1281", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5173", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "560", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "317", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1664", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1067", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "369", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "339", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "353", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "938", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "807", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1085", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "571", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "185", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "886", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "5977", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "575", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1464", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1470", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "901", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4465", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "174", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "380", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1494", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "634", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "461", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "209", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "137", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "227", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "486", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "374", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "223", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "241", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "441", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3402", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "298", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "787", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "581", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "998", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2761", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "121", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "477", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "350", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "410", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "736", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "615", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1677", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "193", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "328", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "880", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2581", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "238", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1072", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "1550", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "1416", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1110", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "165", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "101", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "2739", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2469", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "10281", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "12478", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "12516", 
+            "Pov": "Poverty", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "3144", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2978", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4397", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5064", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5351", 
+            "Pov": "NearPoor", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "13424", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5040", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "6636", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "14981", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "10947", 
+            "Pov": "Middle", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "1650", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "490", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "600", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "661", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "780", 
+            "Pov": "Comf", 
+            "Age": "15-24", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "14501", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3066", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "24599", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "11405", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "7134", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "11995", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3498", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "10369", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5823", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "4477", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "80297", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12561", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "19040", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "38878", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "21993", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "29955", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "4072", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1618", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "14802", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "7503", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "19367", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3511", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "19768", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "10832", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5945", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "14246", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1676", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "9353", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3845", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "2569", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "112560", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "13505", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "26949", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "31331", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "13299", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "55111", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "4079", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4363", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "15226", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "6523", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "10564", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3157", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "9196", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "9830", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "9347", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "6584", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2273", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4027", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4547", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3517", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "72299", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "11021", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "23467", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "19908", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "17865", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "56951", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3280", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "6424", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "10886", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5603", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "6470", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "699", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2945", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5039", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "11406", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "4254", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "735", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "1744", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "3150", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "4118", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "41114", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3005", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "9301", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "10534", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "11713", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "30700", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2411", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3731", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4759", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "5555", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "6300", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1159", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "2881", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5364", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "19942", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "6225", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1116", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "3617", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "5595", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "13923", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "37702", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2611", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "12971", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "10015", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "20745", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }, 
+        {
+            "Dep": "19175", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1111", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleFam"
+        }, 
+        {
+            "Dep": "4230", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlFam"
+        }, 
+        {
+            "Dep": "4033", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "MaleNonf"
+        }, 
+        {
+            "Dep": "3916", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "HHType": "FemlNonf"
+        }
+    ]
+}

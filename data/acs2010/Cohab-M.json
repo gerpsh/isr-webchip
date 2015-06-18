@@ -1,0 +1,4765 @@
+{
+    "numCats": [
+        6, 
+        4, 
+        4, 
+        7
+    ], 
+    "varCats": [
+        {
+            "name": "AgeMar", 
+            "vars": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ]
+        }, 
+        {
+            "name": "Marital2", 
+            "vars": [
+                "NevMrrd", 
+                "Divorced", 
+                "Separated", 
+                "Widowed"
+            ]
+        }, 
+        {
+            "name": "Educ", 
+            "vars": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ]
+        }, 
+        {
+            "name": "RaceEth", 
+            "vars": [
+                "NHWhite", 
+                "Black", 
+                "Asian", 
+                "Hispanic", 
+                "AmIndian", 
+                "NHOther", 
+                "NHMulti"
+            ]
+        }
+    ], 
+    "title": "2010 Men cohabitors not currently married, age 15+, from 2008-10 ACS, SSDAN/U-Mich", 
+    "numOfVars": 4, 
+    "varNames": [
+        "AgeMar", 
+        "Marital2", 
+        "Educ", 
+        "RaceEth"
+    ], 
+    "data": [
+        {
+            "Dep": "38999", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "11859", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "774", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "27938", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "2057", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "206", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "1332", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "87947", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "22484", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "1415", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "27336", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "2217", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "95", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "3157", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "87749", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "18562", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "2120", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "16011", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "1427", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "186", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "2853", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "29399", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "1854", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "1219", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "2267", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "96", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "709", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "867", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "39", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "149", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "95", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "43", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "2073", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "123", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "19", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "395", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "83", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "1274", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "512", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "315", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "150", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "41", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "15", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "337", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "140", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "328", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "950", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "146", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "90", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "160", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "15", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "24", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "366", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "184", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "24", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "63", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "47", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "51", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "30", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "26", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "15-24"
+        }, 
+        {
+            "Dep": "65479", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "25614", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1855", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "83450", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "2485", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "128", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "2102", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "166373", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "57943", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "4318", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "62354", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "4360", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "699", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "5525", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "184341", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "48761", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "7020", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "41275", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "3731", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "669", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "7892", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "152950", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "13616", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "10604", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "15281", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "655", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "457", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "4696", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "12223", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1875", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "149", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "4812", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "359", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "476", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "40005", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "4458", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "810", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "7604", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "917", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "34", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "761", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "32249", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "5492", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1027", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "5856", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "255", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "948", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "8530", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1105", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "514", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1233", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "37", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "425", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "4101", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1027", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "2165", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "23", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "74", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "6788", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "2124", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "158", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "2131", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "98", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "156", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "3360", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1612", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "56", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "1348", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "37", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "125", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "979", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "90", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "41", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "150", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "264", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "29", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "134", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "16", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "496", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "129", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "124", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "23", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "316", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "187", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "201", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "72", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "23", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "25-34"
+        }, 
+        {
+            "Dep": "26028", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "14844", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1373", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "44072", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1633", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "140", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "758", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "71989", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "41229", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "2118", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "27942", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "2582", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "494", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1867", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "62956", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "24556", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "3958", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "14734", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1320", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "244", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "2437", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "59728", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "7659", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "5778", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "8236", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "545", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "198", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1255", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "23081", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "5205", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "542", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "10096", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "674", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "170", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "543", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "79686", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "14878", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "874", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "13089", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1652", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "68", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1062", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "60542", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "13692", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "978", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "10891", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1537", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "284", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1269", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "26509", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "3256", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "983", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "3844", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "459", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "539", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "3495", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1706", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "21", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "4676", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "163", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "182", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "19", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "8280", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "4184", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "397", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1958", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "214", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "187", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "5544", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1892", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "85", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1792", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "28", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "245", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1430", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "395", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "100", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "463", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "86", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1065", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "58", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "383", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "14", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "1148", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "81", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "79", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "143", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "36", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "811", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "177", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "25", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "45", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "329", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "74", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "35-44"
+        }, 
+        {
+            "Dep": "15287", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "11201", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "538", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "16527", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "724", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "40", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "419", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "40941", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "20585", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1026", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "9563", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1133", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "77", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "958", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "33148", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "11183", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1147", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "5134", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1145", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "122", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "824", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "34074", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "3997", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1773", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "2813", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "228", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "128", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "645", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "31225", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "6355", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "754", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "9684", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "601", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "127", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "514", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "98611", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "17438", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1723", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "12690", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1498", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "162", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1711", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "65035", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "11512", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1635", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "8141", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "985", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "149", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1372", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "36122", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "3747", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1266", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "3042", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "112", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "56", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "466", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "3936", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1840", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "189", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "2489", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "73", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "65", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "5496", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "3086", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "70", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1394", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "217", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "64", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "4186", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "2160", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "146", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1240", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "27", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "137", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1777", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "450", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "123", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "409", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "42", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1071", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "371", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "32", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "940", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "123", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "36", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "3388", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "925", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "74", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "276", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "148", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "154", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "1637", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "441", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "61", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "202", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "5", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "41", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "625", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "165", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "29", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "42", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "45-54"
+        }, 
+        {
+            "Dep": "2548", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "3794", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "271", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "3731", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "155", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "92", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "55", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "8355", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "6299", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "73", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1885", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "252", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "55", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "59", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "11568", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "2535", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "686", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1650", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "221", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "90", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "16711", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1000", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "582", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "928", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "40", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "64", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "15220", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "4362", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "412", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "5818", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "378", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "66", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "247", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "50642", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "10130", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "461", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "4208", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "458", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "124", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "596", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "46526", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "6367", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1356", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "3487", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "454", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "65", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "690", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "38259", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "2796", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "812", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1477", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "482", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "140", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "246", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1109", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1173", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "170", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1877", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "62", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1916", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1797", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "201", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "781", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "159", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "131", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "2325", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "994", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "130", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "614", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "22", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "215", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1820", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "310", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "221", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1587", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "761", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "30", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "422", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "146", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "47", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "3256", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "851", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "32", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "321", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "67", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "42", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "2181", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "370", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "46", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "155", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "108", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "1704", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "288", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "126", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "60", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "51", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "6", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "55-64"
+        }, 
+        {
+            "Dep": "2022", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1309", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "117", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1474", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "82", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "59", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "3809", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "896", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "393", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "12", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "7", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "3255", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "388", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "96", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "165", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "36", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "4873", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "244", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "183", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "190", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "48", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "18", 
+            "Marital2": "NevMrrd", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "15501", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "3002", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "197", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "2618", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "369", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "185", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "25763", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "3081", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "291", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1234", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "145", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "266", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "19218", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1881", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "57", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "781", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "167", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "306", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "20208", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1330", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "452", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "493", 
+            "Marital2": "Divorced", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "60", 
+            "Marital2": "Divorced", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "9", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "220", 
+            "Marital2": "Divorced", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "768", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "895", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "49", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "679", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "27", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "29", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1188", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "847", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "97", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "212", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "810", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "401", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "253", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "49", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1319", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "165", 
+            "Marital2": "Separated", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "115", 
+            "Marital2": "Separated", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "172", 
+            "Marital2": "Separated", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "35", 
+            "Marital2": "Separated", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Separated", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "6412", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "1395", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "50", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "927", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "97", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "51", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "LTHS", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "11686", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "990", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "114", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "335", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "89", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "72", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "HSGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "6583", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "324", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "120", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "151", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "38", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "SomeColl", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "6393", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "200", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Black", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "115", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Asian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "75", 
+            "Marital2": "Widowed", 
+            "RaceEth": "Hispanic", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "12", 
+            "Marital2": "Widowed", 
+            "RaceEth": "AmIndian", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHOther", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }, 
+        {
+            "Dep": "68", 
+            "Marital2": "Widowed", 
+            "RaceEth": "NHMulti", 
+            "Educ": "CollGrad", 
+            "AgeMar": "65+"
+        }
+    ]
+}

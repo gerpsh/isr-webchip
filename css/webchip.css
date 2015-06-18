@@ -1,0 +1,88 @@
+hr.panel-divider {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border: 0;
+}
+
+table, th, td {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+#chart1 {
+	text-align: center;
+}
+
+.center {
+    display : table-cell;
+    vertical-align : left;
+    border : 1px solid black;
+    float:none;
+}
+
+.panel {
+	margin-bottom:0px;
+}
+
+.panel-heading {
+	line-height:32px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: #A9D0F5;
+}
+
+.panel-body {
+	padding-top: 0px;
+}
+
+.panel-caption {
+	font-weight: bold;
+	font-size:12pt;	
+}
+
+.section-caption {
+	font-weight: bold;
+	font-size:10pt;
+}
+
+.select-box {
+	margin-bottom: 8px;
+}
+
+.btn-table {
+	width: 120px;
+	margin-bottom: 8px;
+}
+
+.btn-table:disabled {
+	color: gray;
+}
+
+.btn-chart {
+	width: 120px;
+	margin-bottom: 8px;
+}
+
+.btn-chart:disabled {
+	color: gray;
+}
+
+#app-title {
+	margin-left: 15px;
+	font-size: 30pt;
+	font-weight: bold;
+}
+
+#control-panel {
+	border-left: none;
+}
+
+#command-history {
+	width: 15%;
+	border-right: none;
+}
+
+#command-history-header {
+	text-decoration: underline;
+}
+

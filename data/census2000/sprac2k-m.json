@@ -1,0 +1,6923 @@
+{
+    "numCats": [
+        5, 
+        4, 
+        7, 
+        7
+    ], 
+    "varCats": [
+        {
+            "name": "HAge", 
+            "vars": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55+"
+            ]
+        }, 
+        {
+            "name": "HEduc", 
+            "vars": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ]
+        }, 
+        {
+            "name": "HRaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Latino", 
+                "Asian", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }, 
+        {
+            "name": "WRaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Latina", 
+                "Asian", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }
+    ], 
+    "title": "SPRAC2K-M: 2000 Spouses: married men age 15+, by education and race, by wife's race, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "HAge", 
+        "HEduc", 
+        "HRaceLat", 
+        "WRaceLat"
+    ], 
+    "data": [
+        {
+            "Dep": "141250", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "796", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "416", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "4757", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1092", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "74", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "905", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3017", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "17890", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "555", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "133", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "219", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "222", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3863", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "148", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "75", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "9016", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "476", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "763", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "139294", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1003", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "485", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1418", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "416", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2498", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "15", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "29", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "40", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "210", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "103", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1483", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "107", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "120", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "700", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "158", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1489", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "304983", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1860", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1384", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "10829", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2575", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3266", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "4269", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "30350", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "837", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1350", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "460", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "880", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "493", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "73", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2923", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "204", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "200", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "12224", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "955", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "358", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "72430", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "306", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1170", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2625", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "279", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "291", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2839", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "82", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "170", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "88", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "568", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "111", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3758", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "291", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "437", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "676", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "80", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1939", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "288357", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1009", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3035", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "12882", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2286", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "173", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "4377", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2095", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "23364", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "424", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1005", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "157", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "745", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2657", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "145", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "5598", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "498", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "262", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "10984", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "636", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "738", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "37601", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "30", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "866", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1225", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "150", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "2490", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "148", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "110", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "149", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "288", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "4029", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "322", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "568", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "879", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "74", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1471", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "73837", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "344", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1663", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1810", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "116", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "780", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "470", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3650", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "148", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "59", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "801", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "162", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3018", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "90", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1291", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "180", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "3550", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "355", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "116", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "55", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "84", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "135", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1200", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "69", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "95", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "93", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "1164", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "15-24"
+        }, 
+        {
+            "Dep": "542113", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1205", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1134", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "16935", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3592", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "61", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4726", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "5813", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "78674", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "286", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4439", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "67", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1215", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1616", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "28726", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "813", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1438", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "34112", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2726", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1029", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "664442", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2160", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "644", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2032", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "5312", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "542", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1903", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "10063", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "66", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "427", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "610", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "73", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1609", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "69", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4851", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "941", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "473", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1839", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "422", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "173", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "8500", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1657042", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "5244", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "10235", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "51268", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "11101", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "180", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "14219", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "20570", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "220052", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1963", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "6664", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "292", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "75", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4238", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4031", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "400", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "40770", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1991", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1023", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "47688", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3711", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2345", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "300758", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2726", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "267", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3368", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "9740", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "728", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "239", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1864", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "11360", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "228", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "707", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "194", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "167", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2206", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "13669", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2148", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1856", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3266", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "397", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "14997", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1994601", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "7804", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "23990", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "76237", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "10923", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1555", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "23143", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "23941", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "225268", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2525", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "10063", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1087", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "470", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "5278", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "9876", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "740", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "57593", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3892", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "179", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "283", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1894", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "68772", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3215", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3373", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "213474", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1782", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "353", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2949", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "12330", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "466", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2925", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "9466", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "71", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "416", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "846", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "110", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "147", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "119", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2225", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "202", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "18754", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2610", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3785", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4812", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "347", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "341", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "16458", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1933658", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "7525", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "36380", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "59307", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "5822", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1699", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "17481", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "11051", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "98891", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1104", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3207", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "495", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1817", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "18901", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "671", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "214269", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3410", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "198", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "179", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1871", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "42539", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "817", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3847", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "85326", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "944", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "91", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1142", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "5251", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "135", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "478", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2072", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "63", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1050", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "367", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "90", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "2256", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "517", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "14273", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "1056", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "4213", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "3525", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "238", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "278", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "13764", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "25-34"
+        }, 
+        {
+            "Dep": "860966", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2351", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3293", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "19225", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "7087", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "276", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "6111", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "6029", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "158284", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1002", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2974", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "224", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1300", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1864", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "111", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "82492", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1492", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "991", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "34038", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2588", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1435", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "650891", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2902", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "289", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2214", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "7870", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "201", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3071", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "15002", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "296", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "262", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "458", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2547", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "161", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "7473", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2039", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2161", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2855", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "438", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "131", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "17237", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2972114", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "6378", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "22538", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "61563", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "14554", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "671", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "24777", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "17554", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "339345", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2591", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "6080", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "814", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "359", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2751", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4219", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "489", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "74615", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1642", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "129", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "88", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1244", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "57080", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3577", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2358", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "262366", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1771", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "500", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1994", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "15678", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "126", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "182", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2219", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "17432", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "595", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "404", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "179", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "146", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "847", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3298", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "467", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "17960", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2131", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1988", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3587", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "364", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "460", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "25146", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3037589", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "11244", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "41848", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "98040", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "14689", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1479", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "25309", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "28239", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "338767", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "5500", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "7497", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1003", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "729", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4417", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "12834", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "216", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "116274", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4033", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "712", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "98", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3095", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "76377", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2313", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3891", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "245893", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1645", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "258", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3886", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "15712", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "242", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "474", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2226", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "10008", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "63", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "454", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "446", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "93", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "982", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3491", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "630", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "30214", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3756", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4612", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4318", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1102", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "224", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "20103", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3304646", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "10025", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "63154", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "92706", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "9891", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1433", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "23747", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "15671", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "189157", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2559", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "5188", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "339", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4065", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "29602", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "464", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "301796", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3823", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "390", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "431", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3900", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "58951", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "961", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3393", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "126577", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "348", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "245", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1066", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "8093", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "158", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "251", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "293", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3117", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "90", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "341", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "1137", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "276", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "145", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "4621", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "88", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "23142", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "2102", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3862", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "3076", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "309", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "382", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "23837", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "35-44"
+        }, 
+        {
+            "Dep": "786268", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "754", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2960", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "11346", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "5259", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "42", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "5694", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "4940", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "166352", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "218", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2751", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "415", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1281", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "606", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "264", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "84043", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "551", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "225", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "498", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "16976", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2318", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "518", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "421640", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2514", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "224", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1022", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "4394", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "135", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "21", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1262", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "9574", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "200", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "207", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "142", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "120", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "147", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "145", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1774", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "197", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "6270", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "856", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "932", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1067", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "271", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "132", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "13130", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2426052", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1865", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "16525", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "34948", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "10084", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "203", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "16028", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "8773", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "257345", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2352", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3724", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "308", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "345", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1527", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3180", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "165", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "70956", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "601", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "132", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1200", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "32543", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1336", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1281", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "149271", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "642", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1452", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "9895", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "184", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "92", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "907", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "10517", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "147", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "615", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "111", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "36", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1231", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "14293", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "663", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1989", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1966", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "950", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "110", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "15057", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2941294", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "6956", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "38054", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "59802", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "15046", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "964", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "20683", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "18189", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "260209", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3318", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "5145", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "787", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "196", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3944", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "9057", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "593", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "101542", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2057", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "300", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1953", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "46090", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "847", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2317", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "150679", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "566", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "120", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2189", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "14787", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "584", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "70", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1645", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "9509", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "914", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1106", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "44", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "216", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "148", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3311", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "22081", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1467", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3686", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2746", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "463", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "486", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "15023", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3618346", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "6893", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "56339", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "65317", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "10156", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "871", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "21668", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "15013", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "165777", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1784", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3723", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "485", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2530", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "20457", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "463", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "221879", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1860", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "309", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "328", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "2451", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "42592", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "622", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1128", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "85481", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "171", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "457", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "851", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "7964", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "264", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "263", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1060", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3717", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "132", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "660", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "836", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "73", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1854", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "384", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "17540", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1650", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "4333", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "1626", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "483", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "413", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "21000", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "45-54"
+        }, 
+        {
+            "Dep": "3268857", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1573", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "7803", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "25104", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "9126", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "472", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "15226", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "8327", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "466048", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "986", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "3145", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "484", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "286", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2274", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2165", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "192", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "120853", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "763", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "319", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "279", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "996", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "29519", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2477", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "918", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "502924", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2146", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1475", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "7495", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "808", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "79", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2309", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "20784", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "110", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "600", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "186", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "184", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "53", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "3230", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "92", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "17169", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2148", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1301", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "519", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "467", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "160", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "23260", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "LTHS", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "4583115", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "3679", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "21135", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "35106", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "11214", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "140", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "20896", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "7426", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "272407", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1817", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2124", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "244", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2228", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2897", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "196", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "85739", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "285", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "60", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1759", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "24375", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "980", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "450", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "132621", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1109", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "243", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1095", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "10416", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "267", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "221", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "417", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "7943", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "946", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "125", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "118", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "135", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2490", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "389", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "15716", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1333", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2361", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1494", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "828", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "165", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "17187", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "HSGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "3535048", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "3883", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "29702", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "43447", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "12498", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "716", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "22486", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "10855", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "190721", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1682", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1876", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "400", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "317", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2338", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "5235", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "427", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "83091", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1184", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "107", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1361", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "29728", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "398", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1170", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "98882", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "643", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1271", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "9822", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "519", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "521", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "827", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "6726", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "37", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "474", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "441", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "73", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1868", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "76", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "20597", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1178", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2107", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1292", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "250", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "15708", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "SomeColl", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "4068476", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "4625", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "33395", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "44387", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "7268", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "232", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "17408", 
+            "HRaceLat": "NLWhite", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "6132", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "124980", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1051", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1481", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "402", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "58", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1684", 
+            "HRaceLat": "Black", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "13238", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "290", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "196727", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1151", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "120", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1833", 
+            "HRaceLat": "Latino", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "26816", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "607", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "681", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "64275", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "45", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "555", 
+            "HRaceLat": "Asian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "7263", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "578", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "230", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "816", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2964", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "227", 
+            "HRaceLat": "AmIndian", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "493", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "120", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "118", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2395", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "101", 
+            "HRaceLat": "NLOther", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "15860", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLWhite", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "1315", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Black", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "2785", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Latina", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "732", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "Asian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "122", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "AmIndian", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "0", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLOther", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }, 
+        {
+            "Dep": "14811", 
+            "HRaceLat": "NLMulti", 
+            "WRaceLat": "NLMulti", 
+            "HEduc": "CollGrad", 
+            "HAge": "55+"
+        }
+    ]
+}

@@ -1,0 +1,2411 @@
+{
+    "numCats": [
+        7, 
+        2, 
+        4, 
+        6
+    ], 
+    "varCats": [
+        {
+            "name": "RaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Asian", 
+                "Latino", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti "
+            ]
+        }, 
+        {
+            "name": "Gender", 
+            "vars": [
+                "Male", 
+                "Female"
+            ]
+        }, 
+        {
+            "name": "Immig", 
+            "vars": [
+                "Native", 
+                "FB<1980", 
+                "FB80-89", 
+                "FB90-00"
+            ]
+        }, 
+        {
+            "name": "Occ", 
+            "vars": [
+                "TopWC", 
+                "OtrWC", 
+                "Service", 
+                "TopBC", 
+                "OtrBC", 
+                "Farm "
+            ]
+        }
+    ], 
+    "title": "OCCUPTN2KA: 2000 Civilian workers, age 25-34, wgtd 1% PUMS, Frey/U-Mich", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceLat", 
+        "Gender", 
+        "Immig", 
+        "Occ"
+    ], 
+    "data": [
+        {
+            "Dep": "3103996", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2737917", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1215735", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2533586", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2025556", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "166893", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "26105", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "21872", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "8813", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "13713", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "7157", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "207", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "32505", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "23186", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "9668", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "16381", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "11081", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "254", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "122147", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "51592", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "26252", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "47345", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "35401", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1461", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "3615752", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "4802567", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1866492", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "155177", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "660480", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "56088", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "27446", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "28972", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "10102", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "1165", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "3153", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "335", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "29158", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "34823", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "15882", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1219", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "4032", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "162", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "101823", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "81095", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "45527", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "3430", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "13574", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "571", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLWhite", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "259305", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "448310", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "364649", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "320996", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "520572", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "17383", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "4601", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "7425", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "3155", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "2675", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "4353", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "12350", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "14276", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "8278", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "9125", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "10192", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "283", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "17425", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "25445", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "19368", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "14699", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "21540", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "843", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "419541", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1027440", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "508673", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "35965", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "224710", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "4136", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "8147", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "13193", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "4323", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "385", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "781", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "17721", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "29296", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "20728", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1186", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "3790", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "66", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "16497", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "35992", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "31314", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1570", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "7827", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "257", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Black", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "65116", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "48097", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "21924", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "17817", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "16986", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1056", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "49177", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "28445", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "7230", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "6559", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "8188", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "377", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "80593", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "60359", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "24390", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "18434", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "34819", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "541", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "214991", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "72647", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "35273", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "24039", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "46425", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1548", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "73686", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "65183", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "16141", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1719", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "5337", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "627", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "48616", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "38818", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "9587", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "1176", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "3194", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "70", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "75470", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "73798", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "22592", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "2511", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "16591", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "101", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "160559", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "116401", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "56638", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "3989", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "37759", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "375", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Asian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "188874", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "303122", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "180907", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "262285", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "249918", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "19934", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "22438", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "39542", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "23701", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "45314", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "40630", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "5460", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "49041", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "96445", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "151207", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "219759", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "208653", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "45731", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "54154", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "90373", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "221103", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "324963", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "249634", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "66815", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "248383", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "571752", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "212048", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "15457", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "84897", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "8322", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "27358", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "77382", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "24970", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "2899", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "16056", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "2493", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "39141", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "134943", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "119860", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "13728", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "94654", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "16817", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "55486", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "134243", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "198831", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "18873", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "137920", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "26781", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "Latino", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "20649", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "25299", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "26103", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "46724", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "30420", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "4062", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "338", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "516", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "128", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "102", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "1086", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "620", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "970", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1905", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "2180", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1822", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "420", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "788", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1819", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1960", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1658", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "2162", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "632", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "25802", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "65480", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "39844", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "3108", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "10808", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "578", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "270", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "988", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "262", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "284", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "224", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "180", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1724", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "802", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "197", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1083", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "171", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "216", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1078", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1455", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "341", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1120", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "88", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "AmIndian", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "4891", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "5533", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2172", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2509", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1641", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "226", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "408", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "92", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "358", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "467", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "480", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "895", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "976", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1019", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "572", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "987", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "3068", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "2238", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1875", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1835", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "1931", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "296", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "5197", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "6062", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2594", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "544", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "657", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "182", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "838", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "1205", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "301", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "1384", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1942", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1271", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "195", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "2637", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "2698", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "2683", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "960", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLOther", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "50047", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "53730", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "33385", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "41226", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "39542", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "2488", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "3981", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "3374", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "2675", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "2027", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "1338", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "211", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "7589", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "9222", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "3536", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "3947", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "5420", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "171", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "15382", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "16118", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "10430", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "10177", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "14188", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "204", 
+            "Gender": "Male", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "62474", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "104173", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "44125", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "4164", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "14423", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "1186", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "Native"
+        }, 
+        {
+            "Dep": "4740", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "6577", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "3336", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "66", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "491", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "670", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB<1980"
+        }, 
+        {
+            "Dep": "6519", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "9957", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "5142", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "73", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "1452", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB80-89"
+        }, 
+        {
+            "Dep": "11292", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "14795", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "13874", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "823", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "3660", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }, 
+        {
+            "Dep": "73", 
+            "Gender": "Female", 
+            "Occ": "Farm ", 
+            "RaceLat": "NLMulti ", 
+            "Immig": "FB90-00"
+        }
+    ]
+}

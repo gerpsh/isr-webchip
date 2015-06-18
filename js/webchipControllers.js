@@ -1,15 +1,16 @@
-var webchipControllers = angular.module('webchipControllers', []);
+var webchipApp = angular.module('webchipApp', []);
 
-webchipControllers.controller("default", ['$scope', '$http', 
+webchipApp.controller("default", ['$scope', '$http', 
 	function($scope, $http) {
-		$http.get('data/acs2005i.json').success(function(data) {
-			$scope.varCategories = data["varCats"];
-			$scope.title = data["title"];
-			$scope.varNames = data["varNames"];
-			$scope.data = data["data"];
+		$http.get('data/acs2005i/educim05.json').success(function(d) {
+			$scope.varCategories = d["varCats"];
+			$scope.title = d["title"];
+			$scope.varNames = d["varNames"];
+			$scope.data = d["data"];
+			$("#dataset-list").val('data/acs2005i/educim05.json');
 		});
-		$http.get('data/index.json').success(function(data) {
-			$scope.availableDatasets = _.pluck(data, 'fileName');
+		$http.get('data/index.json').success(function(d) {
+			$scope.availableDatasets = d;
 		});
 
 		$scope.omitVar = function(variable, cats) {
@@ -20,12 +21,13 @@ webchipControllers.controller("default", ['$scope', '$http',
 			$scope.data = combine($scope.data, variable, cats, name);
 		};
 
-		$scope.changeDataset = function(dataset) {
-			$http.get('data/' + datatset).success(function(data) {
-				$scope.varCategories = data["varCats"];
-				$scope.title = data["title"];
-				$scope.varNames = data["varNames"];
-				$scope.data = data["data"];
+		$scope.changeDataset = function() {
+			var dataset = getCurrentDataset()
+			$http.get(dataset).success(function(d) {
+				$scope.varCategories = d["varCats"];
+				$scope.title = d["title"];
+				$scope.varNames = d["varNames"];
+				$scope.data = d["data"];
 			});
 		};
 	}]);

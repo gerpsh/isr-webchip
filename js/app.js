@@ -1,22 +1,10 @@
 'use strict';
 
-var webchip = angular.module('phonecatApp', [
+var webchip = angular.module('webchipApp', [
   'ngRoute',
   'webchipControllers'
 ]);
 
-webchip.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider.
-      when('/webchip', {
-        templateUrl: 'partials/default.html',
-        controller: 'default'
-      }).
-      when('/phones/:dataset', {
-        templateUrl: 'partials/default.html',
-        controller: 'selection'
-      }).
-      otherwise({
-        redirectTo: '/webchip'
-      });
-  }]);
+function isEmpty(str) {
+    return (!str || 0 === str.length);
+}

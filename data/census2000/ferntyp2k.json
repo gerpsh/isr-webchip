@@ -1,0 +1,4765 @@
+{
+    "numCats": [
+        7, 
+        6, 
+        4, 
+        4
+    ], 
+    "varCats": [
+        {
+            "name": "RaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Asian", 
+                "Latino", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }, 
+        {
+            "name": "Age", 
+            "vars": [
+                "<25", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ]
+        }, 
+        {
+            "name": "Pov", 
+            "vars": [
+                "Poverty", 
+                "NearPoor", 
+                "Middle", 
+                "Comf"
+            ]
+        }, 
+        {
+            "name": "EarnType", 
+            "vars": [
+                "2ErnrFam", 
+                "1ErnrML", 
+                "1ErnrFML", 
+                "None"
+            ]
+        }
+    ], 
+    "title": "FERNTYP2K: 2000 Married couple families by earners age 16+, race/ethnicity, and poverty, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceLat", 
+        "Age", 
+        "Pov", 
+        "EarnType"
+    ], 
+    "data": [
+        {
+            "Dep": "20776", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "39336", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "10424", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "15758", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "38033", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "46201", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7382", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5920", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "380044", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "149286", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "28196", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "20883", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "74511", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "12126", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3139", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1212", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "50971", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "112811", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "26820", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "54140", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "105099", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "176109", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "25158", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "28116", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2395325", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1140862", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "155724", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "106063", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1630408", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "305725", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "45389", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "19504", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "65632", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "127788", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "37007", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "85779", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "121485", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "186987", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "37917", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "38468", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3509305", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1901287", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "271961", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "173599", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2807715", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "968638", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "119759", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "52609", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "44802", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "72712", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "23605", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "89534", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "61368", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "83253", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "27090", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "50158", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2266560", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1364897", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "300218", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "211098", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3863562", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1378181", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "223684", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "100183", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "21391", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "48497", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "22917", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "144597", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "27713", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "49764", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "28773", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "101597", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "982797", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "812272", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "443963", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "650316", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2080229", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "933567", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "348456", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "347347", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3501", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "21259", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "8775", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "236479", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "6743", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "31391", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "18818", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "386248", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "261045", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "654081", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "492474", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3571084", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "415486", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "584566", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "345813", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1558626", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLWhite", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3889", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "6142", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3803", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3993", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "5134", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "5689", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1531", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1609", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "35192", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "10042", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "5533", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3070", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2779", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1499", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "367", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "431", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "11988", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "18339", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "11120", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "18426", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "23649", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "23620", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "10043", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "7924", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "292814", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "85595", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "38727", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "27678", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "95020", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "10233", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "6451", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5758", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "11019", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "22100", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "14732", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "27377", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "19455", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "26461", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "11388", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "13547", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "360700", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "162677", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "76007", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "53016", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "194263", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "37011", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "17005", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "9415", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "6316", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "14645", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "10398", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "28588", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "8300", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "16521", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7783", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "13780", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "216764", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "143925", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "61984", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "52138", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "230283", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "71901", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "22148", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "12818", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2539", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "7887", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "6054", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "31696", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3845", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "8330", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7243", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "18320", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "81012", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "75877", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "54255", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "65580", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "107366", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "43635", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "29830", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "18521", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "489", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3067", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3036", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "43909", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1200", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "6506", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "6534", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "44635", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "22258", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "52321", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "51814", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "170610", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "19680", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "30834", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "26000", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "45894", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Black", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "560", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1221", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "560", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "912", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "900", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1098", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "66", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "615", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "5378", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "4128", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "660", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "762", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1715", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "880", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "365", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "384", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "4585", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "12731", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1973", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "11417", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "6127", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "10338", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2818", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "2902", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "75946", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "67446", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "11414", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "13800", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "91935", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "39569", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "4684", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5373", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "5672", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "21421", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3988", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "13040", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "11916", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "18897", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3751", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4556", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "140336", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "114149", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "20099", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "24105", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "137562", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "57754", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7883", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "8687", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "4819", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "15437", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2673", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "10795", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "7316", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "12881", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2491", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5244", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "105175", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "87937", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "15942", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "24079", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "116916", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "76560", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "9650", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "9531", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1916", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "5198", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1873", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "7166", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2403", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "4958", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1534", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3565", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "46057", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "36776", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "12389", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "16290", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "75827", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "33458", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "8610", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "9858", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "44", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1346", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1561", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "18405", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "198", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1950", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2116", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "18658", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "8332", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "21793", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "12626", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "38492", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "12361", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "16812", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "11084", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "24728", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Asian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "9359", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "31952", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "4230", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "16451", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "13411", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "25900", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2656", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "6536", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "69629", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "40627", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "8405", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "15339", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "7385", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "2117", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "533", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "477", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "31531", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "113481", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "12302", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "73919", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "58452", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "108121", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "13534", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "45584", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "360903", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "227623", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "50322", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "101324", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "97359", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "28385", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "6317", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "11171", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "28866", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "93171", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "15283", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "73292", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "51410", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "85809", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "15293", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "47594", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "364829", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "271965", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "62256", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "119994", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "138067", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "46763", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "10232", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "13109", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "14291", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "34301", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7762", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "39456", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "20320", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "38631", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "9291", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "25699", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "236688", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "178320", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "45822", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "79359", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "136723", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "48515", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "12939", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "11466", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3347", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "10719", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "5257", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "31015", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "7211", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "14048", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "6777", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "19825", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "97380", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "84327", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "33647", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "52289", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "65359", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "31638", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "12995", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "12434", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "837", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "5084", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2717", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "39228", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1506", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "6972", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "4142", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "46681", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "16815", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "51251", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "37017", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "127548", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "13390", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "16403", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "13333", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "25465", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "Latino", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1583", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1753", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "164", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "582", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1240", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1065", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "213", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "325", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3333", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1854", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "588", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "676", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "274", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1173", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3590", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1524", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4686", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2436", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3199", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1194", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1001", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "26258", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "12455", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1916", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3366", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "7238", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1372", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "682", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "855", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1715", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "4516", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1209", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5702", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2542", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3534", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1790", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "2428", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "30558", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "17962", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7018", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5099", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "11325", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "2458", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "759", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1373", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "218", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1315", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1515", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3975", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "895", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1430", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "622", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1544", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "19429", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "16117", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "4418", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4718", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "15880", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "6352", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2924", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1493", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "278", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "810", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1659", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3574", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "569", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1441", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "756", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "2199", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "6816", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "6640", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "5181", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "6389", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "8484", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3653", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1470", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1251", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "56", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "125", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "113", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3080", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "210", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "396", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "80", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4108", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1226", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3564", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2699", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "10585", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2372", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "542", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "767", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "2727", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "AmIndian", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "360", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "90", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "247", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "260", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "40", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1018", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "322", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "66", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "150", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "27", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "631", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "102", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "599", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "319", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "448", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "197", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "4276", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "2235", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "554", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "536", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2258", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "352", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "61", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "315", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "858", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "235", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "417", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "709", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "105", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "5194", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "2958", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1253", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1366", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3830", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "798", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "199", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "106", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "165", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "195", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "621", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "161", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "323", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2038", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "2506", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "463", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "814", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3543", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "410", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "74", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "472", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "132", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "372", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "118", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "135", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "145", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1573", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "963", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "311", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1113", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1935", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "956", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "121", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "183", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "408", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "209", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "110", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "766", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "175", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1575", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "248", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "413", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "127", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "391", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLOther", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "660", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1762", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "438", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "163", 
+            "Pov": "Poverty", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "872", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1841", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "21", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "199", 
+            "Pov": "NearPoor", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "8565", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3552", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "515", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "772", 
+            "Pov": "Middle", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1157", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "144", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "96", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Comf", 
+            "Age": "<25", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3085", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "5291", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "904", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4280", 
+            "Pov": "Poverty", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "3113", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "5339", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1214", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1408", 
+            "Pov": "NearPoor", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "42009", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "26666", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "4960", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4179", 
+            "Pov": "Middle", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "21782", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "5704", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1184", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "363", 
+            "Pov": "Comf", 
+            "Age": "25-34", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2585", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "8140", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1786", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5001", 
+            "Pov": "Poverty", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "4442", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "6232", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "1179", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1714", 
+            "Pov": "NearPoor", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "56537", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "36550", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7262", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "6905", 
+            "Pov": "Middle", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "37194", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "11641", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "2602", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1543", 
+            "Pov": "Comf", 
+            "Age": "35-44", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "872", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "4092", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "940", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "4060", 
+            "Pov": "Poverty", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "1814", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "2185", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "775", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "2004", 
+            "Pov": "NearPoor", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "31552", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "26283", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7188", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "7549", 
+            "Pov": "Middle", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "37059", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "14817", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3209", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1567", 
+            "Pov": "Comf", 
+            "Age": "45-54", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "415", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1599", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "813", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "3597", 
+            "Pov": "Poverty", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "570", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "1516", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "636", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "1353", 
+            "Pov": "NearPoor", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "11481", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "12137", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "7389", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "10230", 
+            "Pov": "Middle", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "17775", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "8015", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3349", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "2923", 
+            "Pov": "Comf", 
+            "Age": "55-64", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "848", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "387", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5528", 
+            "Pov": "Poverty", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "240", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "437", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "0", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "5838", 
+            "Pov": "NearPoor", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2127", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "7015", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "5660", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "24695", 
+            "Pov": "Middle", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }, 
+        {
+            "Dep": "2284", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "2ErnrFam"
+        }, 
+        {
+            "Dep": "3666", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrML"
+        }, 
+        {
+            "Dep": "3672", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "1ErnrFML"
+        }, 
+        {
+            "Dep": "8824", 
+            "Pov": "Comf", 
+            "Age": "65+", 
+            "RaceLat": "NLMulti", 
+            "EarnType": "None"
+        }
+    ]
+}

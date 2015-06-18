@@ -1,0 +1,2411 @@
+{
+    "numCats": [
+        7, 
+        2, 
+        6, 
+        4
+    ], 
+    "varCats": [
+        {
+            "name": "RaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Asian", 
+                "Latino", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }, 
+        {
+            "name": "Gender", 
+            "vars": [
+                "Male", 
+                "Female"
+            ]
+        }, 
+        {
+            "name": "WkAge", 
+            "vars": [
+                "16-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ]
+        }, 
+        {
+            "name": "WkHrs", 
+            "vars": [
+                "Full35", 
+                "20-34", 
+                "10-19", 
+                "<10"
+            ]
+        }
+    ], 
+    "title": "FULLPRT2K: 2000 Work hours for workers, age 16+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceLat", 
+        "Gender", 
+        "WkAge", 
+        "WkHrs"
+    ], 
+    "data": [
+        {
+            "Dep": "3798710", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1682622", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "663164", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "497221", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10156824", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "498728", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "84277", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "150607", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "13268551", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "415015", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "85649", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "161543", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "11210438", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "412312", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "89592", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "142659", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "5171461", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "448052", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "127641", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "146179", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1018227", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "603077", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "248945", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "250161", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2718305", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2025849", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "886644", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "552661", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "7024501", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1319252", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "292894", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "314186", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "8694409", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2017022", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "518060", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "414723", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "8205058", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1599767", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "342939", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "296786", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3546475", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "908899", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "250341", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "215672", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "534908", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "484176", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "234503", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "236977", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "509199", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "212066", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "65226", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "119209", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1305291", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "79519", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "18394", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "60350", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1552944", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "69709", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "16504", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "67353", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1083893", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "48237", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "14920", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "45423", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "412468", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "38159", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "9471", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "25857", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "83674", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "38931", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "15659", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "22059", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "524659", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "294120", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "85919", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "139013", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1450640", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "183253", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "24648", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "82248", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1682648", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "170188", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "28343", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "89796", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "1172195", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "117579", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "23211", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "57591", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "416595", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "81067", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "16611", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "35822", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "57825", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "48384", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "18516", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "32694", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "Black"
+        }, 
+        {
+            "Dep": "153670", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "80889", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "40309", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "43768", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "651300", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "51352", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "10317", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "27019", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "667864", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "28038", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "8357", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "18187", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "482968", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "22278", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5843", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "11546", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "201775", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "18301", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5137", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "7892", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "35097", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "12780", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "3135", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "6053", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "124512", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "88516", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "54916", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "44006", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "477670", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "66678", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "19438", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "34629", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "509472", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "78054", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "19777", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "23440", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "418757", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "56792", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "13533", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "20362", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "145768", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "26238", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "7471", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "7937", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "18249", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "8182", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "3792", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "5604", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "Asian"
+        }, 
+        {
+            "Dep": "1202484", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "251552", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "65408", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "221946", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2116932", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "100822", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "19414", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "120337", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1690538", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "65427", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "16673", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "68833", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "945484", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "36632", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "10605", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "35052", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "347904", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "25584", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5332", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "15660", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "67197", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "25231", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7198", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "12701", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "588281", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "286977", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "83094", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "157497", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1160250", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "192098", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "31320", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "108816", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1094727", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "179899", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "38528", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "88636", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "667175", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "108229", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "22966", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "53341", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "227250", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "49123", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "14777", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "23650", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "32474", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "20022", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7256", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "12994", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "58987", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "14481", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "4969", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "7879", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "112702", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "7365", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1041", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "5729", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "118274", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "6903", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1885", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "4674", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "82887", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "3566", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "979", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "2875", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "32013", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "2658", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "593", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1818", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "5503", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1516", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "639", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1250", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "40577", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "21063", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "6111", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "8471", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "76533", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "14786", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "2680", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "6592", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "96569", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "14410", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "4843", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "5746", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "64919", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "9918", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "2458", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "3600", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "25401", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "5787", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1290", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1672", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "3769", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "2436", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "756", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "1621", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "8898", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2571", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1713", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1908", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "24752", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2901", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "235", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "581", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "22744", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "692", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "328", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1206", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "13439", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "588", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "249", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "476", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6869", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "199", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "293", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "734", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "308", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "151", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5194", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4786", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1985", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2022", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "16928", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3481", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "798", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1538", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "15818", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3400", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "741", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1002", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "9108", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2476", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "162", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "396", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2304", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "687", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "183", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "537", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "418", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "113", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "238", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "105056", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "53863", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "18780", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "21806", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "241214", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "17882", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "3497", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "9846", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "247562", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "11822", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "2687", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "8670", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "166427", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "8167", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "1450", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "4753", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "61728", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "4394", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "1252", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "1826", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "10913", 
+            "Gender": "Male", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "4038", 
+            "Gender": "Male", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "1760", 
+            "Gender": "Male", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "2596", 
+            "Gender": "Male", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "85274", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "60139", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "21886", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "24528", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "16-24", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "177948", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "34391", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "7409", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "11187", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "25-34", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "168961", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "33108", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "7418", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "12621", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "35-44", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "126782", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "19687", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "5286", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "7549", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "45-54", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "43315", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "9179", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "2983", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "3974", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "55-64", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "6912", 
+            "Gender": "Female", 
+            "WkHrs": "Full35", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "5462", 
+            "Gender": "Female", 
+            "WkHrs": "20-34", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "2014", 
+            "Gender": "Female", 
+            "WkHrs": "10-19", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "2551", 
+            "Gender": "Female", 
+            "WkHrs": "<10", 
+            "WkAge": "65+", 
+            "RaceLat": "NLMulti"
+        }
+    ]
+}

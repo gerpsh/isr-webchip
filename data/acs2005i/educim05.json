@@ -1,0 +1,6788 @@
+{
+    "numCats": [
+        7, 
+        2, 
+        5, 
+        3, 
+        4
+    ], 
+    "varCats": [
+        {
+            "name": "RaceLat", 
+            "vars": [
+                "Latino", 
+                "NLwhite", 
+                "NLBlack", 
+                "NLAsian", 
+                "NLAmIndian", 
+                "NLOther", 
+                "NLMixed"
+            ]
+        }, 
+        {
+            "name": "Gender", 
+            "vars": [
+                "Male", 
+                "Female"
+            ]
+        }, 
+        {
+            "name": "Age", 
+            "vars": [
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ]
+        }, 
+        {
+            "name": "Imm", 
+            "vars": [
+                "Native", 
+                "FB<1990", 
+                "FB>=1990"
+            ]
+        }, 
+        {
+            "name": "Educ", 
+            "vars": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ]
+        }
+    ], 
+    "title": "Education by Immigration status for Age 25+, wgtd 2005 ACS, Frey/U-MICH-not for commercial purposes", 
+    "numOfVars": 5, 
+    "varNames": [
+        "RaceLat", 
+        "Gender", 
+        "Age", 
+        "Imm", 
+        "Educ"
+    ], 
+    "data": [
+        {
+            "Dep": "300700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "550625", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "490485", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "245035", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "196650", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "156370", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "103525", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "52185", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1076555", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "580450", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "203520", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "120415", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "228315", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "388280", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "351405", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "205425", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "632690", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "284585", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "194310", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "97735", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "462480", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "232710", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "104765", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "111320", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "198880", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "281130", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "250760", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "135980", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "488725", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "189575", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "141050", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "96700", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "163770", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "64445", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "38165", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "51560", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "165100", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "136845", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "133760", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "78890", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "275190", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "90625", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "63890", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "53390", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "62690", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "22770", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "10250", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "15795", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "243400", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "108630", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "66575", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "42710", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "256360", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "59310", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "40490", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "41450", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "55265", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "10930", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3615", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6645", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "272955", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "463975", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "546600", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "306750", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "137270", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "130955", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "107025", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "55360", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "756410", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "409760", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "182680", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "132010", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "226975", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "366075", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "404785", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "229100", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "429315", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "227885", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "189260", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "86235", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "414050", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "213530", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "119785", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "121610", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "199595", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "287740", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "286845", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "148110", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "406035", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "191440", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "150285", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "88315", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "181255", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "73435", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "42660", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "45995", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "190630", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "184210", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "141635", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "66485", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "275005", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "106245", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "78635", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "45910", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "93885", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "30470", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "12715", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "10495", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "357220", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "160165", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "78315", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "35055", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "345200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "98060", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "44265", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "35060", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "97090", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "16450", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5730", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6565", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "Latino"
+        }, 
+        {
+            "Dep": "921780", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3202995", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3537760", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3480290", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "7005", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "20965", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "25250", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "46840", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "33520", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "87650", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "83745", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "198480", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "1146900", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4193280", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3906500", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4330600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "27795", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "65640", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "73525", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "120790", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "29840", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "87540", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "78300", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "205435", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "1176075", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4388810", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4306575", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4589700", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "49155", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "92315", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "108685", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "183560", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "20205", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "53480", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "44995", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "103790", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "1066595", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "2905015", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3013220", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3817885", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "68390", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "88515", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "88170", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "168480", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "12565", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "21560", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "19300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "46725", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "2487190", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3559585", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "2456950", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "2993185", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "186365", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "132325", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "100920", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "161885", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "24805", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "19835", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "13725", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "30990", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "697995", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "2549710", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3752935", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4211475", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "5245", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "19530", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "25480", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "50585", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "25535", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "76325", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "101640", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "210530", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "853950", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3728435", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4565025", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4619275", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "22160", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "66835", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "89260", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "104730", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "27085", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "88985", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "92575", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "184920", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "943960", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4444075", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4917410", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "4511910", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "48460", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "112950", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "120590", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "140130", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "24695", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "62840", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "49655", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "91780", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "1051585", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3845225", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3360590", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3061585", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "86595", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "141995", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "141000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "129715", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "22070", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "26945", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "20455", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "36275", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3325505", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "6230425", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "3236475", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "2220645", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "306390", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "286810", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "183990", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "126435", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "37630", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "28210", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "17760", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "28745", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLwhite"
+        }, 
+        {
+            "Dep": "257870", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "704420", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "590495", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "287675", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "4785", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "15535", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "24090", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "16080", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "19400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "49235", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "63850", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "45400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "278250", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "791935", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "607320", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "320980", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "12240", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "32560", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "38950", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "39070", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "19510", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "48025", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "43175", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "49810", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "329540", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "689155", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "552355", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "296460", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "23240", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "41490", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "43730", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "59520", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "14265", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "30940", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "17950", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "25170", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "287155", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "380225", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "300125", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "182485", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "23200", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "29205", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "20310", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "26925", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "7705", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "7870", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "3800", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "5290", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "495060", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "258480", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "161035", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "103690", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "20680", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "20535", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "10045", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "10290", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "8550", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "3180", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "1315", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "2040", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "296830", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "733340", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "858185", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "463770", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "4750", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "13740", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "25810", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "23980", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "23750", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "53980", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "57930", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "46695", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "308585", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "819535", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "908135", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "468090", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "10150", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "34670", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "55210", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "51340", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "28315", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "53440", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "46785", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "34835", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "349515", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "745215", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "800775", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "426690", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "26330", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "48685", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "45270", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "47150", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "18700", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "29440", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "18200", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "14310", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "329910", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "498935", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "420410", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "236610", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "25095", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "33050", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "26980", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "22860", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "11460", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "10590", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "4235", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "4335", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "746240", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "455430", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "263170", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "172865", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "34630", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "30325", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "14005", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "9615", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "16885", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "7345", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "3225", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "1165", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLBlack"
+        }, 
+        {
+            "Dep": "9630", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "34420", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "72970", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "143175", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "14570", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "43485", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "74875", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "131050", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "35840", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "56960", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "85870", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "401875", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "9890", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "29515", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "39470", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "85160", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "46550", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "68345", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "106820", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "209055", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "48335", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "67950", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "61120", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "316870", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "7440", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "22365", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "42225", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "62680", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "67955", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "83020", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "102115", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "226040", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "37485", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "49530", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "39485", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "114010", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "5175", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "17100", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "23435", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "36710", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "45635", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "49680", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "60210", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "179805", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "27620", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "29960", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "21820", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "48820", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "16225", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "32070", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "23095", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "29585", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "65090", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "46060", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "38175", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "115555", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "36535", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "26295", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "14675", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "32165", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "7065", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "27380", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "55030", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "143190", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "13435", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "36975", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "72370", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "139130", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "54015", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "89295", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "120320", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "426595", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "7035", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "26285", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "39345", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "84895", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "56690", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "73620", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "108345", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "203775", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "73980", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "95565", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "96045", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "303745", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "7680", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "22840", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "38965", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "57900", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "95120", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "102830", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "122745", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "230690", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "58820", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "71375", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "51175", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "103950", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "4750", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "18020", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "27370", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "33240", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "84985", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "78960", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "74645", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "163915", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "50580", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "37170", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "18210", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "39820", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "24335", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "51300", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "27830", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "21965", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "152480", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "80535", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "47270", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "86605", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "78135", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "25935", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "12405", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "24345", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAsian"
+        }, 
+        {
+            "Dep": "24030", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "50285", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "45750", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "13575", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "175", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "500", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "150", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "225", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "460", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "140", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "170", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "1210", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "30410", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "52195", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "45760", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "18280", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "285", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "360", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "310", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "35", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "350", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "405", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "120", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "795", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "25155", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "47530", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "44805", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "20675", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "160", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "590", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "300", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "340", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "190", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "210", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "155", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "260", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "19155", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "23215", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "25230", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "16555", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "370", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "285", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "170", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "280", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "520", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "70", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "65", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "28945", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "17150", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "12400", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "8665", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "235", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "310", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "160", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "420", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "19850", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "48190", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "57455", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "20475", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "35", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "525", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "290", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "280", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "445", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "380", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "375", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "28550", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "50525", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "59935", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "21930", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "200", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "375", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "940", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "60", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "315", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "625", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "380", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "860", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "23780", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "49255", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "54375", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "25500", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "395", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "560", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "300", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "205", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "60", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "130", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "205", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "23470", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "28485", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "32065", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "14205", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "645", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "255", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "235", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "130", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "405", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "120", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "45", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "15", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "40635", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "21920", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "16850", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "6690", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "375", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "220", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "150", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "130", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "55", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "70", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "110", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLAmIndian"
+        }, 
+        {
+            "Dep": "3640", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4185", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "7065", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "7420", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1430", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3225", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3050", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2535", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "7825", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "10275", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4105", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "8335", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1890", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5065", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6760", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5925", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4565", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4765", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4110", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4290", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5465", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2530", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1665", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4225", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3150", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4830", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5600", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3590", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3530", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2995", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2050", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3120", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1240", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2035", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1335", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2245", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2840", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3215", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1805", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1665", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1915", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3285", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1955", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "990", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "655", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "705", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2295", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1515", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "835", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1940", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2910", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "675", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "715", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "975", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "945", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "545", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "390", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2425", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6340", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "8575", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "8750", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1560", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2230", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2080", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3275", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6700", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "8195", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6415", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6490", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2195", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4885", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "9205", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6520", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3470", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4645", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4390", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4310", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3995", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "6300", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3810", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3385", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1895", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4235", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5465", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "5435", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4065", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "4050", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3970", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2260", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3715", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2415", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1455", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1905", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2030", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2220", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2835", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2245", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2585", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1120", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2450", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1770", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1420", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "845", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "720", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3425", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1940", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2105", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1255", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "3340", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "1610", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "995", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "575", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "2320", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "500", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "265", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "135", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "19800", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "59795", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "76405", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "48330", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "280", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "635", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1110", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1690", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1885", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1625", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1895", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4285", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "17410", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "48240", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "62705", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "45020", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1005", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1400", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3070", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "5070", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1370", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1860", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1370", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "5445", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "20775", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "45690", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "59050", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "35625", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1025", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2040", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4240", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4250", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "620", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "775", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "635", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2380", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "12835", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "26070", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "31945", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "24295", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1265", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "980", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2215", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3075", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "435", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "95", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "700", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "415", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "23075", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "20940", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "20430", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "13640", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2055", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1365", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1780", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3720", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1035", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "80", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "170", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "255", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "19595", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "49835", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "82590", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "64260", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "165", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "615", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2170", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2675", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1800", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1870", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3080", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "5340", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "16945", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "54070", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "77240", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "56415", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "665", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2015", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4675", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4605", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1750", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2645", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2220", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3980", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "17250", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "47460", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "71415", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "38275", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1470", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3140", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "5220", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4210", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "920", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1175", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "915", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1970", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "15625", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "31110", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "38535", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "25450", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "1990", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2930", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2260", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "3290", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "760", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "290", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "435", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "290", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "30250", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "32395", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "23580", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "13470", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "Native", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "4135", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2925", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2025", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "2180", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB<1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "815", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "LTHS", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "785", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "HSGrad", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "240", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "SomeColl", 
+            "RaceLat": "NLMixed"
+        }, 
+        {
+            "Dep": "780", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Imm": "FB>=1990", 
+            "Educ": "CollGrad", 
+            "RaceLat": "NLMixed"
+        }
+    ]
+}

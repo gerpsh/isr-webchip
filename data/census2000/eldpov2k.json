@@ -1,0 +1,6788 @@
+{
+    "numCats": [
+        7, 
+        2, 
+        4, 
+        3, 
+        5
+    ], 
+    "varCats": [
+        {
+            "name": "RaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Asian", 
+                "Latino", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }, 
+        {
+            "name": "Gender", 
+            "vars": [
+                "Male", 
+                "Female"
+            ]
+        }, 
+        {
+            "name": "Pov", 
+            "vars": [
+                "Poverty", 
+                "NearPoor", 
+                "Middle", 
+                "Comf"
+            ]
+        }, 
+        {
+            "name": "AgeElder", 
+            "vars": [
+                "65-74", 
+                "75-84", 
+                "85+"
+            ]
+        }, 
+        {
+            "name": "Marital", 
+            "vars": [
+                "CurMrrd", 
+                "Widowed", 
+                "Divorced", 
+                "Seprated", 
+                "NevMrrd"
+            ]
+        }
+    ], 
+    "title": "ELDPOV2K: 2000 Elderly by poverty, race/ethnicity, and gender, age 65+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 5, 
+    "varNames": [
+        "RaceLat", 
+        "Gender", 
+        "Pov", 
+        "AgeElder", 
+        "Marital"
+    ], 
+    "data": [
+        {
+            "Dep": "158765", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "50299", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "56730", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "8838", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "39032", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "101323", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "58771", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "20310", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3597", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "19409", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "29842", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "31938", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "4087", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "681", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "6407", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "245725", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "59718", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "78159", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "9698", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "34924", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "176026", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "84125", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "30160", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3930", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "21998", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "44056", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "38430", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "4207", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "303", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "5021", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2969964", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "281331", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "271811", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "28923", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "144577", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1780882", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "385551", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "81203", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "11849", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "70669", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "366911", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "171016", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "13712", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1541", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "14811", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1951689", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "125445", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "111349", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "12967", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "63300", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "888748", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "166330", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "30860", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4591", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "28727", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "176449", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "67349", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "5086", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "781", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "5788", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "139188", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "274543", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "115329", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14168", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "36626", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "91752", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "439766", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "60843", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4945", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "32707", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "16178", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "212371", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "8655", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1131", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "13848", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "216717", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "350642", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "106948", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7075", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "28001", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "135419", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "564784", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "60557", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3680", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "25543", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "25045", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "290833", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "10694", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1030", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "8954", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2591683", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1326429", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "418996", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "23969", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "143910", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1351436", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1721454", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "166343", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "8450", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "116995", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "193505", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "751068", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "31792", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1516", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "45456", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1470788", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "387194", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "122032", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6660", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "60828", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "635979", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "506287", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "43424", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2116", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "47003", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "96472", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "240033", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "9994", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "286", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "16517", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLWhite", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "35796", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "23032", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "21200", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "9793", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14964", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "19620", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "20231", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "6217", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4196", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5807", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5349", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "10607", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "988", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "890", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1175", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "37764", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16108", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16809", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6815", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "10723", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "21507", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "15972", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5156", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2840", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4532", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "6048", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "6366", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "815", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "297", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "940", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "208993", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "38007", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "39155", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "15668", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16898", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "89415", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "35053", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "10222", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5791", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "6816", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "18368", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "17121", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2291", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "975", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2079", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "93027", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7740", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "10044", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3419", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3708", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "29057", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "7271", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3175", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "208", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1337", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4337", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2375", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "277", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "158", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "31708", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "124470", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "37032", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16966", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "19497", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14747", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "110418", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "16894", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4981", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "9321", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1400", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "41695", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3191", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1138", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3771", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "30636", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "70540", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "20369", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "5941", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "13125", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14801", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "66209", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "8442", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2371", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5338", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3271", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "31812", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1884", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "478", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1946", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "162771", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "171589", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "53727", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "19195", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "27057", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "58836", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "139954", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "18286", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4873", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "14016", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "8636", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "57418", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2522", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1037", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "5370", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "61126", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "40237", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16895", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3694", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "5619", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "17222", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "25438", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5174", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1113", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2165", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1621", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "9967", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1348", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "41", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1369", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Black", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "18510", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2320", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "965", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "796", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "867", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7373", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2258", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "903", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "632", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "230", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1858", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "388", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "230", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "15790", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1421", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "748", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "274", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "521", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "10560", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1549", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "650", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "274", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "678", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2634", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "388", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "184", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "53", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "317", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "78975", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7742", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3528", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1494", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4234", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "35966", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "6819", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1002", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "898", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1640", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "7207", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3680", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "261", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "142", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "234", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "60262", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3498", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1655", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1004", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1338", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "22089", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3740", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "448", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "224", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1055", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2743", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1846", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "448", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "15217", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "13814", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2645", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "865", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2227", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4360", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "13611", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "964", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "618", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "607", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2672", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "68", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "121", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "13366", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "11344", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1647", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "311", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "991", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6858", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "9075", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "902", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "195", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "515", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "804", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3614", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "304", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "69774", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "48086", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7019", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3003", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4583", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "25724", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "38240", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2132", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "553", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3035", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2442", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "10912", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "398", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "41", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "573", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "50235", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "21773", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4123", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "664", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2797", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14160", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "21920", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1184", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "543", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1661", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1389", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "6637", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "152", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "276", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Asian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "38419", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "8402", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "9721", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4280", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7241", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "17792", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "7618", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3625", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1917", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3180", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3073", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2969", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "741", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "367", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "176", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "44193", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6782", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6507", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2688", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3506", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "21249", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3783", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2210", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1177", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1449", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4872", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1809", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "267", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "199", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "457", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "182264", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "21320", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "19972", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7416", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "9996", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "70948", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "16394", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5260", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2520", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4168", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "13968", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "6223", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1363", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "642", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "870", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "55959", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "5607", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4016", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1070", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2034", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16559", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2331", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "982", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "691", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "843", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1891", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1387", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "267", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "16", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "442", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "27403", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "46633", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "18463", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6875", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "9821", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "10329", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "38762", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "6761", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2369", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5169", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2109", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "16331", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "581", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "245", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1729", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "37302", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "33305", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "12768", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3061", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "6279", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14584", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "26073", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5915", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1352", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4021", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2329", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "12168", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "990", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "213", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1007", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "147599", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "84176", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "36908", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "9674", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "18664", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "47298", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "68255", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "8275", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3967", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "7023", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "6224", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "26035", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1790", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "273", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2038", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "38620", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "14651", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "8880", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2481", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3350", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "11077", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "16978", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1685", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "792", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2204", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1407", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "6309", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1232", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "110", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "429", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "Latino", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2940", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "914", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1228", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "722", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "920", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1155", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1135", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "198", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "122", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "140", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "282", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "57", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "156", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "133", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2761", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "658", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "750", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "47", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "354", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1556", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "925", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "505", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "240", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "447", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "434", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "60", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "66", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "13644", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1355", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1837", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "316", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "824", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "5721", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1448", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "775", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "256", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "513", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "752", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "740", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "153", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "5181", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "337", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "468", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "225", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "625", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "594", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "486", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "349", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "289", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2098", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "5070", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2297", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "746", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "967", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "752", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3888", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1088", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "95", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "153", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "130", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2932", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "63", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3013", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3087", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "773", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "128", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "76", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "543", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3650", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "389", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "219", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "98", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "216", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "988", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "73", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "66", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "10974", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7332", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3070", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "745", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1009", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2247", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "4545", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "634", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "234", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "354", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1581", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "156", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "30", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3614", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1692", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "529", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "147", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1236", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "602", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "252", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "333", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "74", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "AmIndian", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "304", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "208", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "158", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "301", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "54", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "268", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "148", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "92", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "80", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "88", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2343", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "273", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "83", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "377", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "29", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "593", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "442", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "102", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "94", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "290", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "200", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "165", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "611", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "195", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "489", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "165", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "380", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "965", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "181", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "445", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "170", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "640", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "73", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "46", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "201", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "210", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "187", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "166", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "165", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "121", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "79", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "105", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "119", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "78", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2282", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1040", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "410", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "172", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "81", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "678", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1005", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "253", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "329", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "448", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "428", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "254", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "248", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "159", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "135", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "67", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLOther", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "4563", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1771", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1388", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "216", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1170", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2266", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1128", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "374", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "526", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "692", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "476", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "52", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "79", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "36", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3607", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1573", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1145", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "262", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "742", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2456", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1722", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "544", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "310", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "683", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "921", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "468", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "220", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "27131", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3395", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4536", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "579", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1815", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "13010", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "2218", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "949", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "179", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "734", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3016", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "1077", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "254", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "15235", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "943", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1152", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "191", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "176", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4876", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1469", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "815", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "158", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "641", 
+            "Gender": "Male", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "602", 
+            "Gender": "Male", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "258", 
+            "Gender": "Male", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "2335", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "8527", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2343", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "422", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "944", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2140", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "8020", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1164", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "480", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "465", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "97", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3972", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "483", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Poverty", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "4672", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "5961", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "2005", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "577", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1115", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "756", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "5268", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "828", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "168", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "289", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "418", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "3897", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "161", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "NearPoor", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "23671", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "16004", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4980", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "879", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1973", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "7901", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "12569", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "981", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "394", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1102", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1319", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "4509", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "381", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "61", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "633", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Middle", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "8495", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "4721", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "1684", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "297", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "712", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "65-74"
+        }, 
+        {
+            "Dep": "3571", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "3326", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "611", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "284", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "75-84"
+        }, 
+        {
+            "Dep": "1028", 
+            "Gender": "Female", 
+            "Marital": "CurMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "965", 
+            "Gender": "Female", 
+            "Marital": "Widowed", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "225", 
+            "Gender": "Female", 
+            "Marital": "Divorced", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Marital": "Seprated", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }, 
+        {
+            "Dep": "165", 
+            "Gender": "Female", 
+            "Marital": "NevMrrd", 
+            "Pov": "Comf", 
+            "RaceLat": "NLMulti", 
+            "AgeElder": "85+"
+        }
+    ]
+}

@@ -109,6 +109,11 @@ def parse(file_name):
 		j = json.dumps(data, indent=4)
 		out_file.write(j)
 
+def build_index():
+	for dirname, dirnames, filenames in os.walk('.'):
+		for subdirname in dirnames:
+			print(subdirname)
+
 def main():
 	if (len(sys.argv) > 1):
 		for f in sys.argv:

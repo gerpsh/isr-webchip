@@ -1,0 +1,5827 @@
+{
+    "numCats": [
+        3, 
+        2, 
+        4, 
+        5, 
+        6
+    ], 
+    "varCats": [
+        {
+            "name": "Racelat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "AllOther"
+            ]
+        }, 
+        {
+            "name": "Gender", 
+            "vars": [
+                "Male", 
+                "Female"
+            ]
+        }, 
+        {
+            "name": "Educ", 
+            "vars": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ]
+        }, 
+        {
+            "name": "Occ", 
+            "vars": [
+                "TopWC", 
+                "OtrWC", 
+                "Service", 
+                "TopBC", 
+                "OtrBC"
+            ]
+        }, 
+        {
+            "name": "Earning", 
+            "vars": [
+                "<25K", 
+                "25-35K", 
+                "35-50K", 
+                "50-70K", 
+                "70-100K", 
+                "100K+"
+            ]
+        }
+    ], 
+    "title": "WORK2K-45: 2000 Full-time year round workers by education, occupation, and earnings, age 45-54, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Racelat", 
+        "Gender", 
+        "Educ", 
+        "Occ", 
+        "Earning"
+    ], 
+    "data": [
+        {
+            "Dep": "7441", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "7805", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "10628", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "8028", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "5057", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "3590", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "21118", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "15431", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "20277", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "7484", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2916", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "2427", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "35776", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "13226", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "7472", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3473", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "918", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1124", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "84547", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "71376", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "64393", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "30375", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "8108", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "4493", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "77433", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "73807", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "59085", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "29348", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "7302", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "3795", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "27886", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "39641", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "71647", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "67113", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "32659", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "25070", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "92610", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "106323", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "140353", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "76400", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "29620", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "17096", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "81274", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "52574", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "50731", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "22022", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "6047", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "2437", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "164455", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "200357", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "261101", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "171435", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "55261", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "16513", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "141115", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "196515", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "230757", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "131591", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "35337", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "10599", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "62240", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "84217", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "183649", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "234045", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "155014", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "107086", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "129682", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "153081", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "265031", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "184887", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "87306", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "61316", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "66549", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "59218", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "67236", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "57054", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "24005", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "6327", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "118777", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "146086", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "231083", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "186126", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "70055", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "21067", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "76528", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "101514", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "148188", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "112530", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "33729", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "8127", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "103064", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "115894", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "318556", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "579353", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "609008", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "763043", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "98122", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "108659", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "188708", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "191664", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "137929", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "171743", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "22011", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "17067", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "27863", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "35047", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "23824", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "8959", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "34820", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "25126", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "40410", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "39113", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "21817", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "13924", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "18436", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "18554", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "29683", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "29472", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "16212", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "9820", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "10318", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "6965", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5437", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2179", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "672", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "449", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "74283", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "25941", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "12215", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "4046", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1266", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "606", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "78139", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "10789", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "3621", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1770", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "251", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "650", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "10343", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2112", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1265", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "700", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "313", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "57754", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "17959", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "7620", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2241", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "571", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "311", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "77701", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "74715", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "71180", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "30819", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "9949", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "5255", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "568494", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "349345", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "185663", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "44574", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "14600", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "6321", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "208330", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "47538", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "17621", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "4370", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1720", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1089", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "27551", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "13916", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "8744", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "4608", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1188", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "568", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "150077", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "71126", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "29504", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "10334", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1257", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "584", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "126923", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "165595", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "244988", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "147035", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "50226", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "19846", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "514273", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "445673", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "317797", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "95037", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "35473", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "16795", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "122750", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "48178", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "23793", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "8995", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2754", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "824", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "20057", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "9785", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "10428", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6416", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1868", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "399", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "42016", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "27689", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "16090", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "9199", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1776", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "368", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "114034", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "199760", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "399077", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "376995", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "186011", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "113412", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "127986", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "146018", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "144883", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "84593", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "37528", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "28616", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "20345", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "12633", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "11401", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6765", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2983", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "573", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6587", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2533", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2770", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2415", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1026", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "600", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6099", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "3971", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5335", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "4245", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1162", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "927", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "NLWhite", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "1291", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "699", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1059", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1086", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "667", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "490", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6722", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "5520", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1882", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1072", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "479", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "25737", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "7558", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "3950", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1498", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "302", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "443", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "17854", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "10060", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "9818", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3627", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "358", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "300", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "27689", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "16319", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "14851", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3954", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1274", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "924", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "4039", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2871", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5591", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3006", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1222", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "319", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "13704", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "12213", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "11147", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6035", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "980", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "123", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "25998", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "15106", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "8009", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2898", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "858", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "750", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "15774", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "16995", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "15187", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "11121", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2519", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "986", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "33177", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "30808", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "29796", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "13717", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "4426", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1217", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "5591", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "8529", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "15245", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "10340", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "7364", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1868", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "17661", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "21595", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "28813", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "14762", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "4749", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1496", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "17529", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "12689", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "8998", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6936", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2594", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "598", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "10446", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "11713", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "17281", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "14572", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "3685", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "733", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "15320", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "17205", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "22443", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "13890", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "3609", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "2003", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6871", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "8901", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "22322", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "31827", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "24053", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "15098", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6808", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "11514", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "16546", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "11916", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "6621", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "2346", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "2189", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2314", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "3739", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2947", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2322", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "363", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "1343", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1107", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2902", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2655", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1091", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "300", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "2388", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2931", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2971", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2651", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2166", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "500", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "2828", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1592", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1443", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "329", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "150", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "200", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "13785", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "6188", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2551", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1197", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "236", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "191", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "46015", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "8787", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2481", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1170", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "539", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "587", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "3102", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "513", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "238", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "135", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "60", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "20484", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "5263", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2218", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "358", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "432", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "94", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "9370", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "9091", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5441", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2539", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1226", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "73", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "50210", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "34575", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "23513", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6317", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "763", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "200", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "62413", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "14401", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5109", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1100", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "442", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1286", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "2775", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1706", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "597", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "700", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "797", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "29974", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "13555", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "9113", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3819", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1020", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "197", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "15246", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "21171", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "30630", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "19303", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "4989", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1892", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "64770", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "73885", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "52943", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "13926", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2637", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1657", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "28320", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "13264", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4834", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1534", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "693", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "132", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "1620", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1277", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1909", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2210", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "260", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "15", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "11713", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "4766", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5673", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3308", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "811", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "110", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "10926", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "16120", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "38864", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "39895", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "18741", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "9079", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "12283", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "21211", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "21630", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "11043", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "4524", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1111", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "2540", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2992", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1485", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1342", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "497", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "246", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "69", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "647", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "454", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "306", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "407", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "618", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "403", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "887", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "554", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "120", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "Black", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "5369", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "3540", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "3078", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2105", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1129", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1591", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "15404", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "9061", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5378", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2498", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "961", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1395", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "59040", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "17326", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "8738", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1734", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "697", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "490", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "68198", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "27430", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "20576", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "7263", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2596", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1116", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "66643", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "31868", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "20626", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6980", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1530", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1165", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6373", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "4221", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "5955", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6661", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2762", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1604", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "16772", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "12708", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "12501", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "7564", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1955", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "555", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "25843", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "11740", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "7488", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1439", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1107", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "268", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "24164", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "20107", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "19308", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "10656", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2829", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "708", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "26749", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "21263", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "19674", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "8556", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "3358", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "736", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "9167", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "10788", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "19474", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "19631", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "10187", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "7313", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "23358", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "21051", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "30933", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "17951", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "8321", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "3799", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "15496", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "12792", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "10216", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6671", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2665", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "656", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "14680", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "16032", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "25102", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "20296", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "5841", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1174", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "17844", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "15123", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "15225", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "10597", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "4625", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "591", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "14446", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "15502", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "38608", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "57292", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "61404", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "65529", 
+            "Gender": "Male", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "14084", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "16909", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "23739", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "20417", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "9955", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "10317", 
+            "Gender": "Male", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "6105", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "4219", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "3698", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "4463", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2210", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "794", 
+            "Gender": "Male", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "4881", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "3859", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "7076", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3824", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "2312", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1361", 
+            "Gender": "Male", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "7444", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "4955", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4586", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2395", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1646", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "934", 
+            "Gender": "Male", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "5449", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1834", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1904", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1264", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "654", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "180", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "27279", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "8130", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4892", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1353", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "207", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "559", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "77059", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "8095", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "3532", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "826", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "741", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "178", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "10056", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1619", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1070", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "473", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "188", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "65596", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "12336", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4200", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "813", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "302", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "248", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "LTHS", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "8206", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "6395", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "8168", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "3953", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "951", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "267", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "58481", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "32082", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "16994", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "6571", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "652", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "763", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "45754", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "7906", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4484", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1474", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "418", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "129", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "4076", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1508", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1005", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1014", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "304", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "25921", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "8320", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4008", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "713", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "173", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "HSGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "14306", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "19127", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "25048", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "13966", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "6542", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "2514", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "57638", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "51724", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "38818", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "11244", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "3648", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "1704", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "24580", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "9696", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "4489", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "2035", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "102", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "86", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "2541", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "1761", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "1493", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "677", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "926", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "94", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "12398", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "4218", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2865", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1237", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "61", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "138", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "SomeColl", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "14018", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "19804", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "43588", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "43090", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "25172", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "16192", 
+            "Gender": "Female", 
+            "Occ": "TopWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "22869", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "21161", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "25105", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "10581", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "4250", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "2577", 
+            "Gender": "Female", 
+            "Occ": "OtrWC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "9899", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "4256", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "2617", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "1356", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "1197", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "0", 
+            "Gender": "Female", 
+            "Occ": "Service", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "972", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "280", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "468", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "79", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "174", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "246", 
+            "Gender": "Female", 
+            "Occ": "TopBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }, 
+        {
+            "Dep": "4178", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "<25K"
+        }, 
+        {
+            "Dep": "2416", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "25-35K"
+        }, 
+        {
+            "Dep": "978", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "35-50K"
+        }, 
+        {
+            "Dep": "782", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "50-70K"
+        }, 
+        {
+            "Dep": "195", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "70-100K"
+        }, 
+        {
+            "Dep": "52", 
+            "Gender": "Female", 
+            "Occ": "OtrBC", 
+            "Racelat": "AllOther", 
+            "Educ": "CollGrad", 
+            "Earning": "100K+"
+        }
+    ]
+}

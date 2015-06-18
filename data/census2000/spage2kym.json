@@ -1,0 +1,1396 @@
+{
+    "numCats": [
+        7, 
+        4, 
+        8
+    ], 
+    "varCats": [
+        {
+            "name": "HRaceLat", 
+            "vars": [
+                "NLWhite", 
+                "Black", 
+                "Asian", 
+                "Latino", 
+                "AmIndian", 
+                "NLOther", 
+                "NLMulti"
+            ]
+        }, 
+        {
+            "name": "HEduc", 
+            "vars": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ]
+        }, 
+        {
+            "name": "WAge", 
+            "vars": [
+                "<23", 
+                "23", 
+                "24", 
+                "25", 
+                "26", 
+                "27", 
+                "28", 
+                "29+"
+            ]
+        }
+    ], 
+    "title": "SPAGE2KYM: 2000 Spouses: married men age 25 by education and wife's age 15-29+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 3, 
+    "varNames": [
+        "HRaceLat", 
+        "HEduc", 
+        "WAge"
+    ], 
+    "data": [
+        {
+            "Dep": "8154", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "5995", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "5469", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "5020", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "4281", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1786", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "1068", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "4059", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "29372", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "14493", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "18856", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "17805", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10796", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "7174", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "4339", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10083", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "24327", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "18522", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "25445", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "22989", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "15141", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "6535", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "4963", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10943", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "6813", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "7707", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "18143", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "23585", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "10436", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3856", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "2060", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "3610", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLWhite"
+        }, 
+        {
+            "Dep": "840", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "721", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "600", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "903", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "884", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "188", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "135", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "750", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "2315", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1721", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "2056", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1441", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1935", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "836", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "745", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1954", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "2198", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "987", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "2532", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "3080", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1766", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1475", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "938", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "2139", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "236", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "378", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "762", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "1829", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "697", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "497", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "274", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "198", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Black"
+        }, 
+        {
+            "Dep": "461", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "185", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "79", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "124", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "53", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "465", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "258", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "149", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "454", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "92", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "290", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "385", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "66", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "689", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "131", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "628", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "436", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "46", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "171", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "196", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "518", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "424", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "539", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "2056", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "689", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "266", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "105", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "226", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Asian"
+        }, 
+        {
+            "Dep": "18722", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6064", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6825", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7425", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2502", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3801", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1630", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "6448", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "7395", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3307", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4603", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "4752", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2233", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1577", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "960", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3243", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "5935", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "2728", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3168", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3821", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1473", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1268", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "485", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "3400", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "829", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "561", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1369", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "1489", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "487", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "497", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "364", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "Latino"
+        }, 
+        {
+            "Dep": "208", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "112", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "324", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "117", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "40", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "168", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "55", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "549", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "44", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "464", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "76", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "126", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "155", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "173", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "63", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "359", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "168", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "16", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "340", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "59", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "694", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "175", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "135", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "AmIndian"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "75", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "147", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "120", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "22", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLOther"
+        }, 
+        {
+            "Dep": "384", 
+            "WAge": "<23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "233", 
+            "WAge": "23", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "416", 
+            "WAge": "24", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "25", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "104", 
+            "WAge": "26", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "88", 
+            "WAge": "27", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "29+", 
+            "HEduc": "LTHS", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "524", 
+            "WAge": "<23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "454", 
+            "WAge": "23", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "671", 
+            "WAge": "24", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "306", 
+            "WAge": "25", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "366", 
+            "WAge": "26", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "757", 
+            "WAge": "27", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "19", 
+            "WAge": "28", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "42", 
+            "WAge": "29+", 
+            "HEduc": "HSGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "1059", 
+            "WAge": "<23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "237", 
+            "WAge": "23", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "272", 
+            "WAge": "24", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "336", 
+            "WAge": "25", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "125", 
+            "WAge": "26", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "152", 
+            "WAge": "27", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "36", 
+            "WAge": "28", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "131", 
+            "WAge": "29+", 
+            "HEduc": "SomeColl", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "396", 
+            "WAge": "<23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "145", 
+            "WAge": "23", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "305", 
+            "WAge": "24", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "277", 
+            "WAge": "25", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "141", 
+            "WAge": "26", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "27", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "0", 
+            "WAge": "28", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }, 
+        {
+            "Dep": "202", 
+            "WAge": "29+", 
+            "HEduc": "CollGrad", 
+            "HRaceLat": "NLMulti"
+        }
+    ]
+}

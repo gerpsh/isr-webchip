@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html ng-app="webchipApp">
+<head>
+	<script src="js/jquery.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/underscore.js"></script>
+	<script src="js/angular.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/webchipControllers.js"></script>
+	<link href="css/webchip.css" rel="stylesheet" type="text/css" />
+</head>
+<body ng-controller="default">
+	<div class="container">
+	  <div class="row">
+	  	<span id="app-title">Webchip 4.0</span>
+	  </div>
+	  <div class="col-md-3 center" id="control-panel">
+	  	<div class="panel">
+	  		<div class="panel-heading clearfix">
+	  			<span class="panel-caption" data-toggle="collapse" data-target="#dataset-options">Choose Dataset</span>
+	  		</div>
+	  		<div class="panel-body" id="dataset-options">
+	        	<select id="dataset-list" ng-model="na1" ng-options="obj.name group by obj.collection for obj in availableDatasets track by obj.path" ng-change="changeDataset()">
+	        		<option value=''>Select Dataset</option>
+	        	</select>
+	        	<br>
+	        	<br>
+	        	<span class="section-caption">Description:</span>
+	        	<p id="dataset-description">
+	        		{{ title }}
+	        	</p>
+	    	</div>
+	  	</div>
+	  	<hr class="panel-divider">
+	  	<div class="panel">
+	  		<div class="panel-heading clearfix">
+	  			<span class="panel-caption" data-toggle="collapse" data-target="#variable-options">Choose Variables</span>
+	  		</div>
+	  		<div class="panel-body" id="variable-options">
+	  			<span class="section-caption">Crosstab Variables:</span><br>
+		        	<select id="crosstab-row" class="select-box" ng-model="na2" ng-options="obj for obj in varNames track by obj">
+		        		<option value=''>Select Row</option>
+		        	</select>
+		    	<br>
+		        	<select id="crosstab-col" class="select-box" ng-model="na3" ng-options="obj for obj in varNames track by obj">
+		        		<option value=''>Select Column</option>
+		        	</select>
+		        <br>
+		        <br>
+		        <span class="section-caption">Single Variable:</span><br>
+		        	<select id="single-var" class="select-box" ng-model="na4" ng-options="obj for obj in varNames track by obj">
+		        		<option value='' selected='selected'>Select Variable</option>
+		        	</select>
+	    	</div>
+	  	</div>
+	  	<hr class="panel-divider">
+	  	<div class="panel">
+	    	<div class="panel-heading clearfix">
+	  			<span class="panel-caption" data-toggle="collapse" data-target="#table-options">Generate Table</span>
+	  		</div>
+	  		<br>
+	  		<div class="panel-body" id="table-options">
+	  			<button disabled id="btn-marginals" class="btn-table">Marginals</button><br>
+	  			<button disabled id="btn-frequency" class="btn-table">Frequency</button><br>
+	  			<button disabled id="btn-pctAcross" class="btn-table">Percent Across</button><br>
+	  			<button disabled id="btn-pctDown" class="btn-table">Percent Down</button><br>
+	  		</div>
+	    </div>
+	    <hr class="panel-divider">
+	    <div class="panel">
+	    	<div class="panel-heading clearfix">
+	  			<span class="panel-caption" data-toggle="collapse" data-target="#chart-options">Generate Chart</span>
+	  		</div>
+	  		<br>
+	  		<div class="panel-body" id="chart-options">
+	  			<button disabled id="btn-barChart" class="btn-chart">Bar Chart</button><br>
+	  			<button disabled id="btn-pieChart" class="btn-chart">Pie Chart</button><br>
+	  			<button disabled id="btn-lineChart" class="btn-chart">Line Chart</button><br>
+	  			<button disabled id="btn-stackedBar" class="btn-chart">Stacked Bar</button><br>
+	  		</div>
+	  	</div>
+	  </div>
+	  
+	  <div class="col-md-7 center" id="workbook">
+
+	  </div>
+	  <div class="col-md-2 center" id="command-history">
+	  	<span class="panel-caption" id="command-history-header">Command History<span>
+	  </div>
+	</div>
+	<script src="js/ui.js"></script>
+</body>
+
+</html>

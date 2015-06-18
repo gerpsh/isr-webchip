@@ -1,0 +1,4765 @@
+{
+    "numCats": [
+        7, 
+        4, 
+        6, 
+        4
+    ], 
+    "varCats": [
+        {
+            "name": "RaceEth", 
+            "vars": [
+                "NHWhite", 
+                " Black", 
+                " Asian", 
+                " Hispanic", 
+                " AmIndian", 
+                " NHOther", 
+                " NHMulti"
+            ]
+        }, 
+        {
+            "name": "Educ", 
+            "vars": [
+                "LTHS", 
+                " HsGrad", 
+                " SomeColl", 
+                " CollGrad"
+            ]
+        }, 
+        {
+            "name": "Marital4", 
+            "vars": [
+                "NvrMrrd", 
+                "LivingTg", 
+                "CurMrrd", 
+                "Divorced", 
+                "Separated", 
+                "Widowed"
+            ]
+        }, 
+        {
+            "name": "Emp2", 
+            "vars": [
+                "EmpFull", 
+                "EmpPart", 
+                "Unempd", 
+                "NILF"
+            ]
+        }
+    ], 
+    "title": "2008 Marital/cohab status by Employment status for women age 25-34, wgtd 2006-08 ACS, SSDAN/U-Mich", 
+    "numOfVars": 4, 
+    "varNames": [
+        "RaceEth", 
+        "Educ", 
+        "Marital4", 
+        "Emp2"
+    ], 
+    "data": [
+        {
+            "Dep": "57622", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "38081", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "20899", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "96265", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "18634", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7564", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "6031", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "22710", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "82086", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "47406", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "22252", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "171693", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "27527", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "11699", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "9888", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "30958", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "15758", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7313", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "5628", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "19245", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "985", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "439", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "569", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2711", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "357378", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "112631", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "47905", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "154247", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "101905", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "25668", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "13525", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "38354", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "601439", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "246496", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "56642", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "474549", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "141727", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "36679", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "20490", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "48499", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "49100", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "15239", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "10884", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "24636", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "5201", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "876", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "885", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4817", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "656116", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "181398", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "51955", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "130497", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "138663", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "34482", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "12204", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "37266", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1118128", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "447172", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "65758", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "621679", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "235630", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "56419", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "18748", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "48116", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "60925", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "19511", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "8813", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "19779", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "5796", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2052", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "723", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "3527", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1167247", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "151358", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "38276", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "96937", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "166414", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "22314", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "4933", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "14146", 
+            "Marital4": "LivingTg", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1676996", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "410207", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "41833", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "516156", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "133845", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "15348", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "4238", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "9913", 
+            "Marital4": "Divorced", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "27585", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "5090", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1540", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "3704", 
+            "Marital4": "Separated", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "4900", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1039", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "169", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1013", 
+            "Marital4": "Widowed", 
+            "RaceEth": "NHWhite", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "66927", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "27170", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "42248", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "88346", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "4465", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1683", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1848", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4433", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "19584", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7082", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "7224", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "24350", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "4560", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2781", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1656", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4923", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "6315", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "3033", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3316", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "6611", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "347", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "217", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "291", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1000", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "251280", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "62822", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "60908", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "114631", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "23356", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "3627", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "4959", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "8540", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "100647", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "20587", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "14703", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "44542", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "25713", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4873", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3902", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "7460", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "22567", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4726", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "4659", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "8933", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1745", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "375", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "444", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1105", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "349713", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "77835", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "53071", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "80239", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "25713", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "5277", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2502", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4881", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "173313", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "32193", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "17454", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "50374", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "45339", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7696", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "4419", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "8661", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "34458", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7246", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "5314", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "8892", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1532", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "399", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "554", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "596", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "258113", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "28949", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "14549", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "24334", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "15790", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1446", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1402", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1234", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "140752", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "14601", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "6576", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "21210", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "21955", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1932", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "954", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1562", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "11552", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1346", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "565", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "908", 
+            "Marital4": "Separated", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "950", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "61", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "38", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "281", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Black", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "6032", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2705", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "661", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4826", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "929", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "77", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "189", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "590", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "17426", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4412", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1468", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "21655", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1215", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "628", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "69", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "587", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "759", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "277", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "232", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "74", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "53", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "162", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "21419", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "5977", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2378", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "9090", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3429", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "516", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "315", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "941", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "41331", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "12218", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3883", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "38950", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3931", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "966", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "357", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1032", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1347", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "541", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "135", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "429", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "477", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "18", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "22", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "293", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "42159", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "13070", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3893", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "17395", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "7254", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1806", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "495", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2134", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "65774", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "17244", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "5204", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "48037", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "7302", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1766", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "588", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1885", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2826", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "791", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "541", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "223", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "441", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "78", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "99", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "14", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "157501", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "25018", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "7297", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "38929", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "14187", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1726", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "350", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2958", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "231900", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "42532", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "13688", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "164875", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "10180", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "984", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "420", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1491", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2527", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "486", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "218", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "411", 
+            "Marital4": "Separated", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "767", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "101", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "104", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "261", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Asian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "109674", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "32964", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "21029", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "104420", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "20747", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "8951", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "5709", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "39389", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "171050", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "64407", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "35740", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "358498", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "19727", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "5913", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3089", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "9615", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "28447", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "8836", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "7461", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "18882", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1996", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "795", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "828", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2300", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "163381", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "36159", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "18153", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "72236", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "29613", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7574", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3601", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "21277", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "214996", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "60593", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "25658", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "227555", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "34909", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "6216", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3861", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "9468", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "29152", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "5955", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "4214", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "12182", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2255", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "159", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "582", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1673", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "186046", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "43133", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "16873", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "45198", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "26351", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "5587", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2444", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "10342", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "229608", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "62933", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "18092", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "129667", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "46323", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7916", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3845", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "9023", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "23631", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "6314", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3406", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "7004", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2101", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "580", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "194", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "846", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "142549", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "18640", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "6160", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "17770", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "14774", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2854", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "730", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4084", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "167670", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "30558", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "7384", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "60838", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "19379", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1651", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1037", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2001", 
+            "Marital4": "Divorced", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "6854", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "898", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "638", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1207", 
+            "Marital4": "Separated", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "688", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "229", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "23", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "334", 
+            "Marital4": "Widowed", 
+            "RaceEth": " Hispanic", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3147", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1466", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2217", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "5521", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "486", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "49", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "102", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1459", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2605", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1318", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "692", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "6622", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "790", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "304", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "443", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1209", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "513", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "176", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "250", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "887", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "38", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "40", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "68", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "9980", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "3351", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2642", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "6192", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1769", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "377", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "324", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "977", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "7323", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2671", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1243", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "7854", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2791", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "441", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "362", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1275", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1351", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "130", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "203", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "406", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "19", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "113", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "269", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "13325", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2924", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1947", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4550", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2190", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "725", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "410", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1097", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "13560", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "2956", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "628", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "7350", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3203", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "993", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "676", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1556", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1458", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "286", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "63", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "684", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "239", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "171", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "20", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "100", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "5398", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "962", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "409", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "841", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "745", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "35", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "75", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "222", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "7869", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1547", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "309", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2132", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1272", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "6", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "13", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "39", 
+            "Marital4": "Divorced", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "216", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "56", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "57", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "61", 
+            "Marital4": "Separated", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "218", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " AmIndian", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1707", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "335", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "299", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "960", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "149", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "75", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "583", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1371", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "805", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "56", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2339", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "434", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "94", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "261", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "30", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "116", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "60", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "50", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "164", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "68", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2292", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1054", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "595", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "991", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "517", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "67", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "298", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "4232", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "904", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "431", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "3456", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "344", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "140", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "18", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "146", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "210", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "69", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3817", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1113", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "592", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1080", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "255", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "88", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "16", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "187", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3621", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1109", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "333", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "2558", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1139", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "111", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "90", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "105", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "445", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "52", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "37", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "49", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "4708", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "897", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "245", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "615", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "831", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "109", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "85", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "5714", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1090", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "331", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "4145", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "527", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "91", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "16", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "23", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "131", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "8", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "78", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHOther", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2862", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1454", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "952", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "3869", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "507", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "150", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "77", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "820", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "2000", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1304", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "401", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "3172", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "219", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "215", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "279", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "681", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "478", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "649", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "245", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "658", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "22", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "25", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": "LTHS", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "11260", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4208", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2773", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "6179", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1810", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "554", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "277", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1192", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "9619", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4267", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1794", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "8110", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3105", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "856", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "459", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1169", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1243", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "550", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "457", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "892", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "92", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "104", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " HsGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "25056", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "7607", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "3390", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "6618", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3773", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1209", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "475", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1201", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "22865", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "8412", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "2213", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "14363", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "6543", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "1123", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1202", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "1446", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "1756", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "859", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "537", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "696", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "300", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "99", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "234", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " SomeColl", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "28309", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4862", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1971", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "3190", 
+            "Marital4": "NvrMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "4168", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "572", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "480", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "568", 
+            "Marital4": "LivingTg", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "23960", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "4644", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "1044", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "8148", 
+            "Marital4": "CurMrrd", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "3484", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "465", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "44", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "111", 
+            "Marital4": "Divorced", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "538", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "34", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "114", 
+            "Marital4": "Separated", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }, 
+        {
+            "Dep": "144", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpFull"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "EmpPart"
+        }, 
+        {
+            "Dep": "0", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "Unempd"
+        }, 
+        {
+            "Dep": "65", 
+            "Marital4": "Widowed", 
+            "RaceEth": " NHMulti", 
+            "Educ": " CollGrad", 
+            "Emp2": "NILF"
+        }
+    ]
+}
