@@ -1,843 +1,258 @@
-//load json file
-/*function load(filename, func) {
-	$.getJSON(filename, function(data) {
-		if (func == "marginals") {
-			marginals(data);
-		}
-		else if (func == "crosstab") {
-			crosstabReadVar(data);
-		}
-		else if (func == "linechartPA") {
-			lineChart(data,"crosstabPerAcross");
-		}
-		else if (func == "linechartPD") {
-			lineChart(data,"crosstabPerDown");
-		}
-		else if (func == "barchartPA") {
-			barChart(data,"crosstabPerAcross");
-		}
-		else if (func == "barchartPD") {
-			barChart(data,"crosstabPerDown");
-		}
-		else if (func == "stackedbarPA") {
-			stackedBar(data,"crosstabPerAcross");
-		}
-		else if (func == "stackedbarPD") {
-			stackedBar(data,"crosstabPerDown");
-		}
-		else if (func == "piechartPA") {
-			pieChart(data,"crosstabPerAcross");
-		}
-		else if (func == "piechartPD") {
-			pieChart(data,"crosstabPerDown");
-		}
-		else if (func == "singleLC") {
-			singleLineChart(data);
-		}
-		else if (func == "singleBC") {
-			singleBarChart(data);
-		}
-		else if (func == "singleSB") {
-			singleStackedBar(data);
-		}
-		else if (func == "singlePC") {
-			singlePieChart(data);
-		}
-	});
-}*/
 
-//find names of variables in data
-function discoverVar(data) {
-	var variables = new Array();
-	for (var name in data[0]) {
-		if (name != "Dep") {
-			variables.push(name);
-		}
-	}
-	return variables;
+function copyObject(obj) {
+	return JSON.parse(JSON.stringify(obj));
 }
 
-//prepare data for Marginals and charts for single variable
-function marginalsData(data) {
-	var variables = discoverVar(data);
-	var tdata = new Object();
-	var total = new Object();
-	for (var i=0; i<variables.length; i++) {
-		var variable = variables[i];
-		tdata[variable] = {};
-		total[variable] = 0; 
-		//"total" will be the same for every variable. Using an object is for preparing for omit/combine.
-		for (var j=0; j<data.length; j++) {
-			var value = Number(data[j].Dep);
-			var valOfVar = data[j][variable];
-			if (tdata[variable].hasOwnProperty(valOfVar)) {
-				tdata[variable][valOfVar] += value;
-				total[variable] += value;
-			}
-			else {
-				tdata[variable][valOfVar] = value;
-				total[variable] += value;
-			}
-		}
-	}
-	return [tdata,total];
+function nSum(data) {
+	return _.reduce(_.pluck(data, "Dep"), function(sum, el) { return sum + parseInt(el); }, 0);
 }
 
-//Marginals function 
-function marginals(data) {
-	var processedData = marginalsData(data);
-	var tdata = processedData[0];
-	var total = processedData[1];
-	var html = "";
-	for (var variable in tdata) {
-		html += "<br/>";
-		html += variable;
-		html += "<br/><table><tr>";
-		//print names of the variable 
-		for (var name in tdata[variable]) {
-			html += "<td>";
-			html += name;
-			html += "</td>"
-		}
-		html += "</tr><tr>"
-		//print percentages
-		for (var name in tdata[variable]) {
-			html += "<td>";
-			html += ((tdata[variable][name]/total[variable])*100).toFixed(1);
-			html += "%</td>";
-		}
-		html += "</tr><tr>"
-		//print numbers
-		for (var name in tdata[variable]) {
-			html += "<td>";
-			html += tdata[variable][name].toLocaleString();
-			html += "</td>";
-		}
-		html += "</tr></table>";
-	}
-	$(html).appendTo( "#workbook" );
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-//previous Marginals function
-/*function marginals1(data) {
-	var variables = discoverVar(data);
-	var html = "";
-	for (var i=0; i<variables.length; i++) {
-		var variable = variables[i];
-		var total = 0;
-		var tdata = new Object();
-		html += "<br/>";
-		html += variable;
-		html += "<br/><table><tr>";
-		for (var j=0; j<data.length; j++) {
-			var value = Number(data[j].Dep);
-			var valOfVar = data[j][variable];
-			if (tdata.hasOwnProperty(valOfVar)) {
-				tdata[valOfVar] += value;
-				total += value;
-			}
-			else {
-				tdata[valOfVar] = value;
-				total += value;
-			}
-		}
-		//print names of the variable 
-		for (var name in tdata) {
-			html += "<td>";
-			html += name;
-			html += "</td>"
-		}
-		html += "</tr><tr>"
-		//print percentages
-		for (var name in tdata) {
-			html += "<td>";
-			html += ((tdata[name]/total)*100).toFixed(1);
-			html += "%</td>";
-		}
-		html += "</tr><tr>"
-		//print numbers
-		for (var name in tdata) {
-			html += "<td>";
-			html += tdata[name].toLocaleString();
-			html += "</td>";
-		}
-		html += "</tr></table>";
-	}
-	$(html).appendTo( "#table1" );
-}*/
-
-//read row name and column name of Crosstab
-function crosstabReadVar(data) {
-	var rowname = "RaceEth";
-	var colname = "Earn2";
-	crosstab(data, rowname,colname)
+function percentify(x) {
+	return x.toString() + '%'
 }
 
-//Crosstab function
-function crosstab(data,rowname,colname) {
-	var html = "<br/>Crosstab: "+rowname+"/"+colname+"<br/><table><tr><td></td>";
-	var tdata = new Object();
-	var total = 0;
-	//sum of every attribute in row 
-	var rowSummary = new Object();
-	//sum of every attribute in column 
-	var colSummary = new Object();
-	for (var i=0; i<data.length; i++) {
-		var rowvar = data[i][rowname];
-		var colvar = data[i][colname];
-		var value = Number(data[i].Dep);
-		if (tdata.hasOwnProperty(rowvar)) {
-			if (tdata[rowvar].hasOwnProperty(colvar)) {
-				tdata[rowvar][colvar] += value;
-				total += value;
-				rowSummary[rowvar] += value;
-				colSummary[colvar] += value;
-			}
-			else {
-				tdata[rowvar][colvar] = value;
-				total += value;
-				rowSummary[rowvar] += value;
-				if (colSummary.hasOwnProperty(colvar)) {
-					colSummary[colvar] += value;
-				}
-				else {
-					colSummary[colvar] = value;
-				}
-			}
-		}
-		else {
-			tdata[rowvar] = {};
-			tdata[rowvar][colvar] = value;
-			total += value;
-			rowSummary[rowvar] = value;
-			if (colSummary.hasOwnProperty(colvar)) {
-				colSummary[colvar] += value;
-			}
-			else {
-				colSummary[colvar] = value;
-			}
-		}
-	}
-	//will change
-	corssway = "crosstabPerDown";
-	//crosstabFreq
-	if (corssway == "crosstabFreq") {
-		for (var nameCol in colSummary) {
-			html += "<td>";
-			html += nameCol;
-			html += "</td>";
-		}
-		html += "<td>TOTAL</td></tr>";
-		for (var nameRow in tdata) {
-			html += "<tr><td>";
-			html += nameRow;
-			html += "</td>";
-			for (var nameCol in colSummary) {
-				html += "<td>";
-				html += tdata[nameRow][nameCol].toLocaleString();
-				html += "</td>";
-			}
-			html += "<td>";
-			html += rowSummary[nameRow].toLocaleString();
-			html += "</td>";
-			html += "</tr>";
-		}
-		html += "<tr><td>TOTAL</td>";
-		for (var nameCol in colSummary) {
-			html += "<td>";
-			html += colSummary[nameCol].toLocaleString();
-			html += "</td>";
-		}
-		html += "</tr></table>";
-	}
-	//crosstabPerAcross
-	else if (corssway == "crosstabPerAcross") {
-		for (var nameCol in colSummary) {
-			html += "<td>";
-			html += nameCol;
-			html += "</td>";
-		}
-		html += "<td>TOTAL</td></tr>";
-		for (var nameRow in tdata) {
-			html += "<tr><td>";
-			html += nameRow;
-			html += "</td>";
-			for (var nameCol in colSummary) {
-				html += "<td>";
-				html += (tdata[nameRow][nameCol]/rowSummary[nameRow]*100).toFixed(1);
-				html += "%</td>";
-			}
-			html += "<td>100%</td>";
-			html += "</tr>";
-		}
-		html += "<tr><td>TOTAL</td>";
-		for (var nameCol in colSummary) {
-			html += "<td>";
-			html += (colSummary[nameCol]/total*100).toFixed(1);
-			html += "%</td>";
-		}
-		html += "</tr></table>";
-	}
-	//crosstabPerDown
-	else if (corssway == "crosstabPerDown") {
-		//the first row
-		for (var nameCol in colSummary) {
-			html += "<td>";
-			html += nameCol;
-			html += "</td>";
-		}
-		html += "<td>TOTAL</td></tr>";
-		//other rows(excluding the first row and the last row)
-		for (var nameRow in tdata) {
-			html += "<tr><td>";
-			html += nameRow;
-			html += "</td>";
-			for (var nameCol in colSummary) {
-				html += "<td>";
-				html += (tdata[nameRow][nameCol]/colSummary[nameCol]*100).toFixed(1);
-				html += "%</td>";
-			}
-			html += "<td>";
-			html += (rowSummary[nameRow]/total*100).toFixed(1);
-			html += "%</td>";
-			html += "</tr>";
-		}
-		//the last row
-		html += "<tr><td>TOTAL</td>";
-		for (var nameCol in colSummary) {
-			html += "<td>100%</td>";
-		}
-		html += "</tr></table>";
-	}
-	$(html).appendTo( "#table1" ); 
-}
 
-//function crosstabFreq
- 
-//process data for charts of two variables
-function chartData(data,rowname,colname) {
-	var tdata = new Object();
-	//var total = 0;
-	//sum of every attribute in row 
-	var rowSummary = new Object();
-	//sum of every attribute in column 
-	var colSummary = new Object();
-	for (var i=0; i<data.length; i++) {
-		var rowvar = data[i][rowname];
-		var colvar = data[i][colname];
-		var value = Number(data[i].Dep);
-		if (tdata.hasOwnProperty(rowvar)) {
-			if (tdata[rowvar].hasOwnProperty(colvar)) {
-				tdata[rowvar][colvar] += value;
-				//total += value;
-				rowSummary[rowvar] += value;
-				colSummary[colvar] += value;
-			}
-			else {
-				tdata[rowvar][colvar] = value;
-				//total += value;
-				rowSummary[rowvar] += value;
-				if (colSummary.hasOwnProperty(colvar)) {
-					colSummary[colvar] += value;
-				}
-				else {
-					colSummary[colvar] = value;
-				}
-			}
-		}
-		else {
-			tdata[rowvar] = {};
-			tdata[rowvar][colvar] = value;
-			//total += value;
-			rowSummary[rowvar] = value;
-			if (colSummary.hasOwnProperty(colvar)) {
-				colSummary[colvar] += value;
-			}
-			else {
-				colSummary[colvar] = value;
-			}
-		}
-	}
-	return [tdata,rowSummary,colSummary];
-}
-
-function lineChart(data, corssway) {
-	var rowname = "RaceEth";
-	var colname = "Earn2";
-	var processedData = chartData(data,rowname,colname);
- 	var finalData = new Array();
-	var catename = new Array();
-	var html = '';
-	//crosstabPerAcross
-	if (corssway == "crosstabPerAcross") {
-		html = '<h2>'+rowname+' by '+colname+'</h2>';		
-		var chartdata1 = dataPerAcross(processedData);
-		finalData = chartdata1[0];
-		catename = chartdata1[1];
-	}
-	//crosstabPerDown
-	else if (corssway == "crosstabPerDown") {
-		html = '<h2>'+colname+' by '+rowname+'</h2>';
-		var chartdata1 = dataPerDown(processedData);
-		finalData = chartdata1[0];
-		catename = chartdata1[1];
-	}
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
+/*
+compute marginals, returns object like:
+	[
+		{"name": "VariableName1",
+		 "margs": [
+		 	{"category": "categoryName1",
+		 	 "pct": percent1,
+		 	 "count": count1},
+		 	{"category": "categoryName2",
+		 	 "pct": percent2,
+		 	 "count": count2},
+		 ]
 		},
-		data: {
-			columns: finalData,
-		},
-		tooltip: {
-			format:{
-				value:function(x){
-					return x+'%';
-				}
-			}
-		},
-		axis: {
-			x: {
-				type: 'category',
-				categories: catename
-			},
-			y: {
-				label: {
-					text: 'Percentage',
-					position: 'outer-middle'
-				}
-			}
-		}
-	});
-	$(html).appendTo( "#chart1" ); 
-	$(chart.element).appendTo("#chart1");
-}
-
-function barChart(data, corssway) {
-	var rowname = "RaceEth";
-	var colname = "Earn2";
-	var processedData = chartData(data,rowname,colname);
- 	var finalData = new Array();
-	var catename = new Array();
-	var html = '';
-	//crosstabPerAcross
-	if (corssway == "crosstabPerAcross") {
-		html = '<h2>'+rowname+' by '+colname+'</h2>';		
-		var chartdata1 = dataPerAcross(processedData);
-		finalData = chartdata1[0];
-		catename = chartdata1[1];
-	}
-	//crosstabPerDown
-	else if (corssway == "crosstabPerDown") {
-		html = '<h2>'+colname+' by '+rowname+'</h2>';
-		var chartdata1 = dataPerDown(processedData);
-		finalData = chartdata1[0];
-		catename = chartdata1[1];
-	}
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
-		},
-		data: {
-			columns: finalData,
-			type: 'bar'
-		},
-		tooltip: {
-			format:{
-				value:function(x){
-					return x+'%';
-				}
-			}
-		},
-		bar: {
-			width: {
-				rato:0.5
-			}
-		},
-		axis: {
-			x: {
-				type: 'category',
-				categories: catename
-			},
-			y: {
-				label: {
-					text: 'Percentage',
-					position: 'outer-middle'
-				}
-			}
-		}
-	});
-	$(html).appendTo( "#chart1" );	
-	$(chart.element).appendTo("#chart1");
-}
-
-function stackedBar(data, corssway) {
-	var rowname = "RaceEth";
-	var colname = "Earn2";
-	var processedData = chartData(data,rowname,colname);
- 	var finalData = new Array();
-	var catename = new Array();
-	var dataname = new Array();
-	var html = '';
-	//crosstabPerAcross
-	if (corssway == "crosstabPerAcross") {
-		html = '<h2>'+rowname+' by '+colname+'</h2>';		
-		var chartdata1 = dataPerAcross(processedData);
-		finalData = chartdata1[0];
-		catename = chartdata1[1];
-		dataname = chartdata1[2];
-	}
-	//crosstabPerDown
-	else if (corssway == "crosstabPerDown") {
-		html = '<h2>'+colname+' by '+rowname+'</h2>';
-		var chartdata1 = dataPerDown(processedData);
-		finalData = chartdata1[0];
-		catename = chartdata1[1];
-		dataname = chartdata1[2];
-	}
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
-		},
-		data: {
-			columns: finalData,
-			type: 'bar',
-			groups: [
-				dataname
-			],
-			order: null
-		},
-		tooltip: {
-			format:{
-				value:function(x){
-					return x+'%';
-				}
-			}
-		},
-		bar: {
-			width: {
-				rato:0.5
-			}
-		},
-		axis: {
-			x: {
-				type: 'category',
-				categories: catename
-			},
-			y: {
-				label: {
-					text: 'Percentage',
-					position: 'outer-middle'
-				}
-			}
-		}
-	});
-	$(html).appendTo( "#chart1" ); 
-	$(chart.element).appendTo("#chart1");
-}
-
-function pieChart(data, corssway) {
-	var rowname = "RaceEth";
-	var colname = "Earn2";
-	var processedData = chartData(data,rowname,colname);
- 	var finalData = new Array();
-	var html = '';
-	//crosstabPerAcross
-	if (corssway == "crosstabPerAcross") {		
-		var chartdata1 = dataPerDown(processedData);
-		finalData = chartdata1[3];
-	}
-	//crosstabPerDown
-	else if (corssway == "crosstabPerDown") {
-		var chartdata1 = dataPerAcross(processedData);
-		finalData = chartdata1[3];
-	}
-	for (var title in finalData) {
-		html = '<h2>';
-		html += title;
-		html += '</h2>';
-		var chart = c3.generate({
-			size: {
-				height: 390
-			},
-			data: {
-				columns: finalData[title],
-				type: 'pie',
-				order: null
-			}
-			/* pie: {
-				label: {
-					threshold: 0.001
-				}
-			}, */
-/* 			tooltip: {
-				format:{
-					value:function(x){
-						return x.toLocaleString();
-					}
-				}
-			} */
+		...
+	]
+*/
+function marginals(dataset) {
+	var data = dataset["theData"];
+	var totalSum = nSum(data);
+	var vars = dataset["varNames"];
+	var cats = _.pluck(dataset["varCats"], "cats");
+	var margs = [];
+	//counter to keep track of category names within variables
+	var i = 0;
+	_.each(vars, function(v) {
+		var rcd = {"name": String(v), "margs": []}
+		_.each(cats[i], function(cat) {
+			var searchObj = {};
+			searchObj[v] = cat;
+			var matches = _.where(data, searchObj);
+			var localSum = nSum(matches);
+			var pct = localSum/totalSum;
+			var margObj = {"category": String(cat), "pct": parseFloat((parseFloat(pct) * 100).toFixed(2)), "count": localSum};
+			rcd["margs"].push(margObj);
 		});
-		$(html).appendTo("#chart1");
-		$(chart.element).appendTo("#chart1");
-	}
-}
-
-function dataPerAcross(data) {
-	var tdata = data[0];
-	var rowSummary = data[1];
-	var colSummary = data[2];
-	var finalData = new Array();
-	var finalDataPie = new Object();
-	var catename = new Array();
-	var dataname = new Array();
-	var i = 0;
-	for (var nameCol in colSummary) {
-		finalDataPie[nameCol] = [];
-		dataname.push(nameCol);
-		finalData.push([]);
-		finalData[i].push(nameCol);
-		for (var nameRow in tdata) {
-			var temp = [];
-			temp.push(nameRow);
-			temp.push(tdata[nameRow][nameCol]);
-			finalDataPie[nameCol].push(temp);
-			finalData[i].push((tdata[nameRow][nameCol]/rowSummary[nameRow]*100).toFixed(3));
-		}
+		margs.push(rcd);
 		i++;
-		}
-	for (var nameRow in rowSummary) {
-		catename.push(nameRow);
-	}
-	return [finalData,catename,dataname,finalDataPie];
-}
-
-function dataPerDown(data) {
-	var tdata = data[0];
-	var rowSummary = data[1];
-	var colSummary = data[2];
-	var finalData = new Array();
-	var finalDataPie = new Object();
-	var catename = new Array();
-	var dataname = new Array();
-	var i = 0;
-	for (var nameRow in rowSummary) {
-		finalDataPie[nameRow] = [];
-		dataname.push(nameRow);
-		finalData.push([]);
-		finalData[i].push(nameRow);
-		for (var nameCol in tdata[nameRow]) {
-			var temp = [];
-			temp.push(nameCol);
-			temp.push(tdata[nameRow][nameCol]);
-			finalDataPie[nameRow].push(temp);
-			finalData[i].push((tdata[nameRow][nameCol]/colSummary[nameCol]*100).toFixed(3));
-		}
-		i++;
-	}
-	for (var nameCol in colSummary) {
-		catename.push(nameCol);
-	}
-	return [finalData,catename,dataname,finalDataPie]; 
-}
-
-/* functions for charts of single variable */
-//can be combined with crosstabReadVar (run this function when any value is "".)
-//this function will be changed after having UI
-function singleVarChartReader(variable) {
-	return variable;
-}
-
-function singleVarChartData(data,variable) {
-	var processedData = marginalsData(data);
-	var variable = variable;
-	var tdata = processedData[0];
-	var total = processedData[1];
-	var finalData = new Array();
-	var catename = new Array();
-	var finalDataSB = new Array();
-	var finalDataPC = new Array();
-	for (var name in tdata[variable]) {
-		catename.push(name);
-		var value = tdata[variable][name];
-		var valuePer = (tdata[variable][name]/total[variable]*100).toFixed(3);
-		finalData.push(valuePer);
-		var tempSB = [];
-		tempSB.push(name);
-		tempSB.push(valuePer);
-		finalDataSB.push(tempSB);
-		var tempPC = [];
-		tempPC.push(name);
-		tempPC.push(value);
-		finalDataPC.push(tempPC);
-	}
-	finalData.unshift(variable);
-	return [finalData,catename,finalDataSB,finalDataPC];
-}
-
-//line chart of single variable
-function singleLineChart(data) {
-	var variable = "AgePro";
-	var processedData = singleVarChartData(data,variable);
-	var finalData = processedData[0];
-	var catename = processedData[1];
-	var html = '<h2>'+variable+'</h2>';
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
-		},
-		data: {
-			columns: [finalData],
-		},
-		tooltip: {
-			format:{
-				value:function(x){
-					return x+'%';
-				}
-			}
-		},
-		axis: {
-			x: {
-				type: 'category',
-				categories: catename
-			},
-			y: {
-				label: {
-					text: 'Percentage',
-					position: 'outer-middle'
-				}
-			}
-		}
 	});
-	$(html).appendTo( "#chart1" ); 
-	$(chart.element).appendTo("#chart1");
+	return margs;
 }
 
-//bar chart of single variable
-function singleBarChart(data) {
-	var variable = "AgePro";
-	var processedData = singleVarChartData(data,variable);
-	var finalData = processedData[0];
-	var catename = processedData[1];
-	var html = '<h2>'+variable+'</h2>';
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
-		},
-		data: {
-			columns: [finalData],
-			type: 'bar'
-		},
-		bar: {
-			width: {
-				rato:0.5
-			}
-		},
-		tooltip: {
-			format:{
-				value:function(x){
-					return x+'%';
-				}
-			}
-		},
-		axis: {
-			x: {
-				type: 'category',
-				categories: catename
-			},
-			y: {
-				label: {
-					text: 'Percentage',
-					position: 'outer-middle'
-				}
-			}
-		}
+//generates a marginals table for one variable, this gets repeated in next function
+function generateMarginalTable(marginalsData) {
+	var varName = marginalsData["name"];
+	var categories = _.pluck(marginalsData["margs"], "category");
+	var pcts = _.pluck(marginalsData["margs"], "pct");
+	var counts = _.pluck(marginalsData["margs"], "count");
+	var html = "<p><u>" + varName + "</u></p><table><tr>";
+	_.each(categories, function(c) {
+		html += "<th>" + c + "</th>";
 	});
-	$(html).appendTo( "#chart1" );
-	$(chart.element).appendTo("#chart1");
+	html += "</tr><tr>"
+	_.each(pcts, function(p) {
+		html += "<td>" + p + "%</td>";
+	});
+	html += "</tr><tr>"
+	_.each(counts, function(c) {
+		html += "<td>" + numberWithCommas(c) + "</td>";
+	});
+	html += "</tr></table><br>"
+	return html;
 }
 
-function singleStackedBar(data) {
-	var variable = "AgePro";
-	var processedData = singleVarChartData(data,variable);
-	var finalData = processedData[2];
-	var catename = processedData[1];
-	var html = '<h2>'+variable+'</h2>';
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
-		},
-		data: {
-			columns: finalData,
-			type: 'bar',
-			groups: [
-				catename
-			],
-			order: null
-		},
-		tooltip: {
-			format:{
-				value:function(x){
-					return x+'%';
-				}
-			}
-		},
-		bar: {
-			width: {
-				rato:0.5
-			}
-		},
-		axis: {
-			x: {
-				type: 'category',
-				categories: [variable]
-			},
-			y: {
-				label: {
-					text: 'Percentage',
-					position: 'outer-middle'
-				}
-			}
-		}
+//generates all tables for marginals
+function generateMarginalTables(marginalsData) {
+	var html = ""
+	_.each(marginalsData, function(m) {
+		html += generateMarginalTable(m);
 	});
-	$(html).appendTo( "#chart1" ); 
-	$(chart.element).appendTo("#chart1");	
+	return html;
 }
 
-function singlePieChart(data) {
-	var variable = "AgePro";
-	var processedData = singleVarChartData(data,variable);
-	var finalData = processedData[3];
-	var html = '<h2>'+variable+'</h2>';
-	var chart = c3.generate({
-		//bindto: '#chart1',
-		size: {
-			height: 390
-		},
-		data: {
-			columns: finalData,
-			type: 'pie',
-			order: null
-		}
-		/* pie: {
-			label: {
-				threshold: 0.001
-			}
-		}, */
-	/* 	tooltip: {
-			format:{
-				value:function(x){
-					return x.toLocaleString();
-				}
-			}
-		} */
+/*
+  Compute frequency table numbers
+  Returns an object collection, e.g. [{"row":"25-44", "col":"male", "total": 3645}, ...]
+  Object will be ordered by row then column, allowing for easier output
+  "row total" cells will be interspersed throughout the dictionary, at regular intervals,
+  and "column total" cells will be the final elements of the collections
+*/
+function frequency(dataset, row, col) {
+	var data = dataset["theData"];
+	var vars = dataset["varNames"];
+	var cats = _.pluck(dataset["varCats"], "cats");
+	var rowIndex = vars.indexOf(row);
+	var colIndex = vars.indexOf(col);
+	var rowCats = cats[rowIndex];
+	var colCats = cats[colIndex];
+	var freqs = [];
+	_.each(rowCats, function(rc) {
+		_.each(colCats, function(cc) {
+			var searchObj = {}
+			searchObj[row] = rc;
+			searchObj[col] = cc;
+			var matches = _.where(data, searchObj);
+			var total = nSum(matches);
+			var returnObj = {"row": rc, "col": cc, "total": parseInt(total)}
+			freqs.push(returnObj);
+		});
+		var searchObj = {};
+		searchObj[row] = rc;
+		var matches = _.where(data, searchObj);
+		var rowTotal = nSum(matches);
+		var returnObj = {"row": rc, "col": "Total", "total": rowTotal};
+		freqs.push(returnObj);
 	});
-	$(html).appendTo("#chart1");
-	$(chart.element).appendTo("#chart1");
+	_.each(colCats, function(cc) {
+		var searchObj = {}
+		searchObj[col] = cc;
+		var matches = _.where(data, searchObj);
+		var total = nSum(matches);
+		var returnObj = {"row": "Total", "col": cc, "total": total};
+		freqs.push(returnObj);
+	});
+	
+	return freqs;
+}
+
+/*
+	Returns object collection similar to frequency return value, except with percents and not counts
+*/
+function pctAcross(dataset, row, col) {
+	var data = dataset["theData"];
+	var grandTotal = nSum(data);
+	var vars = dataset["varNames"];
+	var cats = _.pluck(dataset["varCats"], "cats");
+	var rowIndex = vars.indexOf(row);
+	var colIndex = vars.indexOf(col);
+	var rowCats = cats[rowIndex];
+	var colCats = cats[colIndex];
+	var pcts = [];
+	_.each(rowCats, function(rc) {
+		var rowSearch = {};
+		rowSearch[row] = rc;
+		var rowMatches = _.where(data, rowSearch);
+		rowTotal = nSum(rowMatches);
+		_.each(colCats, function(cc) {
+			var colSearch = {};
+			colSearch[col] = cc;
+			var colMatches = _.where(rowMatches, colSearch);
+			var colTotal = nSum(colMatches);
+			var cellPct = parseFloat((parseFloat(colTotal/rowTotal) * 100).toFixed(1));
+			var cellObj = {"row": rc, "col": cc, "total": cellPct}
+			pcts.push(cellObj);
+		});
+		pcts.push({"row": rc, "col": "Total", "total": 100.0});
+	});
+	_.each(colCats, function(cc) {
+		var searchObj = {};
+		searchObj[col] = cc;
+		var matches = _.where(data, searchObj);
+		var colTotal = parseFloat((parseFloat(nSum(matches)/grandTotal) * 100).toFixed(1));
+		pcts.push({"row": "Total", "col": cc, "total": colTotal});
+	});
+	return pcts;
+}
+
+function pctDown(dataset, row, col) {
+	var data = dataset["theData"];
+	var grandTotal = nSum(data);
+	var vars = dataset["varNames"];
+	var cats = _.pluck(dataset["varCats"], "cats");
+	var rowIndex = vars.indexOf(row);
+	var colIndex = vars.indexOf(col);
+	var rowCats = cats[rowIndex];
+	var colCats = cats[colIndex];
+	var pcts = [];
+	_.each(rowCats, function(rc) {
+		_.each(colCats, function(cc) {
+			var totalObj = {};
+			totalObj[col] = cc;
+			var totalSum = nSum(_.where(data, totalObj));
+			var cellObj = {};
+			cellObj[row] = rc;
+			cellObj[col] = cc;
+			var cellSum = nSum(_.where(data, cellObj));
+			var cellPct = parseFloat((parseFloat(cellSum/totalSum) * 100).toFixed(1));
+			pcts.push({"row": rc, "col": cc, "total": cellPct});
+		});
+		var rowObj = {};
+		rowObj[row] = rc;
+		var rowSum = nSum(_.where(data, rowObj));
+		var rowTotalPct = parseFloat((parseFloat(rowSum/grandTotal) * 100).toFixed(1));
+		pcts.push({"row": rc, "col": "Total", "total": rowTotalPct});
+	});
+	_.each(colCats, function(cc) {
+		pcts.push({"row": "Total", "col": cc, "total": 100.0});
+	});
+	return pcts;
+}
+
+
+//generates table for frequencies and pct across/down
+function generateGeneralTable(tableData, type) {
+	var transform;
+	if (type == 'count') {
+		transform = numberWithCommas;
+	} else if (type == 'pct') {
+		transform = percentify;
+	}
+
+	var rows = _.uniq(_.pluck(tableData, "row"));
+	var cols = _.uniq(_.pluck(tableData, "col"));
+	var splitData = []
+	_.each(rows, function(rc) {
+		matches = _.where(tableData, {"row": rc})
+		splitData.push(matches);
+	});
+	var html = "<table><tr><th></th>";
+	_.each(cols, function(c) {
+		html += "<th>" + c + "</th>";
+	});
+	html += "</tr>"
+	_.each(splitData, function(splitDatum) {
+		var row = splitDatum[0]["row"];
+		html += "<tr><td><b>" + row + "</b></td>";
+		_.each(splitDatum, function(d) {
+			html += "<td>" + transform(d["total"]) + "</td>";
+		});
+		html += "</tr>"
+	});
+	html += "</table>";
+	
+	return html;
+}
+
+//returns collection of dataset controlled by controle variable specified
+function controlData(dataset, control) {
+	theDataset = copyObject(dataset);
+	theData = copyObject(theDataset["theData"]);
+	var grouped = _.groupBy(theData, function(obj) {
+		return obj[control];
+	});
+	var datasets = [];
+	_.each(grouped, function(g) {
+		newDataset = copyObject(theDataset);
+		newDataset["theData"] = g;
+		datasets.push(newDataset);
+	});
+	return datasets;
 }
