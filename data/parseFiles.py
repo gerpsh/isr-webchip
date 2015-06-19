@@ -102,7 +102,7 @@ def parse(file_name):
 	data["varNames"] = var_names
 	data["numCats"] = num_vars
 	data["varCats"] = var_categories
-	data["data"] = objects
+	data["theData"] = objects
 
 	file_tokens = file_name.split("/")
 	needed_tokens = file_tokens[1:]

@@ -17,7 +17,6 @@
 	<div class="container">
 	  <div class="row">
 	  	<span id="app-title">Webchip 4.0</span>
-	  	<button id="test-button">Test</button>
 	  </div>
 	  <div class="col-md-3 center" id="control-panel">
 		  	<div class="panel">
@@ -60,6 +59,12 @@
 			        <br>
 			        <span class="section-caption">Single Variable:</span><br>
 			        	<select id="single-var" class="select-box" ng-model="na4" ng-options="obj for obj in varNames track by obj">
+			        		<option value='' selected='selected'>Select Variable</option>
+			        	</select>
+			        <br>
+			        <br>
+			        <span class="section-caption">Control Variable:</span><br>
+			        	<select disabled id="control-var" class="select-box" ng-model="na5" ng-options="obj for obj in varNames track by obj">
 			        		<option value='' selected='selected'>Select Variable</option>
 			        	</select>
 		    	</div>

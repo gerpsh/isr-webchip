@@ -6,14 +6,6 @@ webchipApp.controller("default", ['$scope', '$http',
 			$scope.availableDatasets = d;
 		});
 
-		$scope.omitVar = function(variable, cats) {
-			$scope.data = omit($scope.data, variable, cats);
-		};
-
-		$scope.combineVar = function(variable, cats, name) {
-			$scope.data = combine($scope.data, variable, cats, name);
-		};
-
 		$scope.changeDataset = function() {
 			var dataset = getCurrentDataset();
 			$http.get(dataset).success(function(d) {
@@ -21,7 +13,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				$scope.varCategories = d["varCats"];
 				$scope.title = d["title"];
 				$scope.varNames = d["varNames"];
-				$scope.data = d["data"];
+				$scope.theData = d["theData"];
 				$scope.numberCategories = [];
 				_.each($scope.varCategories, function(c) {
 					var theName = c["name"];
@@ -34,6 +26,14 @@ webchipApp.controller("default", ['$scope', '$http',
 			});
 		};
 
+		$scope.omitVar = function(variable, cats) {
+			$scope.theData = omit($scope.theData, variable, cats);
+		};
+
+		$scope.combineVar = function(variable, cats, name) {
+			$scope.theData = combine($scope.theData, variable, cats, name);
+		};
+
 		$scope.generateMarginals = function() {
 			$("#workbook").append("<h4>Marginals</h4>");
 			var margs = marginals($scope.completeDataset);
@@ -43,36 +43,77 @@ webchipApp.controller("default", ['$scope', '$http',
 		};
 
 		$scope.generateFrequency = function() {
-			var rowVar = getRowVar();
-			var colVar = getColVar();
 			$("#workbook").append("<h4>Frequency: " + getRowVar() + "/" + getColVar() + "</h4>");
-			var freqs = frequency($scope.completeDataset, rowVar, colVar);
-			var freqTable = generateGeneralTable(freqs, 'count');
-			$("#workbook").append(freqTable);
+			if(controlSet()) {
+				var rowVar = getRowVar();
+				var colVar = getColVar();
+				var conVar = getControlVar();
+				var theDataset = copyObject($scope.completeDataset);
+				var splitArray = controlData(theDataset, conVar);
+				_.each(splitArray, function(d) {
+					var cat = d["theData"][0][conVar];
+					var freqs = frequency(d, rowVar, colVar);
+					var freqTable = generateGeneralTable(freqs, 'count');
+					$("#workbook").append("<p>Control: " + cat + "</p>");
+					$("#workbook").append(freqTable + "<br>");
+				});
+			} else {
+				var rowVar = getRowVar();
+				var colVar = getColVar();
+				var freqs = frequency($scope.completeDataset, rowVar, colVar);
+				var freqTable = generateGeneralTable(freqs, 'count');
+				$("#workbook").append(freqTable);	
+			}
 			$("#command-history-body").append("<p>Compute Frequency</p>");
 		};
 
 		$scope.generatePctAcross = function() {
-			var rowVar = getRowVar();
-			var colVar = getColVar();
 			$("#workbook").append("<h4>Percent Across: " + getRowVar() + "/" + getColVar() + "</h4>");
-			var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
-			var pctAcrossTable = generateGeneralTable(pctAcrosses, 'pct');
-			$("#workbook").append(pctAcrossTable);
+			if(controlSet()) {
+				var rowVar = getRowVar();
+				var colVar = getColVar();
+				var conVar = getControlVar();
+				var theDataset = copyObject($scope.completeDataset);
+				var splitArray = controlData(theDataset, conVar);
+				_.each(splitArray, function(d) {
+					var cat = d["theData"][0][conVar];
+					var pctAcrosses = pctAcross(d, rowVar, colVar);
+					var pctAcrossTable = generateGeneralTable(pctAcrosses, 'pct');
+					$("#workbook").append("<p>Control: " + cat + "</p>");
+					$("#workbook").append(pctAcrossTable + "<br>");
+				});
+			} else {
+				var rowVar = getRowVar();
+				var colVar = getColVar();
+				var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
+				var pctAcrossTable = generateGeneralTable(pctAcrosses, 'pct');
+				$("#workbook").append(pctAcrossTable);
+			}
 			$("#command-history-body").append("<p>Compute Percent Across</p>");
 		};
 
 		$scope.generatePctDown = function() {
+			$("#workbook").append("<h4>Percent Down: " + getRowVar() + "/" + getColVar() + "</h4>");
 			var rowVar = getRowVar();
 			var colVar = getColVar();
-			$("#workbook").append("<h4>Percent Down: " + getRowVar() + "/" + getColVar() + "</h4>");
-			var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
-			var pctDownTable = generateGeneralTable(pctDowns, 'pct');
-			$("#workbook").append(pctDownTable);
-			$("#command-history-body").append("<p>Compute Percent Down</p>");
+			var conVar = getControlVar();
+			if(controlSet()) {
+				var theDataset = copyObject($scope.completeDataset);
+				var splitArray = controlData(theDataset, conVar);
+				_.each(splitArray, function(d) {
+					var cat = d["theData"][0][conVar];
+					var pctDowns = pctDown(d, rowVar, colVar);
+					var pctDownTable = generateGeneralTable(pctDowns, 'pct');
+					$("#workbook").append("<p>Control: " + cat + "</p>");
+					$("#workbook").append(pctDownTable + "<br>");
+				});
+			} else {
+				var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
+				var pctDownTable = generateGeneralTable(pctDowns, 'pct');
+				$("#workbook").append(pctDownTable + "<br>");
+			}
+			$("#command-history-body").append("<p>Compute Percent Across</p>");
 		};
-
-
 	}]);
 
 

@@ -1,3 +1,21 @@
+
+function copyObject(obj) {
+	return JSON.parse(JSON.stringify(obj));
+}
+
+function nSum(data) {
+	return _.reduce(_.pluck(data, "Dep"), function(sum, el) { return sum + parseInt(el); }, 0);
+}
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function percentify(x) {
+	return x.toString() + '%'
+}
+
+
 /*
 compute marginals, returns object like:
 	[
@@ -14,20 +32,8 @@ compute marginals, returns object like:
 		...
 	]
 */
-function nSum(data) {
-	return _.reduce(_.pluck(data, "Dep"), function(sum, el) { return sum + parseInt(el); }, 0);
-}
-
-function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
-function percentify(x) {
-	return x.toString() + '%'
-}
-
 function marginals(dataset) {
-	var data = dataset["data"];
+	var data = dataset["theData"];
 	var totalSum = nSum(data);
 	var vars = dataset["varNames"];
 	var cats = _.pluck(dataset["varCats"], "cats");
@@ -90,7 +96,7 @@ function generateMarginalTables(marginalsData) {
   and "column total" cells will be the final elements of the collections
 */
 function frequency(dataset, row, col) {
-	var data = dataset["data"];
+	var data = dataset["theData"];
 	var vars = dataset["varNames"];
 	var cats = _.pluck(dataset["varCats"], "cats");
 	var rowIndex = vars.indexOf(row);
@@ -131,7 +137,7 @@ function frequency(dataset, row, col) {
 	Returns object collection similar to frequency return value, except with percents and not counts
 */
 function pctAcross(dataset, row, col) {
-	var data = dataset["data"];
+	var data = dataset["theData"];
 	var grandTotal = nSum(data);
 	var vars = dataset["varNames"];
 	var cats = _.pluck(dataset["varCats"], "cats");
@@ -167,7 +173,7 @@ function pctAcross(dataset, row, col) {
 }
 
 function pctDown(dataset, row, col) {
-	var data = dataset["data"];
+	var data = dataset["theData"];
 	var grandTotal = nSum(data);
 	var vars = dataset["varNames"];
 	var cats = _.pluck(dataset["varCats"], "cats");
@@ -233,4 +239,20 @@ function generateGeneralTable(tableData, type) {
 	html += "</table>";
 	
 	return html;
+}
+
+//returns collection of dataset controlled by controle variable specified
+function controlData(dataset, control) {
+	theDataset = copyObject(dataset);
+	theData = copyObject(theDataset["theData"]);
+	var grouped = _.groupBy(theData, function(obj) {
+		return obj[control];
+	});
+	var datasets = [];
+	_.each(grouped, function(g) {
+		newDataset = copyObject(theDataset);
+		newDataset["theData"] = g;
+		datasets.push(newDataset);
+	});
+	return datasets;
 }

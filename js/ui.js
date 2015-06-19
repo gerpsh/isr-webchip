@@ -13,6 +13,11 @@ function singleVarSelected() {
 	return condition;
 }
 
+function controlSet() {
+	var condition = ($("#control-var").val() != '');
+	return condition;
+}
+
 function canGenerateChart() {
 	var condition = (crossTabsSelected() || singleVarSelected());
 	return condition;
@@ -20,6 +25,11 @@ function canGenerateChart() {
 
 function canGenerateTable() {
 	return crossTabsSelected();
+}
+
+function canControl() {
+	var condition = (singleVarSelected() || crossTabsSelected());
+	return condition;
 }
 
 function getCurrentDataset() {
@@ -32,6 +42,10 @@ function getRowVar() {
 
 function getColVar() {
 	return $('#crosstab-col').val();
+}
+
+function getControlVar() {
+	return $('#control-var').val();
 }
 
 
@@ -52,7 +66,14 @@ $('#crosstab-row').on('change', function() {
 		$('.btn-chart').prop('disabled', false);
 	} else {
 		$('.btn-chart').prop('disabled', true);
-	}	
+	}
+
+	if (canControl()) {
+		$('#control-var').prop('disabled', false);
+	} else {
+		$('#control-var').val('');
+		$('#control-var').prop('disabled', true);
+	}
 });
 
 $('#crosstab-col').on('change', function() {
@@ -73,6 +94,14 @@ $('#crosstab-col').on('change', function() {
 	} else {
 		$('.btn-chart').prop('disabled', true);
 	}
+
+	if (canControl()) {
+		$('#control-var').prop('disabled', false);
+	} else {
+		$('#control-var').val('');
+		$('#control-var').prop('disabled', true);
+	}
+
 });
 
 $('#single-var').on('change', function() {
@@ -88,6 +117,14 @@ $('#single-var').on('change', function() {
 		$('.btn-chart').prop('disabled', false);
 	} else {
 		$('.btn-chart').prop('disabled', true);
+	}
+
+	if (canControl()) {
+		$('#control-var').prop('disabled', false);
+	} else {
+		$('#control-var').val('');
+		$('#control-var').prop('disabled', true);
+
 	}
 });
 
