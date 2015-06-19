@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,37 +15,38 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "HHType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam", 
                 "MaleNonf", 
                 "FemlNonf"
-            ]
+            ], 
+            "name": "HHType"
         }
     ], 
     "title": "HHOLDS2K: 2000 Households by household type, poverty, and race/ethnicity, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

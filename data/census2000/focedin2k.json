@@ -9,8 +9,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLwhite", 
                 "Black", 
                 "Asian", 
@@ -18,54 +17,55 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Famtype", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam", 
                 "MaleNonf", 
                 "FemlNonf"
-            ]
+            ], 
+            "name": "Famtype"
         }, 
         {
-            "name": "Earning", 
-            "vars": [
+            "cats": [
                 "<25K", 
                 "25-35K", 
                 "35-50K", 
                 "50-70K", 
                 "70-100K", 
                 "100K+"
-            ]
+            ], 
+            "name": "Earning"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "Occup", 
-            "vars": [
+            "cats": [
                 "TopWC", 
                 "OtrWC", 
                 "Service", 
                 "TopBC", 
                 "OtrBC"
-            ]
+            ], 
+            "name": "Occup"
         }
     ], 
     "title": "FOCEDIN2K: 2000 Age 16+ civilian workers by family type, occupation, education, and earning, wgtd 1% PUMS, Frey/U-Mich", 

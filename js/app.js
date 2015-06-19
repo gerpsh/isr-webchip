@@ -5,6 +5,3 @@ var webchip = angular.module('webchipApp', [
   'webchipControllers'
 ]);
 
-function isEmpty(str) {
-    return (!str || 0 === str.length);
-}

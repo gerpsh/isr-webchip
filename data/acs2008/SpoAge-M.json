@@ -6,8 +6,7 @@
     ], 
     "varCats": [
         {
-            "name": "H-Raceeth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -15,20 +14,20 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "H-Raceeth"
         }, 
         {
-            "name": "H-Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "H-Educ"
         }, 
         {
-            "name": "W-Age", 
-            "vars": [
+            "cats": [
                 "<23", 
                 "23", 
                 "24", 
@@ -37,7 +36,8 @@
                 "27", 
                 "28", 
                 "29+"
-            ]
+            ], 
+            "name": "W-Age"
         }
     ], 
     "title": "2008 Spouses: married men age 25 by education and wife's age 15-29+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

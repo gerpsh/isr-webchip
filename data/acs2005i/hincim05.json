@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "Latino", 
                 "NLwhite", 
                 "NLBlack", 
@@ -17,46 +16,47 @@
                 "NLAmIndian", 
                 "NLOther", 
                 "NLMixed"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "<25", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1990", 
                 "FB>=1990"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "HHtype", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam", 
                 "MaleNonF", 
                 "FemlNonF"
-            ]
+            ], 
+            "name": "HHtype"
         }, 
         {
-            "name": "HHIncome", 
-            "vars": [
+            "cats": [
                 "<20K", 
                 "20-39K", 
                 "40-59K", 
                 "60-99K", 
                 "100K+"
-            ]
+            ], 
+            "name": "HHIncome"
         }
     ], 
     "title": "Household Type by HH Income, wgtd 2005 ACS, Frey/U-MICH-not for commercial purposes", 

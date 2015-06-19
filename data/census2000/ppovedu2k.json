@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -17,37 +16,37 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "0-9Yrs", 
                 "10-12Yrs", 
                 "HSGrad", 
@@ -55,7 +54,8 @@
                 "CollGrad", 
                 "Masters", 
                 "PhD-Prof"
-            ]
+            ], 
+            "name": "Educ"
         }
     ], 
     "title": "PPOVEDU2K: 2000 U.S. population by race/ethnicity, poverty, gender, and education, age 25+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

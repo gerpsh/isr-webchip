@@ -7,27 +7,26 @@
     ], 
     "varCats": [
         {
-            "name": "HAge", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55+"
-            ]
+            ], 
+            "name": "HAge"
         }, 
         {
-            "name": "HEduc", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "HEduc"
         }, 
         {
-            "name": "HRaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Latino", 
@@ -35,11 +34,11 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "HRaceLat"
         }, 
         {
-            "name": "WRaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Latina", 
@@ -47,7 +46,8 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "WRaceLat"
         }
     ], 
     "title": "SPRAC2K-M: 2000 Spouses: married men age 15+, by education and race, by wife's race, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

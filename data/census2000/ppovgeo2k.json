@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLwhite", 
                 "Black", 
                 "Asian", 
@@ -17,35 +16,35 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Geo", 
-            "vars": [
+            "cats": [
                 "City", 
                 "Suburb", 
                 "NonMetro"
-            ]
+            ], 
+            "name": "Geo"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "AgeAll", 
-            "vars": [
+            "cats": [
                 "0-5", 
                 "6-17", 
                 "18-24", 
@@ -54,7 +53,8 @@
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeAll"
         }
     ], 
     "title": "PPOVGEO2K: 2000 U.S. population by age groups, race/ethnicity, poverty, metro, and gender, wgtd 5% PUMS, Frey/U-MICH", 

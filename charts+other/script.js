@@ -1,51 +1,3 @@
-//load json file
-function load(filename, func) {
-	$.getJSON(filename, function(data) {
-		if (func == "marginals") {
-			marginals(data);
-		}
-		else if (func == "crosstab") {
-			crosstabReadVar(data);
-		}
-		else if (func == "linechartPA") {
-			lineChart(data,"crosstabPerAcross");
-		}
-		else if (func == "linechartPD") {
-			lineChart(data,"crosstabPerDown");
-		}
-		else if (func == "barchartPA") {
-			barChart(data,"crosstabPerAcross");
-		}
-		else if (func == "barchartPD") {
-			barChart(data,"crosstabPerDown");
-		}
-		else if (func == "stackedbarPA") {
-			stackedBar(data,"crosstabPerAcross");
-		}
-		else if (func == "stackedbarPD") {
-			stackedBar(data,"crosstabPerDown");
-		}
-		else if (func == "piechartPA") {
-			pieChart(data,"crosstabPerAcross");
-		}
-		else if (func == "piechartPD") {
-			pieChart(data,"crosstabPerDown");
-		}
-		else if (func == "singleLC") {
-			singleLineChart(data);
-		}
-		else if (func == "singleBC") {
-			singleBarChart(data);
-		}
-		else if (func == "singleSB") {
-			singleStackedBar(data);
-		}
-		else if (func == "singlePC") {
-			singlePieChart(data);
-		}
-	});
-}
-
 //find names of variables in data
 function discoverVar(data) {
 	var variables = new Array();
@@ -115,7 +67,7 @@ function marginals(data) {
 		}
 		html += "</tr></table>";
 	}
-	$(html).appendTo( "#table1" );
+	$(html).appendTo( "#workbook" );
 }
 
 //previous Marginals function

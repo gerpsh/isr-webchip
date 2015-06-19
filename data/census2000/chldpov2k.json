@@ -9,15 +9,14 @@
     ], 
     "varCats": [
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "Foreign"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -25,41 +24,42 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "AgeKids", 
-            "vars": [
+            "cats": [
                 "0-5", 
                 "6-17"
-            ]
+            ], 
+            "name": "AgeKids"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "FamType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam"
-            ]
+            ], 
+            "name": "FamType"
         }, 
         {
-            "name": "Famsize", 
-            "vars": [
+            "cats": [
                 "2", 
                 "3", 
                 "4", 
                 "5", 
                 "6+"
-            ]
+            ], 
+            "name": "Famsize"
         }
     ], 
     "title": "CHLDPOV2K: 2000 Children by race/ethnicity, poverty, household type, family size, and immigration status, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

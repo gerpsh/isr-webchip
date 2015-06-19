@@ -26,6 +26,14 @@ function getCurrentDataset() {
 	return $('#dataset-list').val();
 }
 
+function getRowVar() {
+	return $('#crosstab-row').val();
+}
+
+function getColVar() {
+	return $('#crosstab-col').val();
+}
+
 
 $('#crosstab-row').on('change', function() {
 	if (canSingleVar()) {
@@ -71,6 +79,9 @@ $('#single-var').on('change', function() {
 	if (singleVarSelected()) {
 		$('#crosstab-col').prop('disabled', true);
 		$('#crosstab-row').prop('disabled', true);
+	} else {
+		$('#crosstab-col').prop('disabled', false);
+		$('#crosstab-row').prop('disabled', false);
 	}
 
 	if (canGenerateChart()) {

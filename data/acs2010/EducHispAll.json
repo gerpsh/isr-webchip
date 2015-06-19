@@ -7,36 +7,35 @@
     ], 
     "varCats": [
         {
-            "name": "Hispanic", 
-            "vars": [
+            "cats": [
                 "Mexican", 
                 "PRican", 
                 "Cuban", 
                 "CAmeric", 
                 "SAmeric", 
                 "Other"
-            ]
+            ], 
+            "name": "Hispanic"
         }, 
         {
-            "name": "AgeEduc", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeEduc"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "EducAll", 
-            "vars": [
+            "cats": [
                 "0-9Yrs", 
                 "10-12Yrs", 
                 "HSGrad", 
@@ -44,7 +43,8 @@
                 "CollGrad", 
                 "Masters", 
                 "PhD-Prof"
-            ]
+            ], 
+            "name": "EducAll"
         }
     ], 
     "title": "2010 Education for Hispanic groups, age 25+, wgtd 2008-10 ACS, SSDAN/U-Mich", 

@@ -9,8 +9,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLwhite", 
                 "Black", 
                 "Asian", 
@@ -18,33 +17,33 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Geo", 
-            "vars": [
+            "cats": [
                 "City", 
                 "Suburb", 
                 "NonMetro"
-            ]
+            ], 
+            "name": "Geo"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NonPoverty"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "AgeHS", 
-            "vars": [
+            "cats": [
                 "18", 
                 "19", 
                 "20", 
@@ -52,16 +51,17 @@
                 "22", 
                 "23", 
                 "24"
-            ]
+            ], 
+            "name": "AgeHS"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }
     ], 
     "title": "CHLGRAD2K: 2000 Education by race/ethnicity, poverty, gender, and metro, age 18-24, wgtd 5% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,32 +15,33 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeEldr", 
-            "vars": [
+            "cats": [
                 "65-74", 
                 "75-84", 
                 "85+"
-            ]
+            ], 
+            "name": "AgeEldr"
         }, 
         {
-            "name": "HHType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemFam", 
                 "MaleNonf", 
                 "FemNonf"
-            ]
+            ], 
+            "name": "HHType"
         }
     ], 
     "title": "2010 Elderly households by age groups, gender, household type, and race/ethnicity, wgtd 2008-10 ACS, SSDAN/U-Mich", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,33 +15,34 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "Kid", 
-            "vars": [
+            "cats": [
                 "None", 
                 "Kids<6", 
                 "KidsOtr"
-            ]
+            ], 
+            "name": "Kid"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "NILF", 
                 "Unempd", 
                 "EmpFull", 
                 "EmpPart"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "KIDEMP2K: 2000 Employment status by number of children, education for currently married women, age 25-34, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

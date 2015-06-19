@@ -9,8 +9,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 "Black", 
                 "Asian", 
@@ -18,34 +17,34 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Geo", 
-            "vars": [
+            "cats": [
                 "City", 
                 "Suburb", 
                 "NonMetro", 
                 "NotIdentified"
-            ]
+            ], 
+            "name": "Geo"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NonPov"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "AgeYng", 
-            "vars": [
+            "cats": [
                 "18", 
                 "19", 
                 "20", 
@@ -53,16 +52,17 @@
                 "22", 
                 "23", 
                 "24"
-            ]
+            ], 
+            "name": "AgeYng"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }
     ], 
     "title": "Education by race/ethnicity, poverty, gender and metro, age 18-24, wgtd 2006-08 ACS, SSDAN/U-Mich", 

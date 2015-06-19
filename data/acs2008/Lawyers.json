@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,27 +15,27 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgePro", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64"
-            ]
+            ], 
+            "name": "AgePro"
         }, 
         {
-            "name": "Earn2", 
-            "vars": [
+            "cats": [
                 "<40K", 
                 "40-54K", 
                 "55-69K", 
@@ -46,7 +45,8 @@
                 "125-149K", 
                 "150-199K", 
                 "200K+"
-            ]
+            ], 
+            "name": "Earn2"
         }
     ], 
     "title": "2008 Lawyers: full-time, year-round workers, race/ethnicity, gender and earnings, age 25-64, wgtd 2006-08 ACS, SSDAN/U-Mich", 

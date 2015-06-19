@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 "Black", 
                 "Asian", 
@@ -17,44 +16,45 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Ageall4", 
-            "vars": [
+            "cats": [
                 "<25", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Ageall4"
         }, 
         {
-            "name": "Geo", 
-            "vars": [
+            "cats": [
                 "City", 
                 "Suburb", 
                 "NonMetro", 
                 "NotIdentified"
-            ]
+            ], 
+            "name": "Geo"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }, 
         {
-            "name": "FamType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemFam"
-            ]
+            ], 
+            "name": "FamType"
         }
     ], 
     "title": "Families by family type, race/ethnicity, poverty, and metro, age 16+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

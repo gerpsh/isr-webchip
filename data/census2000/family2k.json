@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLwhite", 
                 "Black", 
                 "Asian", 
@@ -17,43 +16,44 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Kid", 
-            "vars": [
+            "cats": [
                 "None", 
                 "Kids<6", 
                 "KidsOtr"
-            ]
+            ], 
+            "name": "Kid"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "<25", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "FamType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam"
-            ]
+            ], 
+            "name": "FamType"
         }
     ], 
     "title": "FAMILY2K: 2000 Families by family type, gender, poverty, and race/ethnicity, age 15+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

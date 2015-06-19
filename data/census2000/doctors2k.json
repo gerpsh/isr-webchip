@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLwhite", 
                 "Black", 
                 "Asian", 
@@ -16,27 +15,27 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Earning", 
-            "vars": [
+            "cats": [
                 "<40K", 
                 "40-55K", 
                 "55-70K", 
@@ -46,7 +45,8 @@
                 "125-150K", 
                 "150-200K", 
                 "200K+"
-            ]
+            ], 
+            "name": "Earning"
         }
     ], 
     "title": "DOCTORS2K: 2000 Physicians: full-time, year round workers age 25-64 by race, gender, and earnings, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes", 

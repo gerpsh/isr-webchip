@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,33 +15,34 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "AgeAll4", 
-            "vars": [
+            "cats": [
                 "<25", 
                 " 25-34", 
                 " 35-44", 
                 " 45-54", 
                 " 55-64", 
                 " 65+"
-            ]
+            ], 
+            "name": "AgeAll4"
         }, 
         {
-            "name": "FamType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemFam"
-            ]
+            ], 
+            "name": "FamType"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NonPov"
-            ]
+            ], 
+            "name": "Pov"
         }
     ], 
     "title": "2008 Families by family type and poverty status, wgtd 2006-08 ACS, SSDAN/U-Mich", 

@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NHwhite", 
                 "Black", 
                 "Asian", 
@@ -17,37 +16,37 @@
                 "AmIndian", 
                 "NHOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1980", 
                 "FB80-89", 
                 "FB90-2K"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "<9yrs", 
                 "10-12yrs", 
                 "HSGrad", 
@@ -55,7 +54,8 @@
                 "CollGrad", 
                 "Masters", 
                 "PhD-Prof"
-            ]
+            ], 
+            "name": "Educ"
         }
     ], 
     "title": "EDUCIMM2K: 2000 Education by immigration status, race/ethnicity, gender, age 25+ in U.S., wgtd 1% PUMS, Frey/U-MICH for SSDAN - not for commercial purposes.", 

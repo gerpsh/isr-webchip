@@ -8,23 +8,22 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "Latino", 
                 "NLAsian", 
                 "NLOther"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "5-14", 
                 "15-24", 
                 "25-34", 
@@ -32,25 +31,26 @@
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1990", 
                 "FB>=1990"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "EngSpkg", 
-            "vars": [
+            "cats": [
                 "EngOnly", 
                 "Verywell", 
                 "Well", 
                 "Notwell", 
                 "Notatall"
-            ]
+            ], 
+            "name": "EngSpkg"
         }
     ], 
     "title": "English Proficiency by Immigration status for Age 5+, wgtd 2005 ACS, Frey/U-MICH-not for commercial purposes", 

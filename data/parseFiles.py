@@ -21,9 +21,9 @@ def parse(file_name):
 	var_categories = []
 	i = 4
 	for var in var_names:
-		item = {"name": var, "vars": ""}
+		item = {"name": var, "cats": ""}
 		line = lines[i]
-		item["vars"] = line.split(",")
+		item["cats"] = line.split(",")
 		var_categories.append(item)
 		i += 1
 
@@ -94,7 +94,7 @@ def parse(file_name):
 		multipliers.append(multiplier)
 
 	for idx, val in enumerate(multipliers):
-		objects = apply_label(objects, var_names_reversed[idx], var_categories_reversed[idx]['vars'], val)
+		objects = apply_label(objects, var_names_reversed[idx], var_categories_reversed[idx]['cats'], val)
 
 	data = {}
 	data["title"] = title

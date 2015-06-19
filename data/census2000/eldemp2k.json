@@ -8,46 +8,46 @@
     ], 
     "varCats": [
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeElder", 
-            "vars": [
+            "cats": [
                 "65-74", 
                 "75-84", 
                 "85+"
-            ]
+            ], 
+            "name": "AgeElder"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "NILF", 
                 "Unempd", 
                 "EmpFull", 
                 "EmpPart"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "ELDEMP2K: 2000 Elderly by employment, education, poverty, and gender, age 65+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

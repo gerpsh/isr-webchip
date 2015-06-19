@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "StateUSA", 
-            "vars": [
+            "cats": [
                 "CA", 
                 "FL", 
                 "IL", 
@@ -18,11 +17,11 @@
                 "TX", 
                 "VT", 
                 "RestofUS"
-            ]
+            ], 
+            "name": "StateUSA"
         }, 
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -30,32 +29,33 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1980", 
                 "FB80-89", 
                 "FB90-00"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }
     ], 
     "title": "IMMUSA2K: 2000 U.S. Population by race/ethnicity, gender, poverty, immigration status, and state, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

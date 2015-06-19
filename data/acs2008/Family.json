@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -17,43 +16,44 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Kid", 
-            "vars": [
+            "cats": [
                 "None", 
                 "Kids<6", 
                 "KidsOther"
-            ]
+            ], 
+            "name": "Kid"
         }, 
         {
-            "name": "AgeAll4", 
-            "vars": [
+            "cats": [
                 "<25", 
                 " 25-34", 
                 " 35-44", 
                 " 45-54", 
                 " 55-64", 
                 " 65+"
-            ]
+            ], 
+            "name": "AgeAll4"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }, 
         {
-            "name": "FamType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemFam"
-            ]
+            ], 
+            "name": "FamType"
         }
     ], 
     "title": "2008 Families by family type, gender, poverty, and race/ethnicity, age 16+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

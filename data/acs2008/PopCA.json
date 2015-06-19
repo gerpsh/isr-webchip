@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,28 +15,28 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Immentry", 
-            "vars": [
+            "cats": [
                 "Native", 
                 " FB<1980", 
                 " FB80-89", 
                 " FB90-99", 
                 " FB00-current"
-            ]
+            ], 
+            "name": "Immentry"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeAll", 
-            "vars": [
+            "cats": [
                 "0-4", 
                 "5-14", 
                 "15-24", 
@@ -46,7 +45,8 @@
                 " 45-54", 
                 " 55-64", 
                 " 65+"
-            ]
+            ], 
+            "name": "AgeAll"
         }
     ], 
     "title": "2008 California population by age, gender, race/ethnicity,and immigration status, wgtd 2006-08 ACS, SSDAN/U-Mich", 

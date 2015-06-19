@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "Asian", 
-            "vars": [
+            "cats": [
                 "Chinese", 
                 "Japanese", 
                 "Filipino", 
@@ -16,36 +15,37 @@
                 "Indian", 
                 "Vietnamese", 
                 "Other"
-            ]
+            ], 
+            "name": "Asian"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "WkAge", 
-            "vars": [
+            "cats": [
                 "16-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "WkAge"
         }, 
         {
-            "name": "Occup", 
-            "vars": [
+            "cats": [
                 "TopWC", 
                 "OtrWC", 
                 "Service", 
                 "TopBC", 
                 "OtrBC", 
                 "Farm"
-            ]
+            ], 
+            "name": "Occup"
         }
     ], 
     "title": "OCCASN2K: 2000 Occupations for Asian alone by Asian groups, age 16+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

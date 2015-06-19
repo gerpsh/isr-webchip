@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,36 +15,37 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "MarStat", 
-            "vars": [
+            "cats": [
                 "NevMrrd", 
                 "LivingTg", 
                 "CurMrrd", 
                 "Divorced", 
                 "Seprated", 
                 "Widowed"
-            ]
+            ], 
+            "name": "MarStat"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "NILF", 
                 "Unempd", 
                 "EmpFull", 
                 "EmpPart"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "MRREMP2K: 2000 Marital/cohab status by employment status for women age 25-34, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

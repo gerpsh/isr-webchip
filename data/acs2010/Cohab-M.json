@@ -7,37 +7,36 @@
     ], 
     "varCats": [
         {
-            "name": "AgeMar", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeMar"
         }, 
         {
-            "name": "Marital2", 
-            "vars": [
+            "cats": [
                 "NevMrrd", 
                 "Divorced", 
                 "Separated", 
                 "Widowed"
-            ]
+            ], 
+            "name": "Marital2"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 "Black", 
                 "Asian", 
@@ -45,7 +44,8 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }
     ], 
     "title": "2010 Men cohabitors not currently married, age 15+, from 2008-10 ACS, SSDAN/U-Mich", 

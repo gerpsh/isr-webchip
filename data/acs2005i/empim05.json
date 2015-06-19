@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "Latino", 
                 "NLwhite", 
                 "NLBlack", 
@@ -17,42 +16,43 @@
                 "NLAmIndian", 
                 "NLOther", 
                 "NLMixed"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "16-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1990", 
                 "FB>=1990"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "NILF", 
                 "Unempd", 
                 "EmpFull", 
                 "EmpPart"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "Civilian Workers by Immigration status Age 16+, wgtd 2005 ACS, Frey/U-MICH-not for commercial purposes", 

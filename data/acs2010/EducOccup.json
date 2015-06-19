@@ -8,18 +8,17 @@
     ], 
     "varCats": [
         {
-            "name": "AgeEduc", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeEduc"
         }, 
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NhWhite", 
                 "Black", 
                 "Asian", 
@@ -27,18 +26,18 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "EducAll", 
-            "vars": [
+            "cats": [
                 "0-9Yrs", 
                 "10-12Yrs", 
                 "HSGrad", 
@@ -46,18 +45,19 @@
                 "CollGrad", 
                 "Masters", 
                 "PhD-Prof"
-            ]
+            ], 
+            "name": "EducAll"
         }, 
         {
-            "name": "Occup", 
-            "vars": [
+            "cats": [
                 "TopWC", 
                 "OtherWC", 
                 "Service", 
                 "TopBC", 
                 "OtherBC", 
                 "Farm"
-            ]
+            ], 
+            "name": "Occup"
         }
     ], 
     "title": "2010 Education by occupation in the United States, race/ethnicity, and gender for age 25+, wgtd 2008-10 ACS, SSDAN/U-Mich", 

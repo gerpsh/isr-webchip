@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "HRaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Latino", 
@@ -16,11 +15,11 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "HRaceLat"
         }, 
         {
-            "name": "WRaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Latina", 
@@ -28,25 +27,26 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "WRaceLat"
         }, 
         {
-            "name": "HEduc", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "HEduc"
         }, 
         {
-            "name": "WEduc", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "WEduc"
         }
     ], 
     "title": "SPEDR2K: 2000 Spouses: husband and wife's education and race, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

@@ -9,15 +9,14 @@
     ], 
     "varCats": [
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "Foreign"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -25,41 +24,42 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "School", 
-            "vars": [
+            "cats": [
                 "NotEnrld", 
                 "Public", 
                 "Private"
-            ]
+            ], 
+            "name": "School"
         }, 
         {
-            "name": "EngSpkg", 
-            "vars": [
+            "cats": [
                 "EngOnly", 
                 "Verywell", 
                 "Well", 
                 "Notwell", 
                 "Notatall"
-            ]
+            ], 
+            "name": "EngSpkg"
         }
     ], 
     "title": "CHLDSCH2K: 2000 School-age children by school attendance, poverty, English proficiency, race/ethnicity, immigration status and gender, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

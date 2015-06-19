@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -17,44 +16,45 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeMar", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeMar"
         }, 
         {
-            "name": "Marital", 
-            "vars": [
+            "cats": [
                 "CurMrrd", 
                 "Widowed", 
                 "Divorced", 
                 "Separated", 
                 "NevMrrd"
-            ]
+            ], 
+            "name": "Marital"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }
     ], 
     "title": "2008 Marital Status by education, gender, and race/ethnicity, age 15+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

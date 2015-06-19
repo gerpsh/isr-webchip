@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,32 +15,33 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeElder", 
-            "vars": [
+            "cats": [
                 "65-74", 
                 "75-84", 
                 "85+"
-            ]
+            ], 
+            "name": "AgeElder"
         }, 
         {
-            "name": "HHType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam", 
                 "MaleNonf", 
                 "FemlNonf"
-            ]
+            ], 
+            "name": "HHType"
         }
     ], 
     "title": "ELDHH2K: 2000 Elderly households by age group, gender, household type and race/ethnicity, age 65+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

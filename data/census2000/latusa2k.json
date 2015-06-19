@@ -7,35 +7,34 @@
     ], 
     "varCats": [
         {
-            "name": "Latino", 
-            "vars": [
+            "cats": [
                 "Mexican", 
                 "PRican", 
                 "Cuban", 
                 "CAmeric", 
                 "SAmeric", 
                 "Other"
-            ]
+            ], 
+            "name": "Latino"
         }, 
         {
-            "name": "Immig", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1980", 
                 "FB80-89", 
                 "FB90-00"
-            ]
+            ], 
+            "name": "Immig"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "0-4", 
                 "5-14", 
                 "15-24", 
@@ -45,7 +44,8 @@
                 "55-64", 
                 "65-74", 
                 "75+"
-            ]
+            ], 
+            "name": "Age"
         }
     ], 
     "title": "LATUSA2K: 2000 Latino population by Latino group, age, gender, and immigration status, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

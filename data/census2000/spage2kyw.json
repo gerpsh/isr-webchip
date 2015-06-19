@@ -6,8 +6,7 @@
     ], 
     "varCats": [
         {
-            "name": "WRaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -15,20 +14,20 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "WRaceLat"
         }, 
         {
-            "name": "WEduc", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "WEduc"
         }, 
         {
-            "name": "HAge", 
-            "vars": [
+            "cats": [
                 "<23", 
                 "23", 
                 "24", 
@@ -37,7 +36,8 @@
                 "27", 
                 "28", 
                 "29+"
-            ]
+            ], 
+            "name": "HAge"
         }
     ], 
     "title": "SPAGE2KYW: 2000 Spouses: married women age 25 by education and husband's age 15-29+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

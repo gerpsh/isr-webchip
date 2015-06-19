@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -17,37 +16,37 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeEduc", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 " 35-44", 
                 " 45-54", 
                 " 55-64", 
                 " 65+"
-            ]
+            ], 
+            "name": "AgeEduc"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }, 
         {
-            "name": "EducAll", 
-            "vars": [
+            "cats": [
                 "0-9Yrs", 
                 " 10-12Yrs", 
                 " HSGrad", 
@@ -55,7 +54,8 @@
                 " CollGrad", 
                 " Masters", 
                 " PhD-Prof"
-            ]
+            ], 
+            "name": "EducAll"
         }
     ], 
     "title": "2008 U.S. Population by race/ethnicity, poverty, gender, and education, age 25+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

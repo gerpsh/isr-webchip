@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -17,45 +16,46 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Homeownr", 
-            "vars": [
+            "cats": [
                 "Homeownr", 
                 "Renter"
-            ]
+            ], 
+            "name": "Homeownr"
         }, 
         {
-            "name": "Housing", 
-            "vars": [
+            "cats": [
                 "House", 
                 "Apt2-9", 
                 "Apt10+", 
                 "MobHome", 
                 "Other"
-            ]
+            ], 
+            "name": "Housing"
         }, 
         {
-            "name": "HHType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemlFam", 
                 "MaleNonf", 
                 "FemlNonf"
-            ]
+            ], 
+            "name": "HHType"
         }
     ], 
     "title": "HOUSNG2K: 2000 Households by household type, housing, race/ethnicity, and homeownership, age 15+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

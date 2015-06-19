@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "StateUSA", 
-            "vars": [
+            "cats": [
                 "CA", 
                 "FL", 
                 "IL", 
@@ -18,11 +17,11 @@
                 "TX", 
                 "VT", 
                 "RestofUS"
-            ]
+            ], 
+            "name": "StateUSA"
         }, 
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -30,33 +29,34 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Immentry", 
-            "vars": [
+            "cats": [
                 "Native", 
                 " FB<1980", 
                 " FB80-89", 
                 " FB90-99", 
                 " FB00-current"
-            ]
+            ], 
+            "name": "Immentry"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }
     ], 
     "title": "2008 U.S. Population by race/ethnicity, gender, poverty, immigration status and state, wgtd 2006-08 ACS, SSDAN/U-Mich", 

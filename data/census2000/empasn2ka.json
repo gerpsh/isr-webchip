@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "Asian", 
-            "vars": [
+            "cats": [
                 "Chinese", 
                 "Japanese", 
                 "Filipino", 
@@ -17,38 +16,39 @@
                 "Indian", 
                 "Vietnamese", 
                 "Other"
-            ]
+            ], 
+            "name": "Asian"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "WkAge", 
-            "vars": [
+            "cats": [
                 "16-24", 
                 "25-34"
-            ]
+            ], 
+            "name": "WkAge"
         }, 
         {
-            "name": "Immig", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1980", 
                 "FB80-89", 
                 "FB90-00"
-            ]
+            ], 
+            "name": "Immig"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "Empd", 
                 "Unempd", 
                 "NILF"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "EMPASN2KA: 2000 Employment status by immigration status for Asian alone by Asian groups, age 16-34, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,34 +15,35 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Sex", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Sex"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSgrad", 
                 "SomeColl", 
                 "Collgrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "Marstus", 
-            "vars": [
+            "cats": [
                 "Nmarried", 
                 "Livingtg", 
                 "Married", 
                 "Divorced", 
                 "Separatd", 
                 "Widowed "
-            ]
+            ], 
+            "name": "Marstus"
         }
     ], 
     "title": "MRED2K-35: 2000 Population ages 25-34, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes", 

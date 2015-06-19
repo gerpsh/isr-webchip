@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -17,41 +16,42 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "AgeElder", 
-            "vars": [
+            "cats": [
                 "65-74", 
                 "75-84", 
                 "85+"
-            ]
+            ], 
+            "name": "AgeElder"
         }, 
         {
-            "name": "Marital", 
-            "vars": [
+            "cats": [
                 "CurMrrd", 
                 "Widowed", 
                 "Divorced", 
                 "Seprated", 
                 "NevMrrd"
-            ]
+            ], 
+            "name": "Marital"
         }
     ], 
     "title": "ELDPOV2K: 2000 Elderly by poverty, race/ethnicity, and gender, age 65+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

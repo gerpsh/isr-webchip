@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,33 +15,34 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "WkAge", 
-            "vars": [
+            "cats": [
                 "16-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "WkAge"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "Empd", 
                 "Unempd", 
                 "NILF"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "EMPLOY2K: 2000 Civilian Workers for age 16+, wgtd 1% PUMS, Frey/U-Mich", 

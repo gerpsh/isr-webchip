@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,36 +15,37 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 " HsGrad", 
                 " SomeColl", 
                 " CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "Marital4", 
-            "vars": [
+            "cats": [
                 "NvrMrrd", 
                 "LivingTg", 
                 "CurMrrd", 
                 "Divorced", 
                 "Separated", 
                 "Widowed"
-            ]
+            ], 
+            "name": "Marital4"
         }, 
         {
-            "name": "Emp2", 
-            "vars": [
+            "cats": [
                 "EmpFull", 
                 "EmpPart", 
                 "Unempd", 
                 "NILF"
-            ]
+            ], 
+            "name": "Emp2"
         }
     ], 
     "title": "2010 Marital/cohab status by Employment status for women age 25-34, wgtd 2008-10 ACS, SSDAN/U-Mich", 

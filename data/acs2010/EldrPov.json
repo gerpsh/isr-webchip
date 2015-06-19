@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 "Black", 
                 "Asian", 
@@ -17,41 +16,42 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }, 
         {
-            "name": "AgeEldr", 
-            "vars": [
+            "cats": [
                 "65-74", 
                 "75-84", 
                 "85+"
-            ]
+            ], 
+            "name": "AgeEldr"
         }, 
         {
-            "name": "Marital", 
-            "vars": [
+            "cats": [
                 "CurMrrd", 
                 "Widowed", 
                 "Divorced", 
                 "Separated", 
                 "NevMrrd"
-            ]
+            ], 
+            "name": "Marital"
         }
     ], 
     "title": "2010 Elderly by poverty, marital status, race/ethnicity, and gender, age 65+, wgtd 2008-10 ACS, SSDAN/U-Mich", 

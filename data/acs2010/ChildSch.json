@@ -9,15 +9,14 @@
     ], 
     "varCats": [
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "ForeignBorn"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 "Black", 
                 "Asian", 
@@ -25,41 +24,42 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }, 
         {
-            "name": "School", 
-            "vars": [
+            "cats": [
                 "NotEnrolled", 
                 "Public", 
                 "Private"
-            ]
+            ], 
+            "name": "School"
         }, 
         {
-            "name": "EngSpkg", 
-            "vars": [
+            "cats": [
                 "EngOnly", 
                 "Verywell", 
                 "Well", 
                 "Notwell", 
                 "Notatall"
-            ]
+            ], 
+            "name": "EngSpkg"
         }
     ], 
     "title": "2010 School age children by school attendance, poverty, English proficiency, race/ethnicity, immigration status, and gender, wgtd 2008-10 ACS, SSDAN/U-Mich", 

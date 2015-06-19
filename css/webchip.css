@@ -9,15 +9,18 @@ table, th, td {
 	padding: 2px;
 }
 
-#chart1 {
-	text-align: center;
-}
 
 .center {
     display : table-cell;
     vertical-align : left;
     border : 1px solid black;
-    float:none;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    border : 1px solid black;
 }
 
 .panel {
@@ -43,6 +46,7 @@ table, th, td {
 .section-caption {
 	font-weight: bold;
 	font-size:10pt;
+	text-decoration: underline;
 }
 
 .select-box {
@@ -67,6 +71,19 @@ table, th, td {
 	color: gray;
 }
 
+#workbook-container {
+	height: 900px;
+}
+
+#workbook {
+	overflow: scroll;
+	height: 898px;
+}
+
+#command-history {
+	overflow: scroll;
+}
+
 #app-title {
 	margin-left: 15px;
 	font-size: 30pt;
@@ -80,9 +97,16 @@ table, th, td {
 #command-history {
 	width: 15%;
 	border-right: none;
+	height: 900px;
 }
 
 #command-history-header {
 	text-decoration: underline;
+}
+
+#command-history-body {
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: none;
 }
 

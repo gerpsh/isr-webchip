@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "Asian", 
-            "vars": [
+            "cats": [
                 "Chinese", 
                 "Japanese", 
                 "Filipino", 
@@ -16,35 +15,36 @@
                 "Indian", 
                 "Vietname", 
                 "Other"
-            ]
+            ], 
+            "name": "Asian"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "<25", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "HHtype", 
-            "vars": [
+            "cats": [
                 "Mrrdcpl", 
                 "MaleFam", 
                 "FemlFam", 
                 "MaleNonf", 
                 "FemlNonf"
-            ]
+            ], 
+            "name": "HHtype"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NonPov"
-            ]
+            ], 
+            "name": "Pov"
         }
     ], 
     "title": "ASNHPOV2K: 2000 Asian households by Asian group, age, household type, and poverty level, wgtd 1% PUMS, Frey/U-Mich", 

@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 " Asian", 
@@ -17,43 +16,44 @@
                 "AmIndian", 
                 "NLOther", 
                 " NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "WkAge", 
-            "vars": [
+            "cats": [
                 "16-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "WkAge"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "WkHrs", 
-            "vars": [
+            "cats": [
                 "Full35", 
                 "20-34", 
                 "10-19", 
                 "<10"
-            ]
+            ], 
+            "name": "WkHrs"
         }
     ], 
     "title": "FPRTED2K: 2000 Work hours by race/ethnicity, gender, and education, age 16+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,36 +15,37 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "AgeAll4", 
-            "vars": [
+            "cats": [
                 "<25", 
                 " 25-34", 
                 " 35-44", 
                 " 45-54", 
                 " 55-64", 
                 " 65+"
-            ]
+            ], 
+            "name": "AgeAll4"
         }, 
         {
-            "name": "PovLevel", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "PovLevel"
         }, 
         {
-            "name": "EarnType", 
-            "vars": [
+            "cats": [
                 "2ErnrFam", 
                 "1ErnrML", 
                 "1ErnrFML", 
                 "None"
-            ]
+            ], 
+            "name": "EarnType"
         }
     ], 
     "title": "2008 Married-coupd families by earners, race/ethnicity, and poverty, age 16+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

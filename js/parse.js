@@ -162,10 +162,10 @@ compute marginals, returns object like:
 	]
 */
 function marginals(dataset) {
-	var data = dataset.data;
+	var data = dataset["data"];
 	var totalSum = nSum(data);
-	var vars = dataset.varNames;
-	var cats = dataset.varLabels;
+	var vars = dataset["varNames"];
+	var cats = _.pluck(dataset["varCats"], "cats");
 	var margs = [];
 	//counter to keep track of category names within variables
 	var i = 0;

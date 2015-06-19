@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "Asian", 
-            "vars": [
+            "cats": [
                 "Chinese", 
                 "Japanese", 
                 "Filipino", 
@@ -16,28 +15,28 @@
                 "Indian", 
                 "Vietnamese", 
                 "Other"
-            ]
+            ], 
+            "name": "Asian"
         }, 
         {
-            "name": "Immentry", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1980", 
                 "FB80-89", 
                 "FB90-99", 
                 "FB00-08"
-            ]
+            ], 
+            "name": "Immentry"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeAll", 
-            "vars": [
+            "cats": [
                 "0-4", 
                 "5-14", 
                 "15-24", 
@@ -46,7 +45,8 @@
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeAll"
         }
     ], 
     "title": "2008 Asian Alone Population by Asian group, age, gender and immigration status, wgtd 2006-8 ACS, SSDAN/U-Mich", 

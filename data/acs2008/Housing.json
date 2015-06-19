@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -17,45 +16,46 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "AgeMar", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 " 25-34", 
                 " 35-44", 
                 " 45-54", 
                 " 55-64", 
                 " 65+"
-            ]
+            ], 
+            "name": "AgeMar"
         }, 
         {
-            "name": "Homeowner", 
-            "vars": [
+            "cats": [
                 "Homeowner", 
                 "Renter"
-            ]
+            ], 
+            "name": "Homeowner"
         }, 
         {
-            "name": "Housing", 
-            "vars": [
+            "cats": [
                 "House", 
                 "Apt2-9", 
                 "Apt10+", 
                 "MobHome", 
                 "Other"
-            ]
+            ], 
+            "name": "Housing"
         }, 
         {
-            "name": "HHType", 
-            "vars": [
+            "cats": [
                 "MrrdCpl", 
                 "MaleFam", 
                 "FemFam", 
                 "MaleNonf", 
                 "FemNonf"
-            ]
+            ], 
+            "name": "HHType"
         }
     ], 
     "title": "2008 Households by household type, housing, race/ethnicity, and homeownership, age 15+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -16,36 +15,37 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "<25", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Pov", 
-            "vars": [
+            "cats": [
                 "Poverty", 
                 "NearPoor", 
                 "Middle", 
                 "Comf"
-            ]
+            ], 
+            "name": "Pov"
         }, 
         {
-            "name": "EarnType", 
-            "vars": [
+            "cats": [
                 "2ErnrFam", 
                 "1ErnrML", 
                 "1ErnrFML", 
                 "None"
-            ]
+            ], 
+            "name": "EarnType"
         }
     ], 
     "title": "FERNTYP2K: 2000 Married couple families by earners age 16+, race/ethnicity, and poverty, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "Asian", 
-            "vars": [
+            "cats": [
                 "Chinese", 
                 "Japanese", 
                 "Filipino", 
@@ -16,33 +15,34 @@
                 "Indian", 
                 "Vietnamese", 
                 "Other"
-            ]
+            ], 
+            "name": "Asian"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeWork", 
-            "vars": [
+            "cats": [
                 "16-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeWork"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "Empd", 
                 "Unempd", 
                 "NILF"
-            ]
+            ], 
+            "name": "Emp"
         }
     ], 
     "title": "2008 Employment status for Asian Alone by Asian groups, age 16+, wgtd 2006-08 ACS, SSDAN/U-Mich", 

@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "AgeAll", 
-            "vars": [
+            "cats": [
                 "0-4", 
                 "5-14", 
                 "15-24", 
@@ -17,28 +16,28 @@
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeAll"
         }, 
         {
-            "name": "Geo", 
-            "vars": [
+            "cats": [
                 "City", 
                 "Suburb", 
                 "NonMetro"
-            ]
+            ], 
+            "name": "Geo"
         }, 
         {
-            "name": "Region", 
-            "vars": [
+            "cats": [
                 "Northeast", 
                 "Midwest", 
                 "South", 
                 "West"
-            ]
+            ], 
+            "name": "Region"
         }, 
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 "Black", 
                 "Asian", 
@@ -46,7 +45,8 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }
     ], 
     "title": "U.S. Population by age groups, metro, regions, and race/ethnicity, wgtd 2006-08 ACS, SSDAN/U-Mich", 

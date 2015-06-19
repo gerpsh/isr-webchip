@@ -7,27 +7,26 @@
     ], 
     "varCats": [
         {
-            "name": "W-Age4", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 " 25-34", 
                 " 35-44", 
                 " 45-54", 
                 " 55+"
-            ]
+            ], 
+            "name": "W-Age4"
         }, 
         {
-            "name": "W-Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 " HsGrad", 
                 " SomeColl", 
                 " CollGrad"
-            ]
+            ], 
+            "name": "W-Educ"
         }, 
         {
-            "name": "W-RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -35,11 +34,11 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "W-RaceEth"
         }, 
         {
-            "name": "H-RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -47,7 +46,8 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "H-RaceEth"
         }
     ], 
     "title": "2008 Spouses: married women age 15+, by education and race/ethnicity, by husband's race/ethnicity, wgtd 2006-08 ACS, SSDAN/U-Mich", 

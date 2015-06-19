@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -16,33 +15,34 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HsGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "Educ"
         }, 
         {
-            "name": "Kids", 
-            "vars": [
+            "cats": [
                 "None", 
                 "Kids<6", 
                 "KidsOther"
-            ]
+            ], 
+            "name": "Kids"
         }, 
         {
-            "name": "Emp2", 
-            "vars": [
+            "cats": [
                 "EmpFull", 
                 "EmpPart", 
                 "Unempd", 
                 "NILF"
-            ]
+            ], 
+            "name": "Emp2"
         }
     ], 
     "title": "2010 Employment status by number of children, education for currently married women, age 25-34, wgtd 2008-10 ACS, SSDAN/U-Mich", 

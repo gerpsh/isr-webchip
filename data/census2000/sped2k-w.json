@@ -7,19 +7,18 @@
     ], 
     "varCats": [
         {
-            "name": "WAge", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "WAge"
         }, 
         {
-            "name": "WRaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -27,25 +26,26 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "WRaceLat"
         }, 
         {
-            "name": "WEduc", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "WEduc"
         }, 
         {
-            "name": "HEduc", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad"
-            ]
+            ], 
+            "name": "HEduc"
         }
     ], 
     "title": "SPED2K-W: 2000 spouses: married women age 15+, by race and education, by husband's education, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

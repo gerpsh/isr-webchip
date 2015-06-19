@@ -7,8 +7,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NhWhite", 
                 "Black", 
                 "Asian", 
@@ -16,35 +15,36 @@
                 "AmIndian", 
                 "NHOther", 
                 "NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "AgeMar", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "AgeMar"
         }, 
         {
-            "name": "Marital", 
-            "vars": [
+            "cats": [
                 "CurMrrd", 
                 "Widowed", 
                 "Divorced", 
                 "Separated", 
                 "NevMrrd"
-            ]
+            ], 
+            "name": "Marital"
         }
     ], 
     "title": "2010 Marital status for age 15+, wgtd 2008-10 ACS, SSDAN/U-Mich", 

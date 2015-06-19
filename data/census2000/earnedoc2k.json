@@ -9,8 +9,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "NLWhite", 
                 "Black", 
                 "Asian", 
@@ -18,53 +17,54 @@
                 "AmIndian", 
                 "NLOther", 
                 "NLMulti"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Emp", 
-            "vars": [
+            "cats": [
                 "Unemp", 
                 "FullTime", 
                 "PartTime"
-            ]
+            ], 
+            "name": "Emp"
         }, 
         {
-            "name": "Ed", 
-            "vars": [
+            "cats": [
                 "LTHS", 
                 "HSGrad", 
                 "SomeColl", 
                 "CollGrad "
-            ]
+            ], 
+            "name": "Ed"
         }, 
         {
-            "name": "Occ", 
-            "vars": [
+            "cats": [
                 "TopWC", 
                 "OtrWC", 
                 "Service", 
                 "TopBC", 
                 "OtrBC", 
                 "Farm"
-            ]
+            ], 
+            "name": "Occ"
         }, 
         {
-            "name": "Earning", 
-            "vars": [
+            "cats": [
                 "<25K", 
                 "25-35K", 
                 "35-50K", 
                 "50-70k", 
                 "70-100K", 
                 "100K+"
-            ]
+            ], 
+            "name": "Earning"
         }
     ], 
     "title": "2000 civilians age 18-65 in LF by Education, Occupation & Earning, wgtd 5%PUMS, Frey/U-Mich", 

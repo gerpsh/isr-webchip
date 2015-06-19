@@ -7,36 +7,35 @@
     ], 
     "varCats": [
         {
-            "name": "Latino", 
-            "vars": [
+            "cats": [
                 "Mexican", 
                 "PRican", 
                 "Cuban", 
                 "CAmeric", 
                 "SAmeric", 
                 "Other"
-            ]
+            ], 
+            "name": "Latino"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Educ", 
-            "vars": [
+            "cats": [
                 "0-9Yrs", 
                 "10-12Yrs", 
                 "HSGrad", 
@@ -44,7 +43,8 @@
                 "CollGrad", 
                 "Masters", 
                 "PhD-Prof"
-            ]
+            ], 
+            "name": "Educ"
         }
     ], 
     "title": "EDULAT2K: 2000 Education for Latino groups, age 25+, wgtd 1% PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 

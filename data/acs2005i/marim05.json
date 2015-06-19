@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceLat", 
-            "vars": [
+            "cats": [
                 "Latino", 
                 "NLwhite", 
                 "NLBlack", 
@@ -17,43 +16,44 @@
                 "NLAmIndian", 
                 "NLOther", 
                 "NLMixed"
-            ]
+            ], 
+            "name": "RaceLat"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Age", 
-            "vars": [
+            "cats": [
                 "15-24", 
                 "25-34", 
                 "35-44", 
                 "45-54", 
                 "55-64", 
                 "65+"
-            ]
+            ], 
+            "name": "Age"
         }, 
         {
-            "name": "Imm", 
-            "vars": [
+            "cats": [
                 "Native", 
                 "FB<1990", 
                 "FB>=1990"
-            ]
+            ], 
+            "name": "Imm"
         }, 
         {
-            "name": "Marital", 
-            "vars": [
+            "cats": [
                 " Curmrrd", 
                 "Widowed", 
                 "Divorced", 
                 "Seprated", 
                 "Nevmrrd"
-            ]
+            ], 
+            "name": "Marital"
         }
     ], 
     "title": "Marital by Immigration status for Age 15+, wgtd 2005 ACS, Frey/U-MICH-not for commercial purposes", 

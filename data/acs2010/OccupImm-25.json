@@ -8,8 +8,7 @@
     ], 
     "varCats": [
         {
-            "name": "RaceEth", 
-            "vars": [
+            "cats": [
                 "NHWhite", 
                 " Black", 
                 " Asian", 
@@ -17,38 +16,38 @@
                 " AmIndian", 
                 " NHOther", 
                 " NHMulti"
-            ]
+            ], 
+            "name": "RaceEth"
         }, 
         {
-            "name": "Gender", 
-            "vars": [
+            "cats": [
                 "Male", 
                 "Female"
-            ]
+            ], 
+            "name": "Gender"
         }, 
         {
-            "name": "Occup", 
-            "vars": [
+            "cats": [
                 "TopWC", 
                 "OtherWC", 
                 "Service", 
                 "TopBC", 
                 "OtherBC"
-            ]
+            ], 
+            "name": "Occup"
         }, 
         {
-            "name": "Immentry", 
-            "vars": [
+            "cats": [
                 "Native", 
                 " FB<1980", 
                 " FB80-89", 
                 " FB90-99", 
                 " FB00-current"
-            ]
+            ], 
+            "name": "Immentry"
         }, 
         {
-            "name": "EducAll", 
-            "vars": [
+            "cats": [
                 "0-9Yrs", 
                 " 10-12Yrs", 
                 " HSGrad", 
@@ -56,7 +55,8 @@
                 " CollGrad", 
                 " Masters", 
                 " PhD-Prof"
-            ]
+            ], 
+            "name": "EducAll"
         }
     ], 
     "title": "2010 Full-time year round workers by occupation, gender, immigration status, race/ethnicity, and education, age 25-34, wgtd 2008-10 ACS, SSDAN/U-Mich", 
