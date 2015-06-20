@@ -32,6 +32,21 @@ function canControl() {
 	return condition;
 }
 
+function onPctAcross() {
+	$('#btn-pctAcross').prop('value', 'yes');
+	$('#btn-pctDown').prop('value', 'no');
+}
+
+function onPctDown() {
+	$('#btn-pctDown').prop('value', 'yes');
+	$('#btn-pctAcross').prop('value', 'no');
+}
+
+function nextPctAcross() {
+	var condition = ($('#btn-pctAcross').val() == "yes");
+	return condition;
+}
+
 function getCurrentDataset() {
 	return $('#dataset-list').val();
 }
@@ -43,11 +58,13 @@ function getRowVar() {
 function getColVar() {
 	return $('#crosstab-col').val();
 }
+function getSingleVar() {
+	return $('#single-var').val();
+}
 
 function getControlVar() {
 	return $('#control-var').val();
 }
-
 
 $('#crosstab-row').on('change', function() {
 	if (canSingleVar()) {
@@ -127,7 +144,3 @@ $('#single-var').on('change', function() {
 
 	}
 });
-
-
-
-

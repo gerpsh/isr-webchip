@@ -129,7 +129,6 @@ function frequency(dataset, row, col) {
 		var returnObj = {"row": "Total", "col": cc, "total": total};
 		freqs.push(returnObj);
 	});
-	
 	return freqs;
 }
 
@@ -255,4 +254,386 @@ function controlData(dataset, control) {
 		datasets.push(newDataset);
 	});
 	return datasets;
+}
+
+//return data for charts (single variable)
+function singleData(dataset, singleVar) {
+	var finalData = new Array();
+	var catename = new Array();
+	var finalDataSB = new Array();
+	var finalDataPC = new Array();
+	for (var i=0; i<dataset.length; i++) {
+		if (dataset[i]["name"] == singleVar) {
+			for (var j=0; j<dataset[i]["margs"].length; j++) {
+				catename.push(dataset[i]["margs"][j]["category"]);
+				finalData.push(dataset[i]["margs"][j]["pct"]);
+				var tempSB = [];
+				tempSB.push(dataset[i]["margs"][j]["category"]);
+				tempSB.push(dataset[i]["margs"][j]["pct"]);
+				finalDataSB.push(tempSB);
+				var tempPC = [];
+				tempPC.push(dataset[i]["margs"][j]["category"]);
+				tempPC.push(dataset[i]["margs"][j]["count"]);
+				finalDataPC.push(tempPC);
+			}
+			finalData.unshift(singleVar);
+		}
+	}
+	return [catename, finalData, finalDataSB, finalDataPC];
+}
+
+//return data for charts (crosstab)
+function crosstabData(dataset) {
+	var finalDataBefore = new Object();
+	var finalDataAfter = new Array();
+	var finalDataPie = new Object();
+	var rowCats = new Array();
+	var colCats = new Array();
+	
+	if (nextPctAcross()) {
+		//PctAcross
+		for (var i=0; i<dataset.length; i++) {
+			var rowCat = dataset[i]["row"];
+			var colCat = dataset[i]["col"];
+			var varValue = dataset[i]["total"];
+			if (rowCat != 'Total' && colCat != 'Total') {
+				if (rowCats.indexOf(rowCat) == -1) {
+					rowCats.push(rowCat);
+				}
+				if (colCats.indexOf(colCat) == -1) {
+					colCats.push(colCat);
+				}
+				
+				if (colCat in finalDataBefore) {
+					finalDataBefore[colCat].push(varValue);
+				}
+				else {
+					finalDataBefore[colCat] = [];
+					finalDataBefore[colCat].push(varValue);
+				}
+				//for pie charts
+				if (rowCat in finalDataPie) {
+					var temp = [colCat, varValue];
+					finalDataPie[rowCat].push(temp);
+				}
+				else {
+					finalDataPie[rowCat] = [];
+					var temp = [colCat, varValue];
+					finalDataPie[rowCat].push(temp);
+				}
+			}
+			else {
+				continue;
+			}
+		}
+	}
+	else {
+		//PctDown
+		for (var i=0; i<dataset.length; i++) {
+			var rowCat = dataset[i]["row"];
+			var colCat = dataset[i]["col"];
+			var varValue = dataset[i]["total"];
+			if (rowCat != 'Total' && colCat != 'Total') {
+				if (rowCats.indexOf(colCat) == -1) {
+					rowCats.push(colCat);
+				}
+				if (colCats.indexOf(rowCat) == -1) {
+					colCats.push(rowCat);
+				}
+				
+				if (rowCat in finalDataBefore) {
+					finalDataBefore[rowCat].push(varValue);
+				}
+				else {
+					finalDataBefore[rowCat] = [];
+					finalDataBefore[rowCat].push(varValue);
+				}
+				//for pie charts
+				if (colCat in finalDataPie) {
+					var temp = [rowCat, varValue];
+					finalDataPie[colCat].push(temp);
+				}
+				else {
+					finalDataPie[colCat] = [];
+					var temp = [rowCat, varValue];
+					finalDataPie[colCat].push(temp);
+				}
+			}
+			else {
+				continue;
+			}
+		}
+	}
+	for (var item in finalDataBefore) {
+		var temp = finalDataBefore[item].slice();
+		temp.unshift(item);
+		finalDataAfter.push(temp);
+	} 
+	return [finalDataAfter, rowCats, colCats, finalDataPie];
+}
+
+function generateBarCharts(dataset, numOfVar) {
+	if (numOfVar == 'single') {	
+		var catename = dataset[0];	
+		var finalData = dataset[1];
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: [finalData],
+				type: 'bar'
+			},
+			bar: {
+				width: {
+					rato:0.5
+				}
+			},
+			tooltip: {
+				format:{
+					value:function(x){
+						return x+'%';
+					}
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: catename
+				},
+				y: {
+					label: {
+						text: 'Percentage',
+						position: 'outer-middle'
+					}
+				}
+			}
+		});
+	}
+	else {
+		var finalData = dataset[0];
+		var catename = dataset[1];
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: finalData,
+				type: 'bar'
+			},
+			tooltip: {
+				format:{
+					value:function(x){
+						return x+'%';
+					}
+				}
+			},
+			bar: {
+				width: {
+					rato:0.5
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: catename
+				},
+				y: {
+					label: {
+						text: 'Percentage',
+						position: 'outer-middle'
+					}
+				}
+			}
+		});
+	}
+	$(chart.element).appendTo("#workbook");
+}
+
+function generatePieCharts(dataset, numOfVar) {
+	if (numOfVar == 'single') {	
+		var finalData = dataset[3];
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: finalData,
+				type: 'pie',
+				order: null
+			}
+		});
+		$(chart.element).appendTo("#workbook");
+	}
+	else {
+		var finalData = dataset[3];
+		for (var title in finalData) {
+			var chart = c3.generate({
+				size: {
+					height: 390
+				},
+				data: {
+					columns: finalData[title],
+					type: 'pie',
+					order: null
+				}
+			});
+			$("#workbook").append("<p>"+ title + "</p>");
+			$(chart.element).appendTo("#workbook");
+		}
+	}
+}
+
+function generateLineCharts(dataset, numOfVar) {
+	if (numOfVar == 'single') {	
+		var catename = dataset[0];	
+		var finalData = dataset[1];
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: [finalData],
+			},
+			tooltip: {
+				format:{
+					value:function(x){
+						return x+'%';
+					}
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: catename
+				},
+				y: {
+					label: {
+						text: 'Percentage',
+						position: 'outer-middle'
+					}
+				}
+			}
+		});
+	}
+	else {
+		var finalData = dataset[0];
+		var catename = dataset[1];
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: finalData,
+			},
+			tooltip: {
+				format:{
+					value:function(x){
+						return x+'%';
+					}
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: catename
+				},
+				y: {
+					label: {
+						text: 'Percentage',
+						position: 'outer-middle'
+					}
+				}
+			}
+		});
+	}
+	$(chart.element).appendTo("#workbook");
+}
+
+function generateStackedBars(dataset, numOfVar, singleVar) {
+	if (numOfVar == 'single') {	
+		var catename = dataset[0];	
+		var finalData = dataset[2];
+		var xVar = singleVar;
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: finalData,
+				type: 'bar',
+				groups: [
+					catename
+				],
+				order: null
+			},
+			tooltip: {
+				format:{
+					value:function(x){
+						return x+'%';
+					}
+				}
+			},
+			bar: {
+				width: {
+					rato:0.5
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: [xVar]
+				},
+				y: {
+					label: {
+						text: 'Percentage',
+						position: 'outer-middle'
+					}
+				}
+			}
+		});
+	}
+	else {
+		var finalData = dataset[0];
+		var catename = dataset[1];
+		var dataname = dataset[2];
+		var chart = c3.generate({
+			size: {
+				height: 390
+			},
+			data: {
+				columns: finalData,
+				type: 'bar',
+				groups: [
+					dataname
+				],
+				order: null
+			},
+			tooltip: {
+				format:{
+					value:function(x){
+						return x+'%';
+					}
+				}
+			},
+			bar: {
+				width: {
+					rato:0.5
+				}
+			},
+			axis: {
+				x: {
+					type: 'category',
+					categories: catename
+				},
+				y: {
+					label: {
+						text: 'Percentage',
+						position: 'outer-middle'
+					}
+				}
+			}
+		});
+	}
+	$(chart.element).appendTo("#workbook");
 }

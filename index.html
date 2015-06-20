@@ -78,8 +78,8 @@
 		  		<div class="panel-body" id="table-options">
 		  			<button disabled id="btn-marginals" class="btn-table" ng-click="generateMarginals()">Marginals</button><br>
 		  			<button disabled id="btn-frequency" class="btn-table" ng-click="generateFrequency()">Frequency</button><br>
-		  			<button disabled id="btn-pctAcross" class="btn-table" ng-click="generatePctAcross()">Percent Across</button><br>
-		  			<button disabled id="btn-pctDown" class="btn-table" ng-click="generatePctDown()">Percent Down</button><br>
+		  			<button disabled id="btn-pctAcross" class="btn-table" value="no" onclick="onPctAcross()" ng-click="generatePctAcross()">Percent Across</button><br>
+		  			<button disabled id="btn-pctDown" class="btn-table" value="no" onclick="onPctDown()" ng-click="generatePctDown()">Percent Down</button><br>
 		  		</div>
 		    </div>
 		    <hr class="panel-divider">
@@ -89,10 +89,10 @@
 		  		</div>
 		  		<br>
 		  		<div class="panel-body" id="chart-options">
-		  			<button disabled id="btn-barChart" class="btn-chart">Bar Chart</button><br>
-		  			<button disabled id="btn-pieChart" class="btn-chart">Pie Chart</button><br>
-		  			<button disabled id="btn-lineChart" class="btn-chart">Line Chart</button><br>
-		  			<button disabled id="btn-stackedBar" class="btn-chart">Stacked Bar</button><br>
+		  			<button disabled id="btn-barChart" class="btn-chart" ng-click="generateBarChart()">Bar Chart</button><br>
+		  			<button disabled id="btn-pieChart" class="btn-chart" ng-click="generatePieChart()">Pie Chart</button><br>
+		  			<button disabled id="btn-lineChart" class="btn-chart" ng-click="generateLineChart()">Line Chart</button><br>
+		  			<button disabled id="btn-stackedBar" class="btn-chart" ng-click="generateStackedBar()">Stacked Bar</button><br>
 		  		</div>
 		  	</div>
 		  </div>
