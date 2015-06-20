@@ -121,7 +121,6 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append("<h4>Bar Chart: " +  singleVar + " (Single Variable)</h4>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
-				//var barChart = 
 				generateBarCharts(singleDataset,'single');
 				$("#command-history-body").append("<p>Generate Bar Chart (single variable)</p>");			
 			}
@@ -133,28 +132,45 @@ webchipApp.controller("default", ['$scope', '$http',
 				if (nextPctAcross()) {
 					//on PctAcross way
 					$("#workbook").append("<h4>Bar Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
-					if (controlSet()) {}
+					if(controlSet()) {
+						var theDataset = copyObject($scope.completeDataset);
+						var splitArray = controlData(theDataset, conVar);
+						_.each(splitArray, function(d) {
+							var cat = d["theData"][0][conVar];
+							$("#workbook").append("<p>Control: " + cat + "</p>");
+							var pctAcrosses = pctAcross(d, rowVar, colVar);
+							var crosstabDataset = crosstabData(pctAcrosses);
+							generateBarCharts(crosstabDataset,'crosstab');
+						});
+					}
 					else {
 						var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
 						var crosstabDataset = crosstabData(pctAcrosses);
-						//var barChart = 
 						generateBarCharts(crosstabDataset,'crosstab');
 					}
 				}
 				else {
 					//on PctDown way
 					$("#workbook").append("<h4>Bar Chart: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
-					if (controlSet()) {}
+					if(controlSet()) {
+						var theDataset = copyObject($scope.completeDataset);
+						var splitArray = controlData(theDataset, conVar);
+						_.each(splitArray, function(d) {
+							var cat = d["theData"][0][conVar];
+							$("#workbook").append("<p>Control: " + cat + "</p>");
+							var pctDowns = pctDown(d, rowVar, colVar);
+							var crosstabDataset = crosstabData(pctDowns);
+							generateBarCharts(crosstabDataset,'crosstab');
+						});
+					}
 					else {
 						var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
 						var crosstabDataset = crosstabData(pctDowns);
-						//var barChart = 
 						generateBarCharts(crosstabDataset,'crosstab');
 					}
 				}
 				$("#command-history-body").append("<p>Generate Bar Chart (crosstab)</p>");
 			}
-			//$("#workbook").append(barChart);
 		};
 		
 		$scope.generatePieChart = function() {
@@ -171,7 +187,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var rowVar = getRowVar();
 				var colVar = getColVar();
 				var conVar = getControlVar();
-				
+								
 				//generate title
 				if (nextPctAcross()) {
 					$("#workbook").append("<h4>Pie Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
@@ -180,9 +196,22 @@ webchipApp.controller("default", ['$scope', '$http',
 					$("#workbook").append("<h4>Pie Chart: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
 				}	
 		
-				var freqs = frequency($scope.completeDataset, rowVar, colVar);
-				var crosstabDataset = crosstabData(freqs);
-				generatePieCharts(crosstabDataset,'crosstab');
+				if(controlSet()) {
+					var theDataset = copyObject($scope.completeDataset);
+					var splitArray = controlData(theDataset, conVar);
+					_.each(splitArray, function(d) {
+						var cat = d["theData"][0][conVar];
+						$("#workbook").append("<p>Control: " + cat + "</p>");
+						var freqs = frequency(d, rowVar, colVar);
+						var crosstabDataset = crosstabData(freqs);
+						generatePieCharts(crosstabDataset,'crosstab');
+					});
+				}
+				else {
+					var freqs = frequency($scope.completeDataset, rowVar, colVar);
+					var crosstabDataset = crosstabData(freqs);
+					generatePieCharts(crosstabDataset,'crosstab');
+				}
 				$("#command-history-body").append("<p>Generate Pie Chart (crosstab)</p>");
 			}
 		};
@@ -193,7 +222,6 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append("<h4>Line Chart: " +  singleVar + " (Single Variable)</h4>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
-				//var lineChart = 
 				generateLineCharts(singleDataset,'single');
 				$("#command-history-body").append("<p>Generate Line Chart (single variable)</p>");
 			}
@@ -205,28 +233,45 @@ webchipApp.controller("default", ['$scope', '$http',
 				if (nextPctAcross()) {
 					//on PctAcross way
 					$("#workbook").append("<h4>Line Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
-					if (controlSet()) {}
+					if(controlSet()) {
+						var theDataset = copyObject($scope.completeDataset);
+						var splitArray = controlData(theDataset, conVar);
+						_.each(splitArray, function(d) {
+							var cat = d["theData"][0][conVar];
+							$("#workbook").append("<p>Control: " + cat + "</p>");
+							var pctAcrosses = pctAcross(d, rowVar, colVar);
+							var crosstabDataset = crosstabData(pctAcrosses);
+							generateLineCharts(crosstabDataset,'crosstab');
+						});
+					}
 					else {
 						var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
 						var crosstabDataset = crosstabData(pctAcrosses);
-						//var lineChart = 
 						generateLineCharts(crosstabDataset,'crosstab');
 					}
 				}
 				else {
 					//on PctDown way
 					$("#workbook").append("<h4>Line Chart: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
-					if (controlSet()) {}
+					if(controlSet()) {
+						var theDataset = copyObject($scope.completeDataset);
+						var splitArray = controlData(theDataset, conVar);
+						_.each(splitArray, function(d) {
+							var cat = d["theData"][0][conVar];
+							$("#workbook").append("<p>Control: " + cat + "</p>");
+							var pctDowns = pctDown(d, rowVar, colVar);
+							var crosstabDataset = crosstabData(pctDowns);
+							generateLineCharts(crosstabDataset,'crosstab');
+						});
+					}
 					else {
 						var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
 						var crosstabDataset = crosstabData(pctDowns);
-						//var lineChart = 
 						generateLineCharts(crosstabDataset,'crosstab');
 					}
 				}
 				$("#command-history-body").append("<p>Generate Line Chart (crosstab)</p>");
 			}
-			//$("#workbook").append(lineChart);
 		};
 		
 		$scope.generateStackedBar = function() {
@@ -235,7 +280,6 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append("<h4>Stacked Bar: " +  singleVar + " (Single Variable)</h4>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
-				//var stackedBar = 
 				generateStackedBars(singleDataset,'single', singleVar);
 				$("#command-history-body").append("<p>Generate Stacked Bar (single variable)</p>");
 			}
@@ -247,28 +291,45 @@ webchipApp.controller("default", ['$scope', '$http',
 				if (nextPctAcross()) {
 					//on PctAcross way
 					$("#workbook").append("<h4>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
-					if (controlSet()) {}
+					if(controlSet()) {
+						var theDataset = copyObject($scope.completeDataset);
+						var splitArray = controlData(theDataset, conVar);
+						_.each(splitArray, function(d) {
+							var cat = d["theData"][0][conVar];
+							$("#workbook").append("<p>Control: " + cat + "</p>");
+							var pctAcrosses = pctAcross(d, rowVar, colVar);
+							var crosstabDataset = crosstabData(pctAcrosses);
+							generateStackedBars(crosstabDataset,'crosstab');
+						});
+					}
 					else {
 						var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
 						var crosstabDataset = crosstabData(pctAcrosses);
-						//var stackedBar = 
 						generateStackedBars(crosstabDataset,'crosstab');
 					}
 				}
 				else {
 					//on PctDown way
 					$("#workbook").append("<h4>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
-					if (controlSet()) {}
+					if(controlSet()) {
+						var theDataset = copyObject($scope.completeDataset);
+						var splitArray = controlData(theDataset, conVar);
+						_.each(splitArray, function(d) {
+							var cat = d["theData"][0][conVar];
+							$("#workbook").append("<p>Control: " + cat + "</p>");
+							var pctDowns = pctDown(d, rowVar, colVar);
+							var crosstabDataset = crosstabData(pctDowns);
+							generateStackedBars(crosstabDataset,'crosstab');
+						});
+					}
 					else {
 						var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
 						var crosstabDataset = crosstabData(pctDowns);
-						//var stackedBar = 
 						generateStackedBars(crosstabDataset,'crosstab');
 					}
 				}
 				$("#command-history-body").append("<p>Generate Stacked Bar (crosstab)</p>");
 			}
-			//$("#workbook").append(stackedBar);
 		};
 		
 	}]);

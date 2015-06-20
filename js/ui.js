@@ -58,6 +58,7 @@ function getRowVar() {
 function getColVar() {
 	return $('#crosstab-col').val();
 }
+
 function getSingleVar() {
 	return $('#single-var').val();
 }
