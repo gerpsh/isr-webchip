@@ -1,0 +1,916 @@
+{
+    "numCats": [
+        8, 
+        2, 
+        9
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "0-4", 
+                "5-14", 
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "1930", 
+                "1940", 
+                "1950", 
+                "1960", 
+                "1970", 
+                "1980", 
+                "1990", 
+                "2000", 
+                "2008"
+            ], 
+            "name": "Period"
+        }
+    ], 
+    "title": "PopStruc.Trend: 1930-2008, U.S. Population (in 1000s) by age groups and gender, wgtd PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 3, 
+    "varNames": [
+        "Age", 
+        "Gender", 
+        "Period"
+    ], 
+    "theData": [
+        {
+            "Dep": "5806", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "5355", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "8236", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "10330", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "8745", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "8887", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "9392", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "9684", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "10586", 
+            "Gender": "Male", 
+            "Age": "0-4", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "5638", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "5187", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "7927", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "9991", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "8409", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "8485", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "8962", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "9224", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "10089", 
+            "Gender": "Female", 
+            "Age": "0-4", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "12450", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "11371", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "12375", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "18028", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "20759", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "17375", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "18030", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "20489", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "20559", 
+            "Gender": "Male", 
+            "Age": "5-14", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "12163", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "11060", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "11944", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "17436", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "19987", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "16606", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "17184", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "19493", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "19650", 
+            "Gender": "Female", 
+            "Age": "5-14", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "11095", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "11872", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "10917", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "11906", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "17551", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "20991", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "18779", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "19319", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "21912", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "11328", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "12048", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "11181", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "12114", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "17891", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "20517", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "17996", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "18601", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "20655", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "9422", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "10521", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "11597", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "11179", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "12218", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "19532", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "21573", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "18661", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "20402", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "9532", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "10818", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "12162", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "11639", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "12690", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "19771", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "21603", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "18755", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "19652", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "8816", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "9165", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "10588", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "11756", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "11231", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "13797", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "18594", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "22187", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "21618", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "8383", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "9169", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "10863", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "12326", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "11856", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "14283", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "18985", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "22476", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "21640", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "6804", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "7962", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "8655", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "10093", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "11199", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "10820", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "12326", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "18132", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "21578", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "6214", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "7550", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "8688", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "10393", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "12021", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "11554", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "12898", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "18923", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "22256", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "4368", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "5409", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "6668", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "7536", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "8793", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "10322", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "9981", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "11465", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "15751", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "4030", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "5164", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "6627", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "8036", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "9797", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "11773", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "11166", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "12523", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "16925", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "3326", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "4406", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "5797", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "7502", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "8416", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "10776", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "12638", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "14402", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "16008", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Period": "2008"
+        }, 
+        {
+            "Dep": "3309", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1930"
+        }, 
+        {
+            "Dep": "4614", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1940"
+        }, 
+        {
+            "Dep": "6472", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1950"
+        }, 
+        {
+            "Dep": "9057", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1960"
+        }, 
+        {
+            "Dep": "11650", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1970"
+        }, 
+        {
+            "Dep": "16045", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1980"
+        }, 
+        {
+            "Dep": "19049", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "1990"
+        }, 
+        {
+            "Dep": "20485", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "2000"
+        }, 
+        {
+            "Dep": "21947", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Period": "2008"
+        }
+    ]
+}

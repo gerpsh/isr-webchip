@@ -37,6 +37,8 @@
 		        	<p id="dataset-description">
 		        		<p ng-repeat="obj in numberCategories"><b>{{ obj.var }}</b>: {{ obj.cats }} categories</p>
 		        	</p>
+		        	<br>
+		        	<button disabled id="btn-marginals" ng-click="generateMarginals()">Compute Marginals</button><br>
 		    	</div>
 		  	</div>
 		  	<hr class="panel-divider">
@@ -57,16 +59,16 @@
 			        	</select>
 			        <br>
 			        <br>
-			        <span class="section-caption">Single Variable:</span><br>
-			        	<select id="single-var" class="select-box" ng-model="na4" ng-options="obj for obj in varNames track by obj">
-			        		<option value='' selected='selected'>Select Variable</option>
-			        	</select>
-			        <br>
-			        <br>
 			        <span class="section-caption">Control Variable:</span><br>
 			        	<select disabled id="control-var" class="select-box" ng-model="na5" ng-options="obj for obj in varNames track by obj">
 			        		<option value='' selected='selected'>Select Variable</option>
 			        	</select>
+			        <br>
+			        <br>
+			        <span class="section-caption">Single Variable:</span><br>
+			        	<select id="single-var" class="select-box" ng-model="na4" ng-options="obj for obj in varNames track by obj">
+			        		<option value='' selected='selected'>Select Variable</option>
+			        	</select>        
 		    	</div>
 		  	</div>
 		  	<hr class="panel-divider">
@@ -76,7 +78,6 @@
 		  		</div>
 		  		<br>
 		  		<div class="panel-body" id="table-options">
-		  			<button disabled id="btn-marginals" class="btn-table" ng-click="generateMarginals()">Marginals</button><br>
 		  			<button disabled id="btn-frequency" class="btn-table" ng-click="generateFrequency()">Frequency</button><br>
 		  			<button disabled id="btn-pctAcross" class="btn-table" value="no" onclick="onPctAcross()" ng-click="generatePctAcross()">Percent Across</button><br>
 		  			<button disabled id="btn-pctDown" class="btn-table" value="no" onclick="onPctDown()" ng-click="generatePctDown()">Percent Down</button><br>

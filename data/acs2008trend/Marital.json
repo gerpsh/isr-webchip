@@ -1,0 +1,6789 @@
+{
+    "numCats": [
+        7, 
+        2, 
+        2, 
+        6, 
+        5
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1950", 
+                "1960", 
+                "1970", 
+                "1980", 
+                "1990", 
+                "2000", 
+                "2008"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "NonBlack", 
+                "Black"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "CurMrrd", 
+                "Widowed", 
+                "Divorced", 
+                "Seprated", 
+                "NevMrrd"
+            ], 
+            "name": "Marital"
+        }
+    ], 
+    "title": "Marital.Trend: 1950-2008, Marital status by race and gender, age 15+, wgtd PUMS, Frey/U-MICH", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Gender", 
+        "Age", 
+        "Marital"
+    ], 
+    "theData": [
+        {
+            "Dep": "2151425", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "14892", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "57524", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "47413", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "7481978", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "8407145", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "28961", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "191875", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "101866", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1939947", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "8346737", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "73564", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "236675", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "118416", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "907788", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "6798003", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "208454", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "224948", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "125492", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "685649", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "5049128", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "431829", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "180043", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "100945", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "545179", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "3520861", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1295811", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "102298", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "75599", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "453679", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "4188865", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "34109", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "104612", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "95604", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "5515818", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "9252575", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "109005", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "295729", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "149589", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1218991", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "8245004", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "322315", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "354731", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "163255", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "809354", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "6145737", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "823453", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "284896", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "139988", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "627814", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "3983542", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "1494521", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "153538", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "89325", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "503011", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "2145985", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "3257193", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "66598", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "48160", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "554231", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "253765", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "4286", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "4985", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "30480", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "899586", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "791997", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "9633", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "25518", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "82900", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "220947", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "792927", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "23076", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "25133", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "84224", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "86798", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "598110", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "49618", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "22366", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "59793", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "47768", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "334683", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "60067", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "11435", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "32628", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "23944", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "249499", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "122661", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "6273", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "22114", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "14613", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "508764", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "9778", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "14177", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "84673", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "698821", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "914763", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "42925", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "49655", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "162449", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "139911", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "751773", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "114043", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "43492", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "135699", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "65838", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "486730", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "185816", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "24998", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "75754", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "35757", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "212716", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "179098", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "11094", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "28032", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "16516", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "115721", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "299369", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "4118", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "13481", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "14763", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1950"
+        }, 
+        {
+            "Dep": "2365600", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "5500", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "58500", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "48800", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "8165100", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "8147900", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "20300", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "192000", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "101500", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1586500", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "9403700", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "58000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "267600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "109000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "851000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "8038300", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "141500", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "273900", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "115700", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "681600", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "5807400", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "318500", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "215900", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "91600", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "550500", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "4702200", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1258700", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "157800", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "84000", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "526100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "4259100", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "18300", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "115700", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "107000", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "6283200", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "9016400", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "76700", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "281200", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "152700", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "836000", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "9673700", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "289400", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "395800", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "173500", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "651700", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "7514700", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "756000", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "398300", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "150600", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "685500", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "4897000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1591800", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "271300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "104100", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "614100", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "3043200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "4216700", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "159500", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "70300", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "716600", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "253700", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1300", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "3200", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "22200", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "1011100", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "770100", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "7700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "28600", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "75400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "225700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "816200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "20000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "36900", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "84600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "118900", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "679500", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "37700", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "35200", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "72600", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "71700", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "445200", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "63700", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "21700", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "45000", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "45300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "329400", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "136700", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "12500", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "23400", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "30100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "452000", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "6600", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "10900", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "69000", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "855600", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "887900", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "31100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "55400", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "178100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "168100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "825500", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "86200", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "74000", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "164100", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "85400", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "608200", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "161200", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "51400", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "100600", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "58000", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "338900", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "227500", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "27300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "49100", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "36800", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "179900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "392000", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "14300", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "19900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "25100", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1960"
+        }, 
+        {
+            "Dep": "3256000", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "17400", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "111900", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "82700", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "11846100", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8756900", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "26200", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "329800", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "137900", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1619300", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8777200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "60600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "343300", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "125900", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "733200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8826200", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "149500", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "362600", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "133100", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "633100", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "6842300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "279700", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "296300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "101600", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "523000", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "5622900", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1283800", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "231500", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "92900", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "577900", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "5323500", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "67200", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "213800", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "182800", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "9802800", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "9393200", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "123900", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "495000", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "245300", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1037700", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8941200", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "268500", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "550200", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "204000", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "553200", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8679800", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "799700", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "585000", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "189100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "589100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "5997400", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1742000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "432300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "125300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "612000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "3876600", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "5597400", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "330100", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "93200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "907300", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "340600", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "4000", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "10100", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "30600", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1605600", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "798800", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8600", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "37300", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "72400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "251700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "773500", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "18900", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "50200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "81700", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "132000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "699000", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "42900", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "55600", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "83800", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "87900", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "522400", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "69500", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "38400", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "53300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "59200", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "413700", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "162500", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "29200", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "39100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "58700", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "530000", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "15700", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "29400", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "88500", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1472300", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "861700", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "42500", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "89800", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "207900", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "236100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "799500", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "83900", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "109800", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "195300", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "111600", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "658600", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "172100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "90500", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "127100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "71200", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "429400", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "264300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "54000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "74300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "52000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "245900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "518800", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "30500", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "42700", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "55200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "3001960", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "5400", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "229540", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "124340", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "15054240", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "11082280", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "20900", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1236740", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "334640", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "3697820", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "9350840", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "38820", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "903080", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "222700", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "803480", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "8437620", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "114880", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "667040", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "160380", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "554460", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "7966080", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "296960", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "469580", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "111500", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "483580", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "7201780", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1314440", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "327140", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "89580", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "508940", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "4879600", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "24200", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "444520", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "260580", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "12463840", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "11961660", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "95520", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1608200", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "466180", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2365960", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "9237320", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "203200", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1247920", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "301840", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "604820", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "8293200", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "646440", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "944100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "210340", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "444100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "7362800", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1814720", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "723640", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "146920", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "503560", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "5222200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "7178100", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "567400", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "96840", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "942760", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "262160", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1760", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "17120", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "31720", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2442480", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "993060", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "6920", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "153040", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "142700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "648780", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "790960", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "14520", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "136040", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "111320", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "163800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "669360", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "35980", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "109580", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "93340", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "95920", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "562260", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "69080", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "75960", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "72020", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "67040", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "495640", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "185340", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "49420", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "48780", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "52860", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "413860", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "6340", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "41940", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "79720", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2395900", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1020740", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "38500", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "274860", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "264000", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "674260", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "761420", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "77240", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "241320", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "212780", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "191040", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "647480", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "172900", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "179140", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "162220", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "99460", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "488920", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "287040", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "110060", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "103160", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "68160", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "323480", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "717540", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "69440", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "55680", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "69340", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1768525", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "6413", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "138708", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "89092", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "13927634", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "11059531", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "23293", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1390031", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "386839", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "6287591", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "12398230", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "52269", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1906561", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "352737", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1923867", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8968941", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "96593", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1257345", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "211983", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "663944", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "7500988", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "272889", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "725220", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "124596", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "445772", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8868881", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1530099", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "511091", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "101029", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "528395", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2934387", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "19854", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "272353", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "187111", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "11754972", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "12422110", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "94338", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1779988", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "560532", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "3976510", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "12292977", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "220099", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2381261", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "466804", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1356241", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8533955", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "517706", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1719578", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "259268", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "540234", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "6929978", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1477390", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1047098", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "144298", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "400294", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "6815012", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8330111", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "920219", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "110915", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "915020", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "167504", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1883", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "11631", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "20903", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2324467", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "947386", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "7004", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "155750", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "144005", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1285309", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1041512", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "15569", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "281042", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "160850", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "433928", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "730489", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "28487", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "197382", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "105025", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "141885", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "543760", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "62237", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "115727", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "67266", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "77037", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "541085", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "205653", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "80661", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "52922", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "63179", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "229751", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "4850", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "24134", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "43639", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2272584", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "993996", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "24455", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "265265", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "248812", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1327036", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "971911", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "74769", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "457886", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "258314", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "486634", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "661627", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "145995", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "309321", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "161667", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "165703", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "467295", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "287028", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "182368", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "101485", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "86477", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "378577", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "882417", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "126741", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "67214", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "92454", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1935372", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "22979", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "120905", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "93035", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "15082943", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "9441967", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "32635", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1121101", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "325800", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "6538499", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "13910607", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "82802", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2425410", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "445700", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "3308189", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "12309820", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "153951", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2388259", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "321611", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1464492", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "8242292", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "267414", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1280708", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "149988", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "535118", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "10016480", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1783040", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "826905", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "129199", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "574118", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2742292", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "29111", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "204680", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "158176", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "13091614", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "10501092", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "72078", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1469678", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "493108", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "4422817", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "14282452", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "237183", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2808694", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "618020", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2187557", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "11947177", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "572684", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2942068", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "418011", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1135220", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "7602313", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1258447", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1766316", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "182743", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "497348", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "8147894", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "8369951", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1358226", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "136975", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "773476", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "279939", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "10149", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "11890", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "19081", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2409417", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "964063", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "11108", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "137935", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "83353", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1173913", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1359629", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "24708", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "323659", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "158172", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "779892", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1039500", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "38119", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "337638", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "132131", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "332726", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "620748", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "53825", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "179563", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "71269", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "109439", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "600735", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "211021", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "122371", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "53198", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "76710", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "241367", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "7532", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "17109", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "27638", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2451707", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "896987", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "18314", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "208764", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "152884", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1401686", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1244621", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "60343", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "509913", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "253618", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "919826", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "931914", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "149366", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "508504", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "189162", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "394473", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "508580", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "246823", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "274441", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "99928", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "140808", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "451521", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "937357", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "189903", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "64966", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "119357", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1138877", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "17029", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "79179", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "59785", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "17419983", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8403425", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "27136", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "986833", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "335109", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8141159", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "12558256", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "69489", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2204053", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "446994", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "3812910", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "13191400", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "187289", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2984324", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "416018", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2422140", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "10581725", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "326040", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2120047", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "227648", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1035082", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "10760438", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1993417", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1249250", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "148123", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "637196", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1836155", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "24061", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "145128", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "131547", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "15404199", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "9411826", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "62427", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1298055", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "524055", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "5660297", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "12695427", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "195715", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2647969", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "661814", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2547400", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "13125283", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "573177", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "3521019", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "561420", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1735043", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "9801676", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1293216", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2815997", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "290676", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "917800", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8377148", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8584275", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2028491", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "156794", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "843770", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "109120", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "5335", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8192", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "12005", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "3062584", 
+            "Gender": "Male", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "713211", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "5610", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "112432", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "70937", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1607027", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1164139", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "15081", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "298518", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "133686", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "914878", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1168339", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "40343", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "406427", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "148945", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "613434", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "791178", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "61706", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "300740", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "91892", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "215645", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "657349", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "229896", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "173474", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "59894", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "99045", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "133663", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "4738", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "13065", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "18758", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2944375", 
+            "Gender": "Female", 
+            "Age": "15-24", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "695192", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "10172", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "160160", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "134931", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1695790", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1081157", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "43288", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "448662", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "224551", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1094195", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1054349", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "137304", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "605015", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "233475", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "710899", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "657294", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "266177", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "465883", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "125046", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "292108", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "442849", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "CurMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "979938", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Widowed", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "295685", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Divorced", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "70543", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "Seprated", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "168139", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Marital": "NevMrrd", 
+            "Race": "Black", 
+            "Year": "2008"
+        }
+    ]
+}

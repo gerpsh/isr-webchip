@@ -1,0 +1,4547 @@
+{
+    "numCats": [
+        7, 
+        2, 
+        2, 
+        5, 
+        4
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1950", 
+                "1960", 
+                "1970", 
+                "1980", 
+                "1990", 
+                "2000", 
+                "2008"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "NonBlack", 
+                "Black"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "LTHS", 
+                "HSGrad", 
+                "SomeColl", 
+                "CollGrad"
+            ], 
+            "name": "Educ"
+        }
+    ], 
+    "title": "Educ.Trend: 1950-2008, Education by gender and race, age 25+, wgtd PUMS, Frey/U-MICH", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Gender", 
+        "Age", 
+        "Educ"
+    ], 
+    "theData": [
+        {
+            "Dep": "5024910", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3160740", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1109790", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1032240", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5712960", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2026200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "761640", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "832590", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5594160", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1103190", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "486420", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "593670", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4792260", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "685080", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "320430", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "341550", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4474470", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "444510", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "190740", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "240240", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5000820", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4368540", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1096590", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "683100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5565780", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2664090", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "934560", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "650100", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5421240", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1559250", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "668910", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "454080", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4789290", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "886050", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "392040", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "264330", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4907430", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "778140", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "292380", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "186450", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "880770", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "138270", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "47520", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "22770", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "857010", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "68970", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "31020", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "22770", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "701580", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "34980", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "17160", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "13530", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "415140", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "13530", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5940", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5940", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "396990", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "10230", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "7590", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4950", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1024980", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "210210", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "51480", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "36300", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "930270", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "92400", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "38610", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "32010", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "718410", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "35640", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "16830", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "17160", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "425700", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "20460", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "13530", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "6600", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "435930", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "12870", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "7260", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "3960", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1950", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4075500", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2910000", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1472600", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1590100", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5028800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3081100", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1260800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1318600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5732400", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1825000", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "863800", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "829800", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5171200", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "804900", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "534800", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "473000", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5539900", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "509000", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "376100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "303800", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3866400", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4318300", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1359000", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "819300", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4905100", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4294700", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1258700", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "725600", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5487300", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2373500", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1018900", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "625400", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5206500", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1187400", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "701800", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "382600", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "6411700", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "955900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "558500", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "280200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "774800", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "203700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "84800", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "44200", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "839000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "145800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "56800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "35000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "777500", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "65200", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "30700", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "23300", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "565700", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "28000", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "16600", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "10600", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "500600", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "16100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "9500", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5900", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "854000", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "314100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "94200", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "58300", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "912900", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "210500", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "63500", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "48300", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "827700", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "86400", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "36300", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "29000", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "610300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "38200", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "18300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "12800", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "589300", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "22300", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "12200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "7400", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1960", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2811400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3794100", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2068500", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2196100", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3701700", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3087500", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1369000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1882000", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4464100", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3035400", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1244100", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1360900", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4764300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1728300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "764200", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "786100", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5797500", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "946600", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "540100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "524800", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2983700", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4925400", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1936100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1449900", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3618300", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4514800", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1408000", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "976000", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4516600", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4199300", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1315100", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "811700", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4924600", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2353500", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "963200", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "667700", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "7475000", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1838600", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "927100", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "563900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "574400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "387400", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "141300", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "65700", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "670800", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "236400", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "92500", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "56600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "729500", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "151900", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "50800", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "37000", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "638000", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "61400", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "25100", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "18300", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "641200", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "31200", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "18100", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "12700", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "694100", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "512300", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "152000", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "79600", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "791600", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "337900", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "97600", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "73000", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "816500", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "194000", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "60700", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "48300", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "717900", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "92500", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "31600", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "32000", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "789400", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "54600", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "26900", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "22200", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2327260", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4983640", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "4469060", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4592420", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2375100", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3776300", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2235880", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2931640", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3200240", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3119120", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1531040", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2083980", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3855620", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2846740", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1217520", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1407820", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5749560", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "1819660", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "887600", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "985060", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2428960", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "6233200", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "4275980", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "3559380", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2529660", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4917000", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2328760", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1819680", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3262900", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4470320", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1664640", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1140320", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4199520", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4081120", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1395920", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "875080", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "8155960", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3293020", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1511880", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1046440", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "521480", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "692820", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "508580", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "221620", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "479600", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "402200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "209640", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "125200", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "571620", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "235740", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "120880", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "75940", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "605940", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "136900", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "60680", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "42840", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "704440", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "69380", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "31560", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "26660", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "564480", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "858900", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "583420", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "265560", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "564260", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "523840", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "260440", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "135260", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "683220", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "336320", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "145240", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "96420", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "725820", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "197540", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "76680", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "57300", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1004860", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "125480", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "55340", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "49800", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3084688", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5854809", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5527312", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4680476", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2221624", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4154656", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5030389", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5226995", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2228901", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3168246", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2729998", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "3071661", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2743864", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2578520", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1754774", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1992307", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "5113804", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2911682", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1801628", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1712381", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2540913", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5688167", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "6090794", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4513604", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2170492", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5089585", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5181018", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4276287", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2345596", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4186636", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2913375", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2125134", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2983982", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3875980", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1929623", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1209473", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "7621989", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5425211", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2533364", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "1510713", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "652931", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "877120", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "728962", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "280441", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "504020", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "581666", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "565040", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "282175", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "473417", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "342945", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "245162", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "141744", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "493428", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "180444", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "116440", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "75715", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "702410", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "130798", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "68277", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "42015", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "599281", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "893657", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "988228", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "378398", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "509306", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "698733", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "691357", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "350118", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "522794", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "437536", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "309630", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "174353", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "596878", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "278989", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "150113", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "98673", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1109004", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "248533", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "107942", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "81924", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3069888", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4602619", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "4965846", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4821649", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3174268", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5778209", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5658272", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5561959", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2221222", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4100016", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "4870904", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5445991", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1974109", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "2982302", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2584904", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2934205", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4194616", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3758932", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2530930", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2845264", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2323680", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3974344", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5379617", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5281132", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2554728", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5476905", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "6567285", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5534988", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2106477", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4874203", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5295762", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4738718", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2224408", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3936145", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "2915962", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2230652", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "6221073", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "6818632", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "3462667", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "2284150", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "508715", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "855246", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "710634", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "295777", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "607750", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "897166", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "775503", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "365641", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "465162", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "571198", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "546696", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "297058", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "399770", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "298767", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "217641", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "118666", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "635198", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "209067", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "129993", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "8977", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "461759", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "778879", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "971489", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "466508", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "540174", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "882151", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1066532", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "499464", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "444760", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "650902", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "691042", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "386715", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "447427", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "374803", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "283385", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "164965", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1004723", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "405026", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "203495", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "149860", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2808135", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5181871", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5012104", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4891552", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2737245", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5511173", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5001597", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5841687", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2439381", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5776414", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5255870", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5729506", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1785663", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3654248", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "3912449", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4938182", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "3420634", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4380809", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "3067613", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "3919368", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1930853", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "3859986", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5293718", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5872103", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2075518", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4690962", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "5754351", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "6227494", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "2043161", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "5599014", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "6140613", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "5733154", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "1896384", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "4691919", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "4351159", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "4179903", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "4986687", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "7784457", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "4149531", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "3069803", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "NonBlack", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "426624", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "929980", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "766787", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "385826", 
+            "Gender": "Male", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "380946", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "978520", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "739419", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "427417", 
+            "Gender": "Male", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "448289", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "871038", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "669587", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "388574", 
+            "Gender": "Male", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "344855", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "486588", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "382413", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "247305", 
+            "Gender": "Male", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "543660", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "340845", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "198719", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "136434", 
+            "Gender": "Male", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "330410", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "797104", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "997671", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "571060", 
+            "Gender": "Female", 
+            "Age": "25-34", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "341176", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "907416", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "1036311", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "606950", 
+            "Gender": "Female", 
+            "Age": "35-44", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "402634", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "882909", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "932061", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "523438", 
+            "Gender": "Female", 
+            "Age": "45-54", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "365092", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "596349", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "527466", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "317601", 
+            "Gender": "Female", 
+            "Age": "55-64", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }, 
+        {
+            "Dep": "845944", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "LTHS"
+        }, 
+        {
+            "Dep": "578105", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "HSGrad"
+        }, 
+        {
+            "Dep": "318968", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "SomeColl"
+        }, 
+        {
+            "Dep": "21413", 
+            "Gender": "Female", 
+            "Age": "65+", 
+            "Race": "Black", 
+            "Year": "2008", 
+            "Educ": "CollGrad"
+        }
+    ]
+}

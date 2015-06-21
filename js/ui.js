@@ -1,3 +1,12 @@
+function datasetSelected() {
+	var condition = $('#dataset-list').val() != '';
+	return condition;
+}
+
+function canMarginal() {
+	return datasetSelected();
+}
+
 function crossTabsSelected() {
 	var condition = $('#crosstab-row').val() != '' && $('#crosstab-col').val() != '';
 	return condition;
@@ -66,6 +75,19 @@ function getSingleVar() {
 function getControlVar() {
 	return $('#control-var').val();
 }
+
+function scrollWorkbook() {
+	$("#workbook").animate({scrollTop:$("#workbook")[0].scrollHeight}, 1000);
+}
+
+$('#dataset-list').on('change', function() {
+	if (canMarginal()) {
+		$('#btn-marginals').prop('disabled', false);
+	} else {
+		$('#btn-marginals').prop('disabled', true);
+	}
+});
+
 
 $('#crosstab-row').on('change', function() {
 	if (canSingleVar()) {

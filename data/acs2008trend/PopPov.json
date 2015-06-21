@@ -1,0 +1,2626 @@
+{
+    "numCats": [
+        5, 
+        2, 
+        8, 
+        2, 
+        2
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1970", 
+                "1980", 
+                "1990", 
+                "2000", 
+                "2008"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "NonBlack", 
+                "Black"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "0-5", 
+                "6-17", 
+                "18-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "AgeAll"
+        }, 
+        {
+            "cats": [
+                "Male", 
+                "Female"
+            ], 
+            "name": "Gender"
+        }, 
+        {
+            "cats": [
+                "Poverty", 
+                "NonPov"
+            ], 
+            "name": "Pov"
+        }
+    ], 
+    "title": "PopPov.Trend: 1970-2008, U.S. Population by race, age groups, gender, and poverty status, wgtd PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "AgeAll", 
+        "Gender", 
+        "Pov"
+    ], 
+    "theData": [
+        {
+            "Dep": "701600", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8396200", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "674600", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "7994600", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1562700", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "20036900", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1539100", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "19220700", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "726700", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "7707300", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "875400", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8892100", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "386900", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "10279800", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "662800", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "10596900", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "347200", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "9583500", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "559300", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "9919300", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "347100", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "9663500", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "550100", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "10239400", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "455000", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "7493400", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "810500", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8025900", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "915000", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "6608900", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1973500", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "8185900", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "448700", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1004400", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "463100", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "995500", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1034300", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "2268000", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1014300", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "2231100", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "206100", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "831400", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "307600", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1013000", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "121800", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "979700", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "310200", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1120400", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "121400", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "896800", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "272600", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1020600", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "131600", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "814100", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "230600", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "880700", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "139100", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "587900", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "233800", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "631300", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "214900", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "466300", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "338000", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "529000", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1970"
+        }, 
+        {
+            "Dep": "1202500", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "7283260", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1164360", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "6926760", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2270380", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "16976120", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2239420", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "16124340", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1332940", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "10260880", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1766860", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "10165860", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1089520", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "15028260", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1562140", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "14871520", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "651500", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "10570540", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "921320", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "10639820", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "512020", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "9350320", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "698680", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "9796020", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "553560", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "8689640", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "960160", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "9515760", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "833560", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "8250300", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2035840", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "11013740", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "602160", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "882460", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "592140", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "857320", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1207040", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2073980", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1219680", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "2061620", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "394700", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1171420", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "644080", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1253300", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "286840", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1538660", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "603300", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1652900", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "176040", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1005240", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "373760", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1104360", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "156780", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "829960", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "301400", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "953920", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "163780", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "668680", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "303040", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "745860", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "231680", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "570960", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "461320", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "724680", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1980"
+        }, 
+        {
+            "Dep": "1467495", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "7947071", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1410639", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "7511025", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2380233", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "15485892", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2327118", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "14584315", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1577715", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8681742", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1979867", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8135032", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1484029", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "17252802", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2109937", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "16639864", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1036876", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "15397926", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1331350", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "15338465", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "613720", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "10499776", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "794476", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "10741368", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "562471", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "8437193", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "889448", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "9054343", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "772959", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "10379471", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "2181970", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "13779544", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "701345", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "909697", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "691896", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "888566", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1139809", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1948740", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1141530", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1877542", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "369807", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1100911", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "587288", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1091750", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "389804", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1889899", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "847064", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1975011", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "277585", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1539240", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "499361", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1734120", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "180377", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "991852", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "289436", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1147272", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "161704", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "688173", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "295375", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "820325", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "218863", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "683701", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "531504", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "939825", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "1990"
+        }, 
+        {
+            "Dep": "1474069", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "8478758", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1385106", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "8015613", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2686387", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "18449234", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2628677", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "17312499", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1777863", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "8946201", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2271878", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "7987757", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1456104", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "15500582", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2019218", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "14828763", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1386812", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "18323821", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1764830", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "18257052", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "933591", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "15460418", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1130466", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "15798287", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "685840", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "9663585", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "973495", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "10250978", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "762744", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "12072350", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1767990", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "15701948", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "597697", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1044421", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "587706", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1041681", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1130988", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2517756", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1117366", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2435645", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "381227", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1126481", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "586297", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1159812", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "297947", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1743554", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "647120", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1978392", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "333253", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2035914", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "605990", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "2328722", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "254500", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1501924", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "372603", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1777537", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "169155", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "826858", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "268665", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "986035", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "179865", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "825677", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "437229", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1215479", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2000"
+        }, 
+        {
+            "Dep": "1905265", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8806322", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1843167", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8356905", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "3026012", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "18100333", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2923418", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "17213263", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1996325", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "9657010", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2597867", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "8454721", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1601239", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "15760029", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2435648", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "14396769", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1370955", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "17266915", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1965459", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "16663293", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1243280", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "17607991", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1567027", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "17830568", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "922084", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "13168717", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1260624", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "13742474", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "918305", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "13392203", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1963507", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "16833556", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "NonBlack", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "660892", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1021385", 
+            "Gender": "Male", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "634182", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "982613", 
+            "Gender": "Female", 
+            "AgeAll": "0-5", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1159088", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2445094", 
+            "Gender": "Male", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1153429", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2367746", 
+            "Gender": "Female", 
+            "AgeAll": "6-17", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "448179", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1405038", 
+            "Gender": "Male", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "631511", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1305017", 
+            "Gender": "Female", 
+            "AgeAll": "18-24", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "327764", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1884412", 
+            "Gender": "Male", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "725064", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1931336", 
+            "Gender": "Female", 
+            "AgeAll": "25-34", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "287110", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1976964", 
+            "Gender": "Male", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "581890", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2263016", 
+            "Gender": "Female", 
+            "AgeAll": "35-44", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "314241", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1873663", 
+            "Gender": "Male", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "498007", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "2204030", 
+            "Gender": "Female", 
+            "AgeAll": "45-54", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "214952", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1172246", 
+            "Gender": "Male", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "334844", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1446013", 
+            "Gender": "Female", 
+            "AgeAll": "55-64", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "181196", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "965702", 
+            "Gender": "Male", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "441097", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2008"
+        }, 
+        {
+            "Dep": "1393867", 
+            "Gender": "Female", 
+            "AgeAll": "65+", 
+            "Pov": "NonPov", 
+            "Race": "Black", 
+            "Year": "2008"
+        }
+    ]
+}

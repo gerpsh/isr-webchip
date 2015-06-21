@@ -1,0 +1,4386 @@
+{
+    "numCats": [
+        5, 
+        2, 
+        6, 
+        3, 
+        3
+    ], 
+    "varCats": [
+        {
+            "cats": [
+                "1970", 
+                "1980", 
+                "1990", 
+                "2000", 
+                " 2008"
+            ], 
+            "name": "Year"
+        }, 
+        {
+            "cats": [
+                "NonBlack", 
+                "Black"
+            ], 
+            "name": "Race"
+        }, 
+        {
+            "cats": [
+                "15-24", 
+                "25-34", 
+                "35-44", 
+                "45-54", 
+                "55-64", 
+                "65+"
+            ], 
+            "name": "Age"
+        }, 
+        {
+            "cats": [
+                "MrrdCpl", 
+                "MaleFam", 
+                "FemlFam"
+            ], 
+            "name": "FamType"
+        }, 
+        {
+            "cats": [
+                "Poverty", 
+                "NearPoor", 
+                "Other"
+            ], 
+            "name": "Pov"
+        }
+    ], 
+    "title": "FamPov.Trend: 1970-2008, Families by race, age, marital status, and poverty status, age 15+, wgtd PUMS, Frey/U-Mich for SSDAN - not for commercial purposes.", 
+    "numOfVars": 5, 
+    "varNames": [
+        "Year", 
+        "Race", 
+        "Age", 
+        "FamType", 
+        "Pov"
+    ], 
+    "theData": [
+        {
+            "Dep": "271100", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "334400", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2228600", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16500", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "8300", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "46900", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "129500", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "38600", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "79400", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "414200", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "641700", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7377100", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16900", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "16500", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "142600", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "307800", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "113600", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "274000", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "424600", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "606800", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7529600", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "22000", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "22100", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "223800", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "254100", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "131000", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "459000", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "341600", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "380100", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7913900", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "24600", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "21400", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "273100", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "164700", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "100800", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "657700", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "407900", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "341800", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5914500", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "25000", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "18600", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "202700", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "100400", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "68300", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "526200", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "893600", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "848900", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "3596500", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "54900", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "37300", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "212300", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "176700", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "112200", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "585200", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "60200", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "44400", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "141800", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "6600", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "2100", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "9200", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "87700", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "19200", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "25400", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "115900", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "117900", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "491900", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8500", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "4200", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "22100", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "207000", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "55800", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "76500", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "126800", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "112800", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "481700", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12100", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "7600", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "30300", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "176000", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "57700", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "97000", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "115700", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "97800", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "449000", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12700", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "6500", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "30300", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "103800", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "37600", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "88900", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "111300", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "70400", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "312300", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "10300", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "5900", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "22100", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "67900", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "25700", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "66300", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "152700", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "78300", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "152100", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "18100", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "7200", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "17900", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "73900", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "23700", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "56500", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1970", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "259700", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "300800", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "2145400", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "30780", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "20260", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "126120", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "245600", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "67280", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "129020", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "599820", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "713700", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "9394420", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "36320", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "26380", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "270060", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "518260", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "219980", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "616060", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "460660", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "482140", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8218780", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "27480", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "21400", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "279540", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "328320", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "194140", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "802340", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "327160", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "301200", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7662840", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "23700", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "19140", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "269900", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "156780", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "110580", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "732060", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "341480", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "350960", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7111660", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "17900", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "16380", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "202380", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "91940", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "81280", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "635020", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "470480", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "776840", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "5585120", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "23600", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "29580", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "208640", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "95580", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "126960", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "779840", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "40320", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "33700", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "125440", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12720", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "6280", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "22140", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "187340", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "33120", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "44480", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "107260", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "103300", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "688780", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "18020", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "9940", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "56300", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "358980", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "107320", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "211780", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "87160", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "77640", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "584760", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12440", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "7400", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "44060", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "223400", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "86500", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "203100", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "73280", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "61920", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "507040", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "11040", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "7060", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "40060", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "134800", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "60300", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "170080", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "73780", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "62140", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "402020", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "9980", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "7080", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "30540", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "78460", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "40680", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "114120", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "103520", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "95520", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "257780", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12700", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "9740", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "28040", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "69320", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "49620", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "102060", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1980", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "193621", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "199188", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "1067300", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "52410", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "33542", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "135637", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "286776", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "57299", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "106771", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "648203", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "739742", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8992599", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "92862", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "69851", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "462272", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "709741", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "239462", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "687946", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "550683", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "551262", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "10865201", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "68160", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "49749", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "492987", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "459679", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "240718", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1260543", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "310170", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "277370", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8105777", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "35720", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "25930", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "359971", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "175992", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "114040", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "926244", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "299941", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "309031", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "6641047", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "23322", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "18598", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "220561", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "100169", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "77948", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "653955", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "412561", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "661419", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7274878", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "23281", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "30567", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "262630", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "117398", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "137529", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "961882", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "21371", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16515", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "71266", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12942", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "6262", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "21748", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "194998", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "25443", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "36566", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "86217", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "85281", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "621145", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "27398", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "15499", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "76666", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "512516", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "117328", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "247040", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "80404", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "73594", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "784970", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "24135", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "12152", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "80620", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "301235", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "107841", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "397853", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "54845", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "42794", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "578890", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "15425", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "7099", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "58407", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "136233", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "59080", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "260515", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "56300", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "44465", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "408322", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12107", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "6762", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "37455", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "95924", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "45037", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "168629", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "83514", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "84485", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "320488", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16303", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "11594", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "42575", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "92701", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "62472", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "163446", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "1990", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "166684", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "164001", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "879103", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "76864", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "58878", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "214112", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "302087", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "107287", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "181985", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "555258", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "617383", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7262265", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "119468", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "100278", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "596564", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "622193", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "300966", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "764870", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "628966", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "673720", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "11847636", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "123645", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "96430", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "804079", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "597300", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "368525", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1544007", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "377306", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "357547", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "11012501", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "68544", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "54608", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "625549", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "235729", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "161455", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1343005", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "314005", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "274600", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "7256591", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "29043", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "23964", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "251062", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "106009", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "81630", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "665751", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "346179", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "530187", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8319353", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "26704", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "27602", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "332770", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "119498", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "140312", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1161876", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "18063", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "15181", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "61075", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "22012", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "10419", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "35570", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "221219", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "49244", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "70058", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "60054", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "66359", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "583719", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "34233", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "22267", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "105096", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "403763", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "161942", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "325404", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "78856", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "73460", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "947063", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "36661", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "22787", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "126672", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "355928", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "173295", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "524724", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "60460", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "46852", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "799145", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "19819", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "12930", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "91448", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "151993", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "78509", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "391212", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "47210", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "34900", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "463769", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "12635", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "6825", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "46374", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "84489", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "39156", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "205023", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "49162", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "57026", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "404744", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16005", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "12071", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "56711", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "95492", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "66939", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "258005", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": "2000", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "129882", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "133858", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "694864", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "77616", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "52023", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "218032", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "366236", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "100386", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "175391", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "559974", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "613838", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "6509380", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "140156", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "127679", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "703271", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "855687", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "331115", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "819986", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "579707", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "648421", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "10424702", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "134401", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "114497", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "862994", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "742724", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "379815", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1550132", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "398853", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "417953", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "11585958", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "98486", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "80667", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "862224", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "386463", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "247739", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1668374", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "321214", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "333681", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "9136837", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "43014", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "37552", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "406746", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "147073", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "117235", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "863901", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "359197", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "599011", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8488673", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "28327", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "36031", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "343350", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "125369", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "152223", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "1124990", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "NonBlack", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "11232", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "8900", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "44136", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "24425", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "11884", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "40457", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "184531", 
+            "Age": "15-24", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "45806", 
+            "Age": "15-24", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "57621", 
+            "Age": "15-24", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "49593", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "52603", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "451467", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "40578", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "27999", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "111095", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "462311", 
+            "Age": "25-34", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "158058", 
+            "Age": "25-34", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "330307", 
+            "Age": "25-34", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "64366", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "68817", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "826855", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "35836", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "23012", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "140650", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "351450", 
+            "Age": "35-44", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "173286", 
+            "Age": "35-44", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "527930", 
+            "Age": "35-44", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "56295", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "55138", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "874237", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "30297", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "19579", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "117939", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "196627", 
+            "Age": "45-54", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "113352", 
+            "Age": "45-54", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "460445", 
+            "Age": "45-54", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "40562", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "39490", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "593918", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "16185", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "9746", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "60757", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "91345", 
+            "Age": "55-64", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "53088", 
+            "Age": "55-64", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "255843", 
+            "Age": "55-64", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "41119", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "62516", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "420711", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MrrdCpl"
+        }, 
+        {
+            "Dep": "13797", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "11022", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "60811", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "MaleFam"
+        }, 
+        {
+            "Dep": "82392", 
+            "Age": "65+", 
+            "Pov": "Poverty", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "64519", 
+            "Age": "65+", 
+            "Pov": "NearPoor", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }, 
+        {
+            "Dep": "251217", 
+            "Age": "65+", 
+            "Pov": "Other", 
+            "Race": "Black", 
+            "Year": " 2008", 
+            "FamType": "FemlFam"
+        }
+    ]
+}

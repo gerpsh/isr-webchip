@@ -40,6 +40,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			var marginalsTables = generateMarginalTables(margs);
 			$("#workbook").append(marginalsTables);
 			$("#command-history-body").append("<p>Compute Marginals</p>")
+			scrollWorkbook();
 		};
 
 		$scope.generateFrequency = function() {
@@ -65,6 +66,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append(freqTable);	
 			}
 			$("#command-history-body").append("<p>Compute Frequency</p>");
+			scrollWorkbook();
 		};
 
 		$scope.generatePctAcross = function() {
@@ -90,6 +92,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append(pctAcrossTable);
 			}
 			$("#command-history-body").append("<p>Compute Percent Across</p>");
+			scrollWorkbook();
 		};
 
 		$scope.generatePctDown = function() {
@@ -113,6 +116,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append(pctDownTable + "<br>");
 			}
 			$("#command-history-body").append("<p>Compute Percent Down</p>");
+			scrollWorkbook();
 		};
 		
 		$scope.generateBarChart = function() {
@@ -122,7 +126,8 @@ webchipApp.controller("default", ['$scope', '$http',
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
 				generateBarCharts(singleDataset,'single');
-				$("#command-history-body").append("<p>Generate Bar Chart (single variable)</p>");			
+				$("#command-history-body").append("<p>Generate Bar Chart (single variable)</p>");		
+				scrollWorkbook();	
 			}
 			else {
 				//Crosstab
@@ -170,6 +175,7 @@ webchipApp.controller("default", ['$scope', '$http',
 					}
 				}
 				$("#command-history-body").append("<p>Generate Bar Chart (crosstab)</p>");
+				scrollWorkbook();
 			}
 		};
 		
@@ -181,6 +187,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var singleDataset = singleData(margs, singleVar);
 				generatePieCharts(singleDataset,'single');
 				$("#command-history-body").append("<p>Generate Pie Chart (single variable)</p>");
+				scrollWorkbook();
 			}
 			else {
 				//Crosstab
@@ -213,6 +220,7 @@ webchipApp.controller("default", ['$scope', '$http',
 					generatePieCharts(crosstabDataset,'crosstab');
 				}
 				$("#command-history-body").append("<p>Generate Pie Chart (crosstab)</p>");
+				scrollWorkbook();
 			}
 		};
 		
@@ -224,6 +232,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var singleDataset = singleData(margs, singleVar);
 				generateLineCharts(singleDataset,'single');
 				$("#command-history-body").append("<p>Generate Line Chart (single variable)</p>");
+				scrollWorkbook();
 			}
 			else {
 				//Crosstab
@@ -271,6 +280,7 @@ webchipApp.controller("default", ['$scope', '$http',
 					}
 				}
 				$("#command-history-body").append("<p>Generate Line Chart (crosstab)</p>");
+				scrollWorkbook();
 			}
 		};
 		
@@ -282,6 +292,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var singleDataset = singleData(margs, singleVar);
 				generateStackedBars(singleDataset,'single', singleVar);
 				$("#command-history-body").append("<p>Generate Stacked Bar (single variable)</p>");
+				scrollWorkbook();
 			}
 			else {
 				//Crosstab
@@ -329,6 +340,7 @@ webchipApp.controller("default", ['$scope', '$http',
 					}
 				}
 				$("#command-history-body").append("<p>Generate Stacked Bar (crosstab)</p>");
+				scrollWorkbook();
 			}
 		};
 		
