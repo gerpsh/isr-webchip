@@ -1,3 +1,5 @@
+console.log(~'foo'.indexOf('oo'));
+
 function datasetSelected() {
 	var condition = $('#dataset-list').val() != '';
 	return condition;
@@ -27,10 +29,11 @@ function controlSet() {
 	return condition;
 }
 
-function canGenerateChart() {
+//Uncomment when single variable is implemented
+/*function canGenerateChart() {
 	var condition = (crossTabsSelected() || singleVarSelected());
 	return condition;
-}
+}*/
 
 function canGenerateTable() {
 	return crossTabsSelected();
@@ -41,19 +44,12 @@ function canControl() {
 	return condition;
 }
 
-function onPctAcross() {
-	$('#btn-pctAcross').prop('value', 'yes');
-	$('#btn-pctDown').prop('value', 'no');
+function enableCharting() {
+	$(".btn-chart").prop("disabled", false);
 }
 
-function onPctDown() {
-	$('#btn-pctDown').prop('value', 'yes');
-	$('#btn-pctAcross').prop('value', 'no');
-}
-
-function nextPctAcross() {
-	var condition = ($('#btn-pctAcross').val() == "yes");
-	return condition;
+function disableCharting() {
+	$(".btn-chart").prop("disabled", true);
 }
 
 function getCurrentDataset() {
@@ -81,6 +77,7 @@ function scrollWorkbook() {
 }
 
 $('#dataset-list').on('change', function() {
+	disableCharting();
 	if (canMarginal()) {
 		$('#btn-marginals').prop('disabled', false);
 	} else {
@@ -90,6 +87,7 @@ $('#dataset-list').on('change', function() {
 
 
 $('#crosstab-row').on('change', function() {
+	disableCharting();
 	if (canSingleVar()) {
 		$('#single-var').prop('disabled', false);
 	} else {
@@ -102,11 +100,11 @@ $('#crosstab-row').on('change', function() {
 		$('.btn-table').prop('disabled', true);
 	}
 
-	if (canGenerateChart()) {
+	/*if (canGenerateChart()) {
 		$('.btn-chart').prop('disabled', false);
 	} else {
 		$('.btn-chart').prop('disabled', true);
-	}
+	}*/
 
 	if (canControl()) {
 		$('#control-var').prop('disabled', false);
@@ -117,6 +115,7 @@ $('#crosstab-row').on('change', function() {
 });
 
 $('#crosstab-col').on('change', function() {
+	disableCharting();
 	if (canSingleVar()) {
 		$('#single-var').prop('disabled', false);
 	} else {
@@ -127,12 +126,6 @@ $('#crosstab-col').on('change', function() {
 		$('.btn-table').prop('disabled', false);
 	} else {
 		$('.btn-table').prop('disabled', true);
-	}
-
-	if (canGenerateChart()) {
-		$('.btn-chart').prop('disabled', false);
-	} else {
-		$('.btn-chart').prop('disabled', true);
 	}
 
 	if (canControl()) {
@@ -151,12 +144,6 @@ $('#single-var').on('change', function() {
 	} else {
 		$('#crosstab-col').prop('disabled', false);
 		$('#crosstab-row').prop('disabled', false);
-	}
-
-	if (canGenerateChart()) {
-		$('.btn-chart').prop('disabled', false);
-	} else {
-		$('.btn-chart').prop('disabled', true);
 	}
 
 	if (canControl()) {

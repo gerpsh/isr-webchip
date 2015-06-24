@@ -15,6 +15,8 @@ webchipApp.controller("default", ['$scope', '$http',
 				$scope.varNames = d["varNames"];
 				$scope.theData = d["theData"];
 				$scope.numberCategories = [];
+				//Displays chart method
+				$scope.chartMethod = 'N/A';
 				_.each($scope.varCategories, function(c) {
 					var theName = c["name"];
 					var theCatsLen = c["cats"].length;
@@ -92,6 +94,8 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append(pctAcrossTable);
 			}
 			$("#command-history-body").append("<p>Compute Percent Across</p>");
+			$scope.chartMethod = 'Across';
+			enableCharting();
 			scrollWorkbook();
 		};
 
@@ -116,6 +120,8 @@ webchipApp.controller("default", ['$scope', '$http',
 				$("#workbook").append(pctDownTable + "<br>");
 			}
 			$("#command-history-body").append("<p>Compute Percent Down</p>");
+			$scope.chartMethod = 'Down';
+			enableCharting();
 			scrollWorkbook();
 		};
 		
@@ -134,7 +140,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var rowVar = getRowVar();
 				var colVar = getColVar();
 				var conVar = getControlVar();
-				if (nextPctAcross()) {
+				if ($scope.chartMethod == 'Across') {
 					//on PctAcross way
 					$("#workbook").append("<h4>Bar Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
 					if(controlSet()) {
@@ -196,7 +202,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var conVar = getControlVar();
 								
 				//generate title
-				if (nextPctAcross()) {
+				if ($scope.chartMethod == 'Across') {
 					$("#workbook").append("<h4>Pie Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
 				}
 				else {
@@ -239,7 +245,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var rowVar = getRowVar();
 				var colVar = getColVar();
 				var conVar = getControlVar();
-				if (nextPctAcross()) {
+				if ($scope.chartMethod == 'Across') {
 					//on PctAcross way
 					$("#workbook").append("<h4>Line Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
 					if(controlSet()) {
@@ -299,7 +305,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var rowVar = getRowVar();
 				var colVar = getColVar();
 				var conVar = getControlVar();
-				if (nextPctAcross()) {
+				if ($scope.chartMethod == 'Across') {
 					//on PctAcross way
 					$("#workbook").append("<h4>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
 					if(controlSet()) {

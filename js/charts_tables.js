@@ -289,8 +289,7 @@ function crosstabData(dataset) {
 	var finalDataPie = new Object();
 	var rowCats = new Array();
 	var colCats = new Array();
-	
-	if (nextPctAcross()) {
+	if (~($('#chart-method').val()).indexOf('Across')) {
 		//PctAcross
 		for (var i=0; i<dataset.length; i++) {
 			var rowCat = dataset[i]["row"];
