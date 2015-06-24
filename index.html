@@ -63,10 +63,11 @@
 			        	<select disabled id="control-var" class="select-box" ng-model="na5" ng-options="obj for obj in varNames track by obj">
 			        		<option value='' selected='selected'>Select Variable</option>
 			        	</select>
-			        <br>
-			        <br>
-			        <span class="section-caption">Single Variable:</span><br>
-			        	<select id="single-var" class="select-box" ng-model="na4" ng-options="obj for obj in varNames track by obj">
+			        <!--single var elements hidden until ISR wants to include single var-->
+			        <br class="single-var-elements">
+			        <br class="single-var-elements">
+			        <span class="section-caption single-var-elements">Single Variable:</span><br>
+			        	<select id="single-var" class="select-box single-var-elements" ng-model="na4" ng-options="obj for obj in varNames track by obj">
 			        		<option value='' selected='selected'>Select Variable</option>
 			        	</select>        
 		    	</div>
@@ -79,8 +80,8 @@
 		  		<br>
 		  		<div class="panel-body" id="table-options">
 		  			<button disabled id="btn-frequency" class="btn-table" ng-click="generateFrequency()">Frequency</button><br>
-		  			<button disabled id="btn-pctAcross" class="btn-table" value="no" onclick="onPctAcross()" ng-click="generatePctAcross()">Percent Across</button><br>
-		  			<button disabled id="btn-pctDown" class="btn-table" value="no" onclick="onPctDown()" ng-click="generatePctDown()">Percent Down</button><br>
+		  			<button disabled id="btn-pctAcross" class="btn-table" ng-click="generatePctAcross()">Percent Across</button><br>
+		  			<button disabled id="btn-pctDown" class="btn-table" ng-click="generatePctDown()">Percent Down</button><br>
 		  		</div>
 		    </div>
 		    <hr class="panel-divider">
@@ -90,6 +91,7 @@
 		  		</div>
 		  		<br>
 		  		<div class="panel-body" id="chart-options">
+		  			<p id="chart-method">Chart Method: {{ chartMethod }}</p>
 		  			<button disabled id="btn-barChart" class="btn-chart" ng-click="generateBarChart()">Bar Chart</button><br>
 		  			<button disabled id="btn-pieChart" class="btn-chart" ng-click="generatePieChart()">Pie Chart</button><br>
 		  			<button disabled id="btn-lineChart" class="btn-chart" ng-click="generateLineChart()">Line Chart</button><br>

@@ -118,7 +118,7 @@ def build_index():
 	for dirname, dirnames, filenames in os.walk('.'):
 		for filename in filenames:
 			tokens = os.path.join(dirname, filename).split("/")
-			if ".DS_Store" not in tokens and "parseFiles.py" not in tokens and 'index.json' not in tokens:
+			if ".DS_Store" not in tokens and "parseFiles.py" not in tokens and 'index.json' not in tokens and "dataConversionGuide.txt" not in tokens:
 				needed_tokens = tokens[1:]
 				name = needed_tokens[1].split(".")[0]
 				group = needed_tokens[0]

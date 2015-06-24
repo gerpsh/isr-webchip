@@ -1,5 +1,3 @@
-console.log(~'foo'.indexOf('oo'));
-
 function datasetSelected() {
 	var condition = $('#dataset-list').val() != '';
 	return condition;
