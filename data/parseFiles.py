@@ -2,6 +2,7 @@ import json
 import os
 import sys
 
+#divide array l in array of arrays of size n
 def chunk(l, n):
     n = max(1, n)
     return [l[i:i + n] for i in range(0, len(l), n)]
@@ -12,11 +13,16 @@ def parse(file_name):
 	lines = in_file.readlines()
 	lines = [x.rstrip("\n") for x in lines]
 	in_file.close()
+	#title of dataset, string
 	title = lines[0]
+	#number of variables, integer
 	num_of_vars = int(lines[1])
+	#name of variable, array of strings
 	var_names = lines[2].split(",")
+	#number of categories per variable, list of integers
 	num_vars = lines[3].split(",")
 	num_vars = [int(x) for x in num_vars]
+	#array of objects containing name of variable and list of categories, object array
 	var_categories = []
 	i = 4
 	for var in var_names:
@@ -27,13 +33,17 @@ def parse(file_name):
 		i += 1
 
 	first_data_line_index = 4 + num_of_vars
+	#lines in file made of data plus the file end signal ('*****')
 	data_lines_plus_end = lines[first_data_line_index:]
+	#string containing data lines with newlines included
 	data_lines_raw = ''
 	for ind, val in enumerate(data_lines_plus_end):
 		if val == '*****':
 			data_lines_raw = data_lines_plus_end[:ind]
 			break
 
+	#populate array with arrays containing data lines, 
+	#with size being number of categories of last variable
 	data_lines_combined = []
 	for line in data_lines_raw:
 		line = line.rstrip(',\n')
@@ -45,25 +55,21 @@ def parse(file_name):
 		line = ','.join(line)
 		data_lines.append(line)
 
-	#z = len(data_lines)
-	#z = num_vars[:(len(num_vars) - 1)]
-	#num_of_data_lines = reduce(lambda x,y: x*y, z)
-	#z = first_data_line_index + num_of_data_lines
-	#data_lines = lines[first_data_line_index:z]
-	#data_lines = [x.rstrip(',\n') for x in data_lines]
-
-	def increment(the_max, cur):
-		if(cur == the_max-1):
-			return(0)
-		else:
-			return(cur + 1)
-
+	#initialize individual objects with dependent variable, "Dep"
 	objects = []
 	for line in data_lines:
 		vals = line.split(",")
 		for val in vals:
 			objects.append({"Dep": val})
 
+	#counter function that starts over at 0 if the_max is reached 
+	def increment(the_max, cur):
+		if(cur == the_max-1):
+			return(0)
+		else:
+			return(cur + 1)
+
+	#apply variable categories to each object
 	def apply_label(l, var_name, labels, reset):
 		m = l
 		i = 0
@@ -81,6 +87,7 @@ def parse(file_name):
 				continue
 		return m
 
+	#work backward to apply variable values to each object
 	var_names_reversed = var_names[::-1]
 	var_categories_reversed = var_categories[::-1]
 	num_vars_reversed = num_vars[::-1]
@@ -95,6 +102,7 @@ def parse(file_name):
 	for idx, val in enumerate(multipliers):
 		objects = apply_label(objects, var_names_reversed[idx], var_categories_reversed[idx]['cats'], val)
 
+	#establish metadata fields
 	data = {}
 	data["title"] = title
 	data["numOfVars"] = num_of_vars
@@ -103,6 +111,7 @@ def parse(file_name):
 	data["varCats"] = var_categories
 	data["theData"] = objects
 
+	#write object to file
 	file_tokens = file_name.split("/")
 	needed_tokens = file_tokens[1:]
 	name = needed_tokens[1].split(".")[0] + ".json"
@@ -112,6 +121,7 @@ def parse(file_name):
 		j = json.dumps(data, indent=4)
 		out_file.write(j)
 
+#build index.json file from base directory
 def build_index():
 	the_index = []
 	for dirname, dirnames, filenames in os.walk('.'):
@@ -131,6 +141,8 @@ def build_index():
 		j = json.dumps(the_index, indent=4)
 		out_file.write(j)
 
+#option to parse individual files, pass as command line arguments, 
+#otherwise parse all in all subdirectories
 def main():
 	 if (len(sys.argv) > 1):
 	 	for f in sys.argv:

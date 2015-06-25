@@ -1,11 +1,14 @@
 var webchipApp = angular.module('webchipApp', []);
 
+//controller serves entire index.html page
 webchipApp.controller("default", ['$scope', '$http', 
 	function($scope, $http) {
+		//fetch index file and store data
 		$http.get('data/index.json').success(function(d) {
 			$scope.availableDatasets = d;
 		});
 
+		//when dataset selected initialize scope variables
 		$scope.changeDataset = function() {
 			var dataset = getCurrentDataset();
 			$http.get(dataset).success(function(d) {
@@ -28,14 +31,17 @@ webchipApp.controller("default", ['$scope', '$http',
 			});
 		};
 
+		//omit function, not yet implemented
 		$scope.omitVar = function(variable, cats) {
 			$scope.theData = omit($scope.theData, variable, cats);
 		};
 
+		//combine function, not yet implemented
 		$scope.combineVar = function(variable, cats, name) {
 			$scope.theData = combine($scope.theData, variable, cats, name);
 		};
 
+		//append marginal table to workbook, uses charts_tables.js functions
 		$scope.generateMarginals = function() {
 			$("#workbook").append("<h4>Marginals</h4>");
 			var margs = marginals($scope.completeDataset);
@@ -45,6 +51,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			scrollWorkbook();
 		};
 
+		//append frequenct table to workbook, uses charts_tables.js functions
 		$scope.generateFrequency = function() {
 			$("#workbook").append("<h4>Frequency: " + getRowVar() + "/" + getColVar() + "</h4>");
 			if(controlSet()) {
@@ -71,6 +78,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			scrollWorkbook();
 		};
 
+		//append percent across table to workbook, uses charts_tables.js functions
 		$scope.generatePctAcross = function() {
 			$("#workbook").append("<h4>Percent Across: " + getRowVar() + "/" + getColVar() + "</h4>");
 			if(controlSet()) {
@@ -99,6 +107,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			scrollWorkbook();
 		};
 
+		//append percent down table to workbook, uses charts_tables.js functions
 		$scope.generatePctDown = function() {
 			$("#workbook").append("<h4>Percent Down: " + getRowVar() + "/" + getColVar() + "</h4>");
 			var rowVar = getRowVar();
@@ -125,6 +134,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			scrollWorkbook();
 		};
 		
+		//append bar chart to workbook, uses charts_tables.js functions
 		$scope.generateBarChart = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
@@ -185,6 +195,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			}
 		};
 		
+		//append pie chart to workbook, uses charts_tables.js functions
 		$scope.generatePieChart = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
@@ -230,6 +241,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			}
 		};
 		
+		//append line chart to workbook, uses charts_tables.js functions
 		$scope.generateLineChart = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
@@ -290,6 +302,7 @@ webchipApp.controller("default", ['$scope', '$http',
 			}
 		};
 		
+		//append stacked bar chart to workbook, uses charts_tables.js functions
 		$scope.generateStackedBar = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();

@@ -1,18 +1,23 @@
-
+//JS has a strange behavior where assigning an existing
+//object to a new variable creates a pointer and not a copy
+//This creates a copy
 function copyObject(obj) {
 	return JSON.parse(JSON.stringify(obj));
 }
 
+//Gets the sum of the dependent variable from a collection of objects
 function nSum(data) {
 	return _.reduce(_.pluck(data, "Dep"), function(sum, el) { return sum + parseInt(el); }, 0);
 }
 
+//formats int to have commas
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
+//formats float with a percent symbol
 function percentify(x) {
-	return x.toString() + '%'
+	return x.toString() + '%';
 }
 
 
@@ -235,7 +240,7 @@ function generateGeneralTable(tableData, type) {
 		});
 		html += "</tr>"
 	});
-	html += "</table>";
+	html += "</table><br>";
 	
 	return html;
 }
@@ -447,6 +452,7 @@ function generateBarCharts(dataset, numOfVar) {
 		});
 	}
 	$(chart.element).appendTo("#workbook");
+	$('#workbook').append("<br>");
 }
 
 function generatePieCharts(dataset, numOfVar) {
@@ -479,6 +485,7 @@ function generatePieCharts(dataset, numOfVar) {
 			});
 			$("#workbook").append("<p>"+ title + "</p>");
 			$(chart.element).appendTo("#workbook");
+			$('#workbook').append("<br>");
 		}
 	}
 }
@@ -547,6 +554,7 @@ function generateLineCharts(dataset, numOfVar) {
 		});
 	}
 	$(chart.element).appendTo("#workbook");
+	$('#workbook').append("<br>");
 }
 
 function generateStackedBars(dataset, numOfVar, singleVar) {
@@ -635,4 +643,5 @@ function generateStackedBars(dataset, numOfVar, singleVar) {
 		});
 	}
 	$(chart.element).appendTo("#workbook");
+	$('#workbook').append("<br>");
 }

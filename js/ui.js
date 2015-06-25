@@ -126,6 +126,12 @@ $('#crosstab-col').on('change', function() {
 		$('.btn-table').prop('disabled', true);
 	}
 
+	/*if (canGenerateChart()) {
+		$('.btn-chart').prop('disabled', false);
+	} else {
+		$('.btn-chart').prop('disabled', true);
+	}*/
+
 	if (canControl()) {
 		$('#control-var').prop('disabled', false);
 	} else {
@@ -143,6 +149,12 @@ $('#single-var').on('change', function() {
 		$('#crosstab-col').prop('disabled', false);
 		$('#crosstab-row').prop('disabled', false);
 	}
+
+	/*if (canGenerateChart()) {
+		$('.btn-chart').prop('disabled', false);
+	} else {
+		$('.btn-chart').prop('disabled', true);
+	}*/
 
 	if (canControl()) {
 		$('#control-var').prop('disabled', false);
