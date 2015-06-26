@@ -390,7 +390,7 @@ function generateBarCharts(dataset, numOfVar) {
 			},
 			bar: {
 				width: {
-					rato:0.5
+					ratio:0.5
 				}
 			},
 			tooltip: {
@@ -434,7 +434,7 @@ function generateBarCharts(dataset, numOfVar) {
 			},
 			bar: {
 				width: {
-					rato:0.5
+					ratio:0.5
 				}
 			},
 			axis: {

@@ -1,7 +1,21 @@
+.container {
+     padding-right: 0;
+     padding-left: 0;
+     margin-right: 5px;
+     margin-left: 10px;
+     width: 98%;
+}
+
 hr.panel-divider {
 	margin-top: 3px;
 	margin-bottom: 3px;
 	border: 0;
+}
+
+#dataset-descri
+
+.variable-descriptors {
+	margin-bottom: 0px;
 }
 
 table, th, td {
@@ -80,12 +94,12 @@ table, th, td {
 }
 
 #workbook-container {
-	height: 900px;
+	height: 100%;
 }
 
 #workbook {
 	overflow: scroll;
-	height: 898px;
+	height: 803px;
 }
 
 #command-history {
@@ -94,18 +108,20 @@ table, th, td {
 
 #app-title {
 	margin-left: 15px;
-	font-size: 30pt;
-	font-weight: bold;
+	font-size: 35pt;
+	font-weight: 900;
+	vertical-align: middle;
 }
 
 #control-panel {
 	border-left: none;
+	height: 100%;
 }
 
 #command-history {
-	width: 15%;
+	width:16%;
 	border-right: none;
-	height: 900px;
+	height: 805px;
 }
 
 #command-history-header {

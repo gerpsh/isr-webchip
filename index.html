@@ -17,8 +17,11 @@
 <body ng-controller="default">
 	<div class="container">
 	  <div class="row">
-	  	<span id="app-title">Webchip 4.0</span>
+	  	&nbsp;&nbsp;&nbsp;&nbsp;
+	  	<img src="static/favicon.png" height="55" width="86">
+	  	<span id="app-title">WebCHIP 4.0</span>
 	  </div>
+	  <p />
 	  <div class="col-md-3 center" id="control-panel">
 		  	<div class="panel">
 		  		<div class="panel-heading clearfix">
@@ -35,9 +38,7 @@
 		        		{{ title }}
 		        	</p>
 		        	<span class="section-caption">Variables:</span>
-		        	<p id="dataset-description">
-		        		<p ng-repeat="obj in numberCategories"><b>{{ obj.var }}</b>: {{ obj.cats }} categories</p>
-		        	</p>
+		        	<p ng-repeat="obj in numberCategories" class="variable-descriptors"><b>{{ obj.var }}</b>: {{ obj.cats }} categories</p>
 		        	<br>
 		        	<button disabled id="btn-marginals" ng-click="generateMarginals()">Compute Marginals</button><br>
 		    	</div>
@@ -58,7 +59,6 @@
 			        	<select id="crosstab-col" class="select-box" ng-model="na3" ng-options="obj for obj in varNames track by obj">
 			        		<option value=''>Select Column</option>
 			        	</select>
-			        <br>
 			        <br>
 			        <span class="section-caption">Control Variable:</span><br>
 			        	<select disabled id="control-var" class="select-box" ng-model="na5" ng-options="obj for obj in varNames track by obj">
@@ -111,6 +111,10 @@
 	  	<div id="command-history-body">
 	  	</div>
 	  </div>
+	</div>
+	<p />
+	<div class="row">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Footer content goes here</p>
 	</div>
 	<script src="js/ui.js"></script>
 	<script src="js/charts_tables.js"></script>
