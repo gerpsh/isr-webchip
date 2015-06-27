@@ -3,15 +3,16 @@
 <head>
 	<title>WebCHIP 4.0</title>
 	<link rel="shortcut icon" type="image/png" href="static/favicon.png"/>
-	<script src="js/jquery.js"></script>
+	<script src="js/lib/jquery.js"></script>
+	<script src="js/lib/helpers.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="css/c3.min.css">
+	<link rel="stylesheet" type="text/css" href="css/c3.min.css" />
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/underscore.js"></script>
-	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/lib/d3.min.js"></script>
+	<script type="text/javascript" src="js/lib/c3.min.js"></script>
+	<script type="text/javascript" src="js/lib/underscore.js"></script>
+	<script type="text/javascript" src="js/lib/angular.js"></script>
 	<script type="text/javascript" src="js/webchipControllers.js"></script>
-	<script type="text/javascript" src="js/d3.min.js"></script>
-	<script type="text/javascript" src="js/c3.min.js"></script>
 	<link href="css/webchip.css" rel="stylesheet" type="text/css" />
 </head>
 <body ng-controller="default">
@@ -101,6 +102,10 @@
 		  	</div>
 		  </div>
 	  <div class="col-md-7 center" id="workbook-container">
+	  	<div id="workbook-header">
+	  		<span id="workbook-caption">&nbsp;&nbsp;&nbsp;Workbook</span>
+	  		<button id='print-button' onclick="printElement('#workbook');"><img src="static/print.png" height="20px" width="20px"></img></button>
+	  	</div>
 	  	<div id="workbook">
 	  	</div>
 	  </div>
@@ -108,13 +113,14 @@
 	  <div class="col-md-2 center" id="command-history">
 	  	<span class="panel-caption" id="command-history-header">Dataset History<span>
 	  	<br>
+	  	<br>
 	  	<div id="command-history-body">
 	  	</div>
 	  </div>
 	</div>
 	<p />
 	<div class="row">
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Footer content goes here</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Footer content goes here</p
 	</div>
 	<script src="js/ui.js"></script>
 	<script src="js/charts_tables.js"></script>
