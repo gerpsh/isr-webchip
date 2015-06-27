@@ -234,14 +234,15 @@ function generateGeneralTable(tableData, type) {
 	html += "</tr>"
 	_.each(splitData, function(splitDatum) {
 		var row = splitDatum[0]["row"];
-		html += "<tr><td><b>" + row + "</b></td>";
+		html += "<tr><th>" + row + "</th>";
 		_.each(splitDatum, function(d) {
 			html += "<td>" + transform(d["total"]) + "</td>";
 		});
-		html += "</tr>"
+		html += "</tr>";
 	});
-	html += "</table><br>";
-	
+	var len = html.length;
+	html = html.substr(0, len-5);
+	html += "<td></td></tr></table><br>";
 	return html;
 }
 
