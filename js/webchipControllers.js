@@ -364,5 +364,3 @@ webchipApp.controller("default", ['$scope', '$http',
 		};
 		
 	}]);
-
-

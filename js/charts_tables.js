@@ -134,6 +134,7 @@ function frequency(dataset, row, col) {
 		var returnObj = {"row": "Total", "col": cc, "total": total};
 		freqs.push(returnObj);
 	});
+	freqs.push({"row": "Total", "col": "Total", "total": nSum(data)});
 	return freqs;
 }
 
@@ -173,6 +174,7 @@ function pctAcross(dataset, row, col) {
 		var colTotal = parseFloat((parseFloat(nSum(matches)/grandTotal) * 100).toFixed(1));
 		pcts.push({"row": "Total", "col": cc, "total": colTotal});
 	});
+	pcts.push({"row": "Total", "col": "Total", "total": "100"});
 	return pcts;
 }
 
@@ -207,6 +209,8 @@ function pctDown(dataset, row, col) {
 	_.each(colCats, function(cc) {
 		pcts.push({"row": "Total", "col": cc, "total": 100.0});
 	});
+	console.log(pcts);
+	pcts.push({"row": "Total", "col": "Total", "total": "100"});
 	return pcts;
 }
 
@@ -242,7 +246,7 @@ function generateGeneralTable(tableData, type) {
 	});
 	var len = html.length;
 	html = html.substr(0, len-5);
-	html += "<td></td></tr></table><br>";
+	html += "</tr></table><br>";
 	return html;
 }
 
