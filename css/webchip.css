@@ -59,6 +59,18 @@ hr.panel-divider {
 	margin-bottom: 8px;
 }
 
+.checkbox label {
+  display: block;
+}
+
+#control-var.checkbox {
+  overflow: auto;
+  height: 90px;
+  margin-top: 0;
+  width: 180px;
+  border: 1px solid #000;
+}
+
 .btn-table {
 	width: 120px;
 	margin-bottom: 8px;

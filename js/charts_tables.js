@@ -250,13 +250,26 @@ function generateGeneralTable(tableData, type) {
 	return html;
 }
 
-//returns collection of dataset controlled by controle variable specified
+//returns collection of dataset controlled by variable specified
 function controlData(dataset, control) {
 	theDataset = copyObject(dataset);
 	theData = copyObject(theDataset["theData"]);
-	var grouped = _.groupBy(theData, function(obj) {
-		return obj[control];
-	});
+	var grouped = {};
+	for (var i=0; i<theData.length; i++) {
+		var obj = theData[i];
+		var controls = "";
+		for (var j=0; j<control.length; j++) {
+			controls += obj[control[j]];
+			controls += "#/#"
+		}
+		if (!(controls in grouped)) {
+			grouped[controls] = [];
+			grouped[controls].push(obj);
+		}
+		else {
+			grouped[controls].push(obj);
+		}
+	}
 	var datasets = [];
 	_.each(grouped, function(g) {
 		newDataset = copyObject(theDataset);

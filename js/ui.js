@@ -23,7 +23,7 @@ function singleVarSelected() {
 }
 
 function controlSet() {
-	var condition = ($("#control-var").val() != '');
+	var condition = (getControlVar().length > 0);
 	return condition;
 }
 
@@ -40,6 +40,15 @@ function canGenerateTable() {
 function canControl() {
 	var condition = (singleVarSelected() || crossTabsSelected());
 	return condition;
+}
+
+function controlVarStatus() {
+	if (canControl()) {
+		$('[name="controlVars[]"]').prop('disabled', false);
+	} else {
+		$('[name="controlVars[]"]').prop('checked', false);
+		$('[name="controlVars[]"]').prop('disabled', true);
+	}
 }
 
 function enableCharting() {
@@ -67,7 +76,11 @@ function getSingleVar() {
 }
 
 function getControlVar() {
-	return $('#control-var').val();
+	var controlVars = [];
+	$('input[name="controlVars[]"]:checked').each(function(){
+		controlVars.push($(this).val());
+	});
+	return controlVars;
 }
 
 function scrollWorkbook() {
@@ -104,12 +117,7 @@ $('#crosstab-row').on('change', function() {
 		$('.btn-chart').prop('disabled', true);
 	}*/
 
-	if (canControl()) {
-		$('#control-var').prop('disabled', false);
-	} else {
-		$('#control-var').val('');
-		$('#control-var').prop('disabled', true);
-	}
+	controlVarStatus();
 });
 
 $('#crosstab-col').on('change', function() {
@@ -132,12 +140,7 @@ $('#crosstab-col').on('change', function() {
 		$('.btn-chart').prop('disabled', true);
 	}*/
 
-	if (canControl()) {
-		$('#control-var').prop('disabled', false);
-	} else {
-		$('#control-var').val('');
-		$('#control-var').prop('disabled', true);
-	}
+	controlVarStatus();
 
 });
 
@@ -155,12 +158,6 @@ $('#single-var').on('change', function() {
 	} else {
 		$('.btn-chart').prop('disabled', true);
 	}*/
-
-	if (canControl()) {
-		$('#control-var').prop('disabled', false);
-	} else {
-		$('#control-var').val('');
-		$('#control-var').prop('disabled', true);
-
-	}
+	
+	controlVarStatus();
 });

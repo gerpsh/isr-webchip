@@ -61,7 +61,18 @@ webchipApp.controller("default", ['$scope', '$http',
 				var theDataset = copyObject($scope.completeDataset);
 				var splitArray = controlData(theDataset, conVar);
 				_.each(splitArray, function(d) {
-					var cat = d["theData"][0][conVar];
+					var cat = "";
+					for(var i=0; i<conVar.length; i++) {
+						cat += conVar[i];
+						cat += "="
+						cat += d["theData"][0][conVar[i]];
+						if(i != conVar.length-1) {
+							cat += ", "
+						}
+						else {
+							cat += "."
+						}
+					}
 					var freqs = frequency(d, rowVar, colVar);
 					var freqTable = generateGeneralTable(freqs, 'count');
 					$("#workbook").append("<p>Control: " + cat + "</p>");
@@ -88,7 +99,18 @@ webchipApp.controller("default", ['$scope', '$http',
 				var theDataset = copyObject($scope.completeDataset);
 				var splitArray = controlData(theDataset, conVar);
 				_.each(splitArray, function(d) {
-					var cat = d["theData"][0][conVar];
+					var cat = "";
+					for(var i=0; i<conVar.length; i++) {
+						cat += conVar[i];
+						cat += "="
+						cat += d["theData"][0][conVar[i]];
+						if(i != conVar.length-1) {
+							cat += ", "
+						}
+						else {
+							cat += "."
+						}
+					}
 					var pctAcrosses = pctAcross(d, rowVar, colVar);
 					var pctAcrossTable = generateGeneralTable(pctAcrosses, 'pct');
 					$("#workbook").append("<p>Control: " + cat + "</p>");
@@ -117,7 +139,18 @@ webchipApp.controller("default", ['$scope', '$http',
 				var theDataset = copyObject($scope.completeDataset);
 				var splitArray = controlData(theDataset, conVar);
 				_.each(splitArray, function(d) {
-					var cat = d["theData"][0][conVar];
+					var cat = "";
+					for(var i=0; i<conVar.length; i++) {
+						cat += conVar[i];
+						cat += "="
+						cat += d["theData"][0][conVar[i]];
+						if(i != conVar.length-1) {
+							cat += ", "
+						}
+						else {
+							cat += "."
+						}
+					}
 					var pctDowns = pctDown(d, rowVar, colVar);
 					var pctDownTable = generateGeneralTable(pctDowns, 'pct');
 					$("#workbook").append("<p>Control: " + cat + "</p>");
@@ -157,7 +190,18 @@ webchipApp.controller("default", ['$scope', '$http',
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
 						_.each(splitArray, function(d) {
-							var cat = d["theData"][0][conVar];
+							var cat = "";
+							for(var i=0; i<conVar.length; i++) {
+								cat += conVar[i];
+								cat += "="
+								cat += d["theData"][0][conVar[i]];
+								if(i != conVar.length-1) {
+									cat += ", "
+								}
+								else {
+									cat += "."
+								}
+							}
 							$("#workbook").append("<p>Control: " + cat + "</p>");
 							var pctAcrosses = pctAcross(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctAcrosses);
@@ -177,7 +221,18 @@ webchipApp.controller("default", ['$scope', '$http',
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
 						_.each(splitArray, function(d) {
-							var cat = d["theData"][0][conVar];
+							var cat = "";
+							for(var i=0; i<conVar.length; i++) {
+								cat += conVar[i];
+								cat += "="
+								cat += d["theData"][0][conVar[i]];
+								if(i != conVar.length-1) {
+									cat += ", "
+								}
+								else {
+									cat += "."
+								}
+							}
 							$("#workbook").append("<p>Control: " + cat + "</p>");
 							var pctDowns = pctDown(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctDowns);
@@ -224,7 +279,18 @@ webchipApp.controller("default", ['$scope', '$http',
 					var theDataset = copyObject($scope.completeDataset);
 					var splitArray = controlData(theDataset, conVar);
 					_.each(splitArray, function(d) {
-						var cat = d["theData"][0][conVar];
+						var cat = "";
+						for(var i=0; i<conVar.length; i++) {
+							cat += conVar[i];
+							cat += "="
+							cat += d["theData"][0][conVar[i]];
+							if(i != conVar.length-1) {
+								cat += ", "
+							}
+							else {
+								cat += "."
+							}
+						}
 						$("#workbook").append("<p>Control: " + cat + "</p>");
 						var freqs = frequency(d, rowVar, colVar);
 						var crosstabDataset = crosstabData(freqs);
@@ -264,7 +330,18 @@ webchipApp.controller("default", ['$scope', '$http',
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
 						_.each(splitArray, function(d) {
-							var cat = d["theData"][0][conVar];
+							var cat = "";
+							for(var i=0; i<conVar.length; i++) {
+								cat += conVar[i];
+								cat += "="
+								cat += d["theData"][0][conVar[i]];
+								if(i != conVar.length-1) {
+									cat += ", "
+								}
+								else {
+									cat += "."
+								}
+							}
 							$("#workbook").append("<p>Control: " + cat + "</p>");
 							var pctAcrosses = pctAcross(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctAcrosses);
@@ -284,7 +361,18 @@ webchipApp.controller("default", ['$scope', '$http',
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
 						_.each(splitArray, function(d) {
-							var cat = d["theData"][0][conVar];
+							var cat = "";
+							for(var i=0; i<conVar.length; i++) {
+								cat += conVar[i];
+								cat += "="
+								cat += d["theData"][0][conVar[i]];
+								if(i != conVar.length-1) {
+									cat += ", "
+								}
+								else {
+									cat += "."
+								}
+							}
 							$("#workbook").append("<p>Control: " + cat + "</p>");
 							var pctDowns = pctDown(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctDowns);
@@ -325,7 +413,18 @@ webchipApp.controller("default", ['$scope', '$http',
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
 						_.each(splitArray, function(d) {
-							var cat = d["theData"][0][conVar];
+							var cat = "";
+							for(var i=0; i<conVar.length; i++) {
+								cat += conVar[i];
+								cat += "="
+								cat += d["theData"][0][conVar[i]];
+								if(i != conVar.length-1) {
+									cat += ", "
+								}
+								else {
+									cat += "."
+								}
+							}
 							$("#workbook").append("<p>Control: " + cat + "</p>");
 							var pctAcrosses = pctAcross(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctAcrosses);
@@ -345,7 +444,18 @@ webchipApp.controller("default", ['$scope', '$http',
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
 						_.each(splitArray, function(d) {
-							var cat = d["theData"][0][conVar];
+							var cat = "";
+							for(var i=0; i<conVar.length; i++) {
+								cat += conVar[i];
+								cat += "="
+								cat += d["theData"][0][conVar[i]];
+								if(i != conVar.length-1) {
+									cat += ", "
+								}
+								else {
+									cat += "."
+								}
+							}
 							$("#workbook").append("<p>Control: " + cat + "</p>");
 							var pctDowns = pctDown(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctDowns);

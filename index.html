@@ -61,10 +61,17 @@
 			        		<option value=''>Select Column</option>
 			        	</select>
 			        <br>
-			        <span class="section-caption">Control Variable:</span><br>
+			        <span class="section-caption">Control Variable(s):</span><br>
+						<!--
 			        	<select disabled id="control-var" class="select-box" ng-model="na5" ng-options="obj for obj in varNames track by obj">
 			        		<option value='' selected='selected'>Select Variable</option>
 			        	</select>
+						-->
+						<div id="control-var" class="checkbox">
+							<label ng-repeat="obj in varNames">
+								<input disabled type="checkbox" name="controlVars[]" value="{{ obj }}" />{{ obj }}
+							</label>
+						</div>
 			        <!--single var elements hidden until ISR wants to include single var-->
 			        <br class="single-var-elements">
 			        <br class="single-var-elements">
