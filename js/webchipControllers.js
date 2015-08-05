@@ -1,7 +1,7 @@
 var webchipApp = angular.module('webchipApp', []);
 
 //controller serves entire index.html page
-webchipApp.controller("default", ['$scope', '$http', 
+webchipApp.controller("default", ['$scope', '$http',
 	function($scope, $http) {
 		//fetch index file and store data
 		$http.get('data/index.json').success(function(d) {
@@ -43,7 +43,7 @@ webchipApp.controller("default", ['$scope', '$http',
 
 		//append marginal table to workbook, uses charts_tables.js functions
 		$scope.generateMarginals = function() {
-			$("#workbook").append("<h4>Marginals</h4>");
+			$("#workbook").append("<span class='object-header'>Marginals</span>");
 			var margs = marginals($scope.completeDataset);
 			var marginalsTables = generateMarginalTables(margs);
 			$("#workbook").append(marginalsTables);
@@ -53,7 +53,7 @@ webchipApp.controller("default", ['$scope', '$http',
 
 		//append frequenct table to workbook, uses charts_tables.js functions
 		$scope.generateFrequency = function() {
-			$("#workbook").append("<h4>Frequency: " + getRowVar() + "/" + getColVar() + "</h4>");
+			$("#workbook").append("<span class='object-header'>Frequency: " + getRowVar() + "/" + getColVar() + "</span>");
 			if(controlSet()) {
 				var rowVar = getRowVar();
 				var colVar = getColVar();
@@ -83,7 +83,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var colVar = getColVar();
 				var freqs = frequency($scope.completeDataset, rowVar, colVar);
 				var freqTable = generateGeneralTable(freqs, 'count');
-				$("#workbook").append(freqTable);	
+				$("#workbook").append(freqTable);
 			}
 			$("#command-history-body").append("<p>Compute Frequency</p>");
 			scrollWorkbook();
@@ -91,7 +91,7 @@ webchipApp.controller("default", ['$scope', '$http',
 
 		//append percent across table to workbook, uses charts_tables.js functions
 		$scope.generatePctAcross = function() {
-			$("#workbook").append("<h4>Percent Across: " + getRowVar() + "/" + getColVar() + "</h4>");
+			$("#workbook").append("<span class='object-header'>Percent Across: " + getRowVar() + "/" + getColVar() + "</span>");
 			if(controlSet()) {
 				var rowVar = getRowVar();
 				var colVar = getColVar();
@@ -131,7 +131,7 @@ webchipApp.controller("default", ['$scope', '$http',
 
 		//append percent down table to workbook, uses charts_tables.js functions
 		$scope.generatePctDown = function() {
-			$("#workbook").append("<h4>Percent Down: " + getRowVar() + "/" + getColVar() + "</h4>");
+			$("#workbook").append("<span class='object-header'>Percent Down: " + getRowVar() + "/" + getColVar() + "</span>");
 			var rowVar = getRowVar();
 			var colVar = getColVar();
 			var conVar = getControlVar();
@@ -166,17 +166,17 @@ webchipApp.controller("default", ['$scope', '$http',
 			enableCharting();
 			scrollWorkbook();
 		};
-		
+
 		//append bar chart to workbook, uses charts_tables.js functions
 		$scope.generateBarChart = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
-				$("#workbook").append("<h4>Bar Chart: " +  singleVar + " (Single Variable)</h4>");
+				$("#workbook").append("<span class='object-header'>Bar Chart: " +  singleVar + " (Single Variable)</span>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
 				generateBarCharts(singleDataset,'single');
-				$("#command-history-body").append("<p>Generate Bar Chart (single variable)</p>");		
-				scrollWorkbook();	
+				$("#command-history-body").append("<p>Generate Bar Chart (single variable)</p>");
+				scrollWorkbook();
 			}
 			else {
 				//Crosstab
@@ -185,7 +185,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var conVar = getControlVar();
 				if ($scope.chartMethod == 'Across') {
 					//on PctAcross way
-					$("#workbook").append("<h4>Bar Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
+					$("#workbook").append("<span class='object-header'>Bar Chart: " + rowVar + "/" + colVar + " (Percent Across)</span>");
 					if(controlSet()) {
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
@@ -202,7 +202,7 @@ webchipApp.controller("default", ['$scope', '$http',
 									cat += "."
 								}
 							}
-							$("#workbook").append("<p>Control: " + cat + "</p>");
+							$("#workbook").append("<span class='control-header'>Control: " + cat + "</span>");
 							var pctAcrosses = pctAcross(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctAcrosses);
 							generateBarCharts(crosstabDataset,'crosstab');
@@ -216,7 +216,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				}
 				else {
 					//on PctDown way
-					$("#workbook").append("<h4>Bar Chart: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
+					$("#workbook").append("<span class='object-header'>Bar Chart: " + rowVar + "/" + colVar + " (Percent Down)</span>");
 					if(controlSet()) {
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
@@ -233,7 +233,7 @@ webchipApp.controller("default", ['$scope', '$http',
 									cat += "."
 								}
 							}
-							$("#workbook").append("<p>Control: " + cat + "</p>");
+							$("#workbook").append("<span class='control-header'>Control: " + cat + "</span>");
 							var pctDowns = pctDown(d, rowVar, colVar);
 							var crosstabDataset = crosstabData(pctDowns);
 							generateBarCharts(crosstabDataset,'crosstab');
@@ -249,12 +249,12 @@ webchipApp.controller("default", ['$scope', '$http',
 				scrollWorkbook();
 			}
 		};
-		
+
 		//append pie chart to workbook, uses charts_tables.js functions
 		$scope.generatePieChart = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
-				$("#workbook").append("<h4>Pie Chart: " +  singleVar + " (Single Variable)</h4>");
+				$("#workbook").append("<span class='object-header'>Pie Chart: " +  singleVar + " (Single Variable)</span>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
 				generatePieCharts(singleDataset,'single');
@@ -266,15 +266,15 @@ webchipApp.controller("default", ['$scope', '$http',
 				var rowVar = getRowVar();
 				var colVar = getColVar();
 				var conVar = getControlVar();
-								
+
 				//generate title
 				if ($scope.chartMethod == 'Across') {
-					$("#workbook").append("<h4>Pie Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
+					$("#workbook").append("<span class='object-header'>Pie Chart: " + rowVar + "/" + colVar + " (Percent Across)</span>");
 				}
 				else {
-					$("#workbook").append("<h4>Pie Chart: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
-				}	
-		
+					$("#workbook").append("<span class='object-header'>Pie Chart: " + rowVar + "/" + colVar + " (Percent Down)</span>");
+				}
+
 				if(controlSet()) {
 					var theDataset = copyObject($scope.completeDataset);
 					var splitArray = controlData(theDataset, conVar);
@@ -291,7 +291,7 @@ webchipApp.controller("default", ['$scope', '$http',
 								cat += "."
 							}
 						}
-						$("#workbook").append("<p>Control: " + cat + "</p>");
+						$("#workbook").append("<span class='control-header'>Control: " + cat + "</span>");
 						var freqs = frequency(d, rowVar, colVar);
 						var crosstabDataset = crosstabData(freqs);
 						generatePieCharts(crosstabDataset,'crosstab');
@@ -306,12 +306,12 @@ webchipApp.controller("default", ['$scope', '$http',
 				scrollWorkbook();
 			}
 		};
-		
+
 		//append line chart to workbook, uses charts_tables.js functions
 		$scope.generateLineChart = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
-				$("#workbook").append("<h4>Line Chart: " +  singleVar + " (Single Variable)</h4>");
+				$("#workbook").append("<span class='object-header'>Line Chart: " +  singleVar + " (Single Variable)</span>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
 				generateLineCharts(singleDataset,'single');
@@ -325,7 +325,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var conVar = getControlVar();
 				if ($scope.chartMethod == 'Across') {
 					//on PctAcross way
-					$("#workbook").append("<h4>Line Chart: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
+					$("#workbook").append("<span class='object-header'>Line Chart: " + rowVar + "/" + colVar + " (Percent Across)</span>");
 					if(controlSet()) {
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
@@ -356,7 +356,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				}
 				else {
 					//on PctDown way
-					$("#workbook").append("<h4>Line Chart: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
+					$("#workbook").append("<span class='object-header'>Line Chart: " + rowVar + "/" + colVar + " (Percent Down)</span>");
 					if(controlSet()) {
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
@@ -389,12 +389,12 @@ webchipApp.controller("default", ['$scope', '$http',
 				scrollWorkbook();
 			}
 		};
-		
+
 		//append stacked bar chart to workbook, uses charts_tables.js functions
 		$scope.generateStackedBar = function() {
 			if(singleVarSelected()) {
 				var singleVar = getSingleVar();
-				$("#workbook").append("<h4>Stacked Bar: " +  singleVar + " (Single Variable)</h4>");
+				$("#workbook").append("<span class='object-header'>Stacked Bar: " +  singleVar + " (Single Variable)</span>");
 				var margs = marginals($scope.completeDataset);
 				var singleDataset = singleData(margs, singleVar);
 				generateStackedBars(singleDataset,'single', singleVar);
@@ -408,7 +408,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				var conVar = getControlVar();
 				if ($scope.chartMethod == 'Across') {
 					//on PctAcross way
-					$("#workbook").append("<h4>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Across)</h4>");
+					$("#workbook").append("<span class='object-header'>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Across)</span>");
 					if(controlSet()) {
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
@@ -439,7 +439,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				}
 				else {
 					//on PctDown way
-					$("#workbook").append("<h4>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Down)</h4>");
+					$("#workbook").append("<span class='object-header'>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Down)</span>");
 					if(controlSet()) {
 						var theDataset = copyObject($scope.completeDataset);
 						var splitArray = controlData(theDataset, conVar);
@@ -472,5 +472,5 @@ webchipApp.controller("default", ['$scope', '$http',
 				scrollWorkbook();
 			}
 		};
-		
+
 	}]);

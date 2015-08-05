@@ -6,6 +6,10 @@
      width: 98%;
 }
 
+#logo {
+	margin-left: 13px;
+}
+
 hr.panel-divider {
 	margin-top: 3px;
 	margin-bottom: 3px;
@@ -37,7 +41,7 @@ hr.panel-divider {
 	line-height:32px;
 	padding-bottom: 0px;
 	padding-top: 0px;
-	background-color: #A9D0F5;
+	background-color: #6AB1C2;
 }
 
 .panel-body {
@@ -46,7 +50,7 @@ hr.panel-divider {
 
 .panel-caption {
 	font-weight: bold;
-	font-size:12pt;	
+	font-size:12pt;
 }
 
 .section-caption {
@@ -102,7 +106,7 @@ hr.panel-divider {
 }
 
 #workbook-header {
-	background-color: #A9D0F5;
+	background-color: #6AB1C2;
 	text-align: center;
 	border-radius: 5px;
 }
@@ -123,6 +127,20 @@ hr.panel-divider {
 #workbook {
 	overflow: scroll;
 	height: 803px;
+  margin-right: 0;
+}
+
+.object-header {
+	font-size: 16pt;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	line-height: 1.1;
+}
+
+.control-header {
+	font-weight: 12pt;
 }
 
 #command-history {
@@ -171,7 +189,7 @@ tbody tr:hover {
 }
 
 th {
-  background-color: #3399cc;
+  background-color: #6AB1C2;
   color: white;
   font-weight: normal;
 }
