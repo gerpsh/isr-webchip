@@ -87,6 +87,12 @@ function scrollWorkbook() {
 	$("#workbook").animate({scrollTop:$("#workbook")[0].scrollHeight}, 1000);
 }
 
+function adjustWorkbookHeight() {
+	var controlPanelHeight = $('#control-panel').height();
+	var controlPanelHeightString = controlPanelHeight + 2 + 'px';
+	$('#workbook').css('height', controlPanelHeightString);
+}
+
 $('#dataset-list').on('change', function() {
 	disableCharting();
 	if (canMarginal()) {
@@ -94,8 +100,8 @@ $('#dataset-list').on('change', function() {
 	} else {
 		$('#btn-marginals').prop('disabled', true);
 	}
+	adjustWorkbookHeight();
 });
-
 
 $('#crosstab-row').on('change', function() {
 	disableCharting();
@@ -141,7 +147,6 @@ $('#crosstab-col').on('change', function() {
 	}*/
 
 	controlVarStatus();
-
 });
 
 $('#single-var').on('change', function() {
