@@ -170,306 +170,44 @@ webchipApp.controller("default", ['$scope', '$http',
 		//append bar chart to workbook, uses charts_tables.js functions
 		$scope.generateBarChart = function() {
 			if(singleVarSelected()) {
-				var singleVar = getSingleVar();
-				$("#workbook").append("<span class='object-header'>Bar Chart: " +  singleVar + " (Single Variable)</span>");
-				var margs = marginals($scope.completeDataset);
-				var singleDataset = singleData(margs, singleVar);
-				generateBarCharts(singleDataset,'single');
-				$("#command-history-body").append("<p>Generate Bar Chart (single variable)</p>");
-				scrollWorkbook();
+				singleVarProcess('Bar Chart', $scope.completeDataset);
 			}
 			else {
 				//Crosstab
-				var rowVar = getRowVar();
-				var colVar = getColVar();
-				var conVar = getControlVar();
-				if ($scope.chartMethod == 'Across') {
-					//on PctAcross way
-					$("#workbook").append("<span class='object-header'>Bar Chart: " + rowVar + "/" + colVar + " (Percent Across)</span>");
-					if(controlSet()) {
-						var theDataset = copyObject($scope.completeDataset);
-						var splitArray = controlData(theDataset, conVar);
-						_.each(splitArray, function(d) {
-							var cat = "";
-							for(var i=0; i<conVar.length; i++) {
-								cat += conVar[i];
-								cat += "="
-								cat += d["theData"][0][conVar[i]];
-								if(i != conVar.length-1) {
-									cat += ", "
-								}
-								else {
-									cat += "."
-								}
-							}
-							$("#workbook").append("<span class='control-header'>Control: " + cat + "</span>");
-							var pctAcrosses = pctAcross(d, rowVar, colVar);
-							var crosstabDataset = crosstabData(pctAcrosses);
-							generateBarCharts(crosstabDataset,'crosstab');
-						});
-					}
-					else {
-						var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
-						var crosstabDataset = crosstabData(pctAcrosses);
-						generateBarCharts(crosstabDataset,'crosstab');
-					}
-				}
-				else {
-					//on PctDown way
-					$("#workbook").append("<span class='object-header'>Bar Chart: " + rowVar + "/" + colVar + " (Percent Down)</span>");
-					if(controlSet()) {
-						var theDataset = copyObject($scope.completeDataset);
-						var splitArray = controlData(theDataset, conVar);
-						_.each(splitArray, function(d) {
-							var cat = "";
-							for(var i=0; i<conVar.length; i++) {
-								cat += conVar[i];
-								cat += "="
-								cat += d["theData"][0][conVar[i]];
-								if(i != conVar.length-1) {
-									cat += ", "
-								}
-								else {
-									cat += "."
-								}
-							}
-							$("#workbook").append("<span class='control-header'>Control: " + cat + "</span>");
-							var pctDowns = pctDown(d, rowVar, colVar);
-							var crosstabDataset = crosstabData(pctDowns);
-							generateBarCharts(crosstabDataset,'crosstab');
-						});
-					}
-					else {
-						var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
-						var crosstabDataset = crosstabData(pctDowns);
-						generateBarCharts(crosstabDataset,'crosstab');
-					}
-				}
-				$("#command-history-body").append("<p>Generate Bar Chart (crosstab)</p>");
-				scrollWorkbook();
+				crosstabProcess('Bar Chart', $scope.completeDataset, $scope.chartMethod);
 			}
 		};
 
 		//append pie chart to workbook, uses charts_tables.js functions
 		$scope.generatePieChart = function() {
 			if(singleVarSelected()) {
-				var singleVar = getSingleVar();
-				$("#workbook").append("<span class='object-header'>Pie Chart: " +  singleVar + " (Single Variable)</span>");
-				var margs = marginals($scope.completeDataset);
-				var singleDataset = singleData(margs, singleVar);
-				generatePieCharts(singleDataset,'single');
-				$("#command-history-body").append("<p>Generate Pie Chart (single variable)</p>");
-				scrollWorkbook();
+				singleVarProcess('Pie Chart', $scope.completeDataset);
 			}
 			else {
 				//Crosstab
-				var rowVar = getRowVar();
-				var colVar = getColVar();
-				var conVar = getControlVar();
-
-				//generate title
-				if ($scope.chartMethod == 'Across') {
-					$("#workbook").append("<span class='object-header'>Pie Chart: " + rowVar + "/" + colVar + " (Percent Across)</span>");
-				}
-				else {
-					$("#workbook").append("<span class='object-header'>Pie Chart: " + rowVar + "/" + colVar + " (Percent Down)</span>");
-				}
-
-				if(controlSet()) {
-					var theDataset = copyObject($scope.completeDataset);
-					var splitArray = controlData(theDataset, conVar);
-					_.each(splitArray, function(d) {
-						var cat = "";
-						for(var i=0; i<conVar.length; i++) {
-							cat += conVar[i];
-							cat += "="
-							cat += d["theData"][0][conVar[i]];
-							if(i != conVar.length-1) {
-								cat += ", "
-							}
-							else {
-								cat += "."
-							}
-						}
-						$("#workbook").append("<span class='control-header'>Control: " + cat + "</span>");
-						var freqs = frequency(d, rowVar, colVar);
-						var crosstabDataset = crosstabData(freqs);
-						generatePieCharts(crosstabDataset,'crosstab');
-					});
-				}
-				else {
-					var freqs = frequency($scope.completeDataset, rowVar, colVar);
-					var crosstabDataset = crosstabData(freqs);
-					generatePieCharts(crosstabDataset,'crosstab');
-				}
-				$("#command-history-body").append("<p>Generate Pie Chart (crosstab)</p>");
-				scrollWorkbook();
+				crosstabProcess('Pie Chart', $scope.completeDataset, $scope.chartMethod);
 			}
 		};
 
 		//append line chart to workbook, uses charts_tables.js functions
 		$scope.generateLineChart = function() {
 			if(singleVarSelected()) {
-				var singleVar = getSingleVar();
-				$("#workbook").append("<span class='object-header'>Line Chart: " +  singleVar + " (Single Variable)</span>");
-				var margs = marginals($scope.completeDataset);
-				var singleDataset = singleData(margs, singleVar);
-				generateLineCharts(singleDataset,'single');
-				$("#command-history-body").append("<p>Generate Line Chart (single variable)</p>");
-				scrollWorkbook();
+				singleVarProcess('Line Chart', $scope.completeDataset);
 			}
 			else {
 				//Crosstab
-				var rowVar = getRowVar();
-				var colVar = getColVar();
-				var conVar = getControlVar();
-				if ($scope.chartMethod == 'Across') {
-					//on PctAcross way
-					$("#workbook").append("<span class='object-header'>Line Chart: " + rowVar + "/" + colVar + " (Percent Across)</span>");
-					if(controlSet()) {
-						var theDataset = copyObject($scope.completeDataset);
-						var splitArray = controlData(theDataset, conVar);
-						_.each(splitArray, function(d) {
-							var cat = "";
-							for(var i=0; i<conVar.length; i++) {
-								cat += conVar[i];
-								cat += "="
-								cat += d["theData"][0][conVar[i]];
-								if(i != conVar.length-1) {
-									cat += ", "
-								}
-								else {
-									cat += "."
-								}
-							}
-							$("#workbook").append("<p>Control: " + cat + "</p>");
-							var pctAcrosses = pctAcross(d, rowVar, colVar);
-							var crosstabDataset = crosstabData(pctAcrosses);
-							generateLineCharts(crosstabDataset,'crosstab');
-						});
-					}
-					else {
-						var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
-						var crosstabDataset = crosstabData(pctAcrosses);
-						generateLineCharts(crosstabDataset,'crosstab');
-					}
-				}
-				else {
-					//on PctDown way
-					$("#workbook").append("<span class='object-header'>Line Chart: " + rowVar + "/" + colVar + " (Percent Down)</span>");
-					if(controlSet()) {
-						var theDataset = copyObject($scope.completeDataset);
-						var splitArray = controlData(theDataset, conVar);
-						_.each(splitArray, function(d) {
-							var cat = "";
-							for(var i=0; i<conVar.length; i++) {
-								cat += conVar[i];
-								cat += "="
-								cat += d["theData"][0][conVar[i]];
-								if(i != conVar.length-1) {
-									cat += ", "
-								}
-								else {
-									cat += "."
-								}
-							}
-							$("#workbook").append("<p>Control: " + cat + "</p>");
-							var pctDowns = pctDown(d, rowVar, colVar);
-							var crosstabDataset = crosstabData(pctDowns);
-							generateLineCharts(crosstabDataset,'crosstab');
-						});
-					}
-					else {
-						var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
-						var crosstabDataset = crosstabData(pctDowns);
-						generateLineCharts(crosstabDataset,'crosstab');
-					}
-				}
-				$("#command-history-body").append("<p>Generate Line Chart (crosstab)</p>");
-				scrollWorkbook();
+				crosstabProcess('Line Chart', $scope.completeDataset, $scope.chartMethod);
 			}
 		};
 
 		//append stacked bar chart to workbook, uses charts_tables.js functions
 		$scope.generateStackedBar = function() {
 			if(singleVarSelected()) {
-				var singleVar = getSingleVar();
-				$("#workbook").append("<span class='object-header'>Stacked Bar: " +  singleVar + " (Single Variable)</span>");
-				var margs = marginals($scope.completeDataset);
-				var singleDataset = singleData(margs, singleVar);
-				generateStackedBars(singleDataset,'single', singleVar);
-				$("#command-history-body").append("<p>Generate Stacked Bar (single variable)</p>");
-				scrollWorkbook();
+				singleVarProcess('Stacked Bar', $scope.completeDataset);
 			}
 			else {
-				//Crosstab
-				var rowVar = getRowVar();
-				var colVar = getColVar();
-				var conVar = getControlVar();
-				if ($scope.chartMethod == 'Across') {
-					//on PctAcross way
-					$("#workbook").append("<span class='object-header'>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Across)</span>");
-					if(controlSet()) {
-						var theDataset = copyObject($scope.completeDataset);
-						var splitArray = controlData(theDataset, conVar);
-						_.each(splitArray, function(d) {
-							var cat = "";
-							for(var i=0; i<conVar.length; i++) {
-								cat += conVar[i];
-								cat += "="
-								cat += d["theData"][0][conVar[i]];
-								if(i != conVar.length-1) {
-									cat += ", "
-								}
-								else {
-									cat += "."
-								}
-							}
-							$("#workbook").append("<p>Control: " + cat + "</p>");
-							var pctAcrosses = pctAcross(d, rowVar, colVar);
-							var crosstabDataset = crosstabData(pctAcrosses);
-							generateStackedBars(crosstabDataset,'crosstab');
-						});
-					}
-					else {
-						var pctAcrosses = pctAcross($scope.completeDataset, rowVar, colVar);
-						var crosstabDataset = crosstabData(pctAcrosses);
-						generateStackedBars(crosstabDataset,'crosstab');
-					}
-				}
-				else {
-					//on PctDown way
-					$("#workbook").append("<span class='object-header'>Stacked Bar: " + rowVar + "/" + colVar + " (Percent Down)</span>");
-					if(controlSet()) {
-						var theDataset = copyObject($scope.completeDataset);
-						var splitArray = controlData(theDataset, conVar);
-						_.each(splitArray, function(d) {
-							var cat = "";
-							for(var i=0; i<conVar.length; i++) {
-								cat += conVar[i];
-								cat += "="
-								cat += d["theData"][0][conVar[i]];
-								if(i != conVar.length-1) {
-									cat += ", "
-								}
-								else {
-									cat += "."
-								}
-							}
-							$("#workbook").append("<p>Control: " + cat + "</p>");
-							var pctDowns = pctDown(d, rowVar, colVar);
-							var crosstabDataset = crosstabData(pctDowns);
-							generateStackedBars(crosstabDataset,'crosstab');
-						});
-					}
-					else {
-						var pctDowns = pctDown($scope.completeDataset, rowVar, colVar);
-						var crosstabDataset = crosstabData(pctDowns);
-						generateStackedBars(crosstabDataset,'crosstab');
-					}
-				}
-				$("#command-history-body").append("<p>Generate Stacked Bar (crosstab)</p>");
-				scrollWorkbook();
+				//Crosstab				
+				crosstabProcess('Stacked Bar', $scope.completeDataset, $scope.chartMethod);
 			}
 		};
 

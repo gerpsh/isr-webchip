@@ -663,3 +663,168 @@ function generateStackedBars(dataset, numOfVar, singleVar) {
 	$(chart.element).appendTo("#workbook");
 	$('#workbook').append("<br>");
 }
+
+//plot charts for singleVar 
+function singleVarProcess(chartType, fulldataset) {
+	var singleVar = getSingleVar();
+	$("#workbook").append("<p class='object-header'>"+ chartType +": "+  singleVar + " (Single Variable)</p>");
+	var margs = marginals(fulldataset);
+	var singleDataset = singleData(margs, singleVar);
+	//can use a container to make it more extendible
+	if (chartType == 'Bar Chart') {
+		generateBarCharts(singleDataset,'single');
+	}
+	else if (chartType == 'Pie Chart') {
+		generatePieCharts(singleDataset,'single');
+	}
+	else if (chartType == 'Line Chart') {
+		generateLineCharts(singleDataset,'single');
+	}
+	else if (chartType == 'Stacked Bar') {
+		generateStackedBars(singleDataset,'single', singleVar);
+	}
+	$("#command-history-body").append("<p>Generate "+ chartType +" (single variable)</p>");
+	scrollWorkbook();
+}
+
+//plot charts for crosstab 
+function crosstabProcess(chartType, fulldataset, chartMethod) {
+	var rowVar = getRowVar();
+	var colVar = getColVar();
+	var conVar = getControlVar();
+	if (chartType !== 'Pie Chart') {
+		if (chartMethod == 'Across') {
+			//on PctAcross way
+			$("#workbook").append("<p class='object-header'>"+ chartType +": " + rowVar + "/" + colVar + " (Percent Across)</p>");
+			if(controlSet()) {
+				var theDataset = copyObject(fulldataset);
+				var splitArray = controlData(theDataset, conVar);
+				_.each(splitArray, function(d) {
+					var cat = "";
+					for(var i=0; i<conVar.length; i++) {
+						cat += conVar[i];
+						cat += "=";
+						cat += d["theData"][0][conVar[i]];
+						if(i != conVar.length-1) {
+							cat += ", ";
+						}
+						else {
+							cat += ".";
+						}
+					}
+					$("#workbook").append("<p class='control-header'>Control: " + cat + "</p>");
+					var pctAcrosses = pctAcross(d, rowVar, colVar);
+					var crosstabDataset = crosstabData(pctAcrosses);
+					if (chartType == 'Bar Chart') {
+						generateBarCharts(crosstabDataset,'crosstab');
+					}
+					else if (chartType == 'Line Chart') {
+						generateLineCharts(crosstabDataset,'crosstab');
+					}
+					else if (chartType == 'Stacked Bar') {
+						generateStackedBars(crosstabDataset,'crosstab');
+					}
+				});
+			}
+			else {
+				var pctAcrosses = pctAcross(fulldataset, rowVar, colVar);
+				var crosstabDataset = crosstabData(pctAcrosses);
+				if (chartType == 'Bar Chart') {
+					generateBarCharts(crosstabDataset,'crosstab');
+				}
+				else if (chartType == 'Line Chart') {
+					generateLineCharts(crosstabDataset,'crosstab');
+				}
+				else if (chartType == 'Stacked Bar') {
+					generateStackedBars(crosstabDataset,'crosstab');
+				}
+			}
+		}
+		else {
+			//on PctDown way
+			$("#workbook").append("<p class='object-header'>"+ chartType +": " + rowVar + "/" + colVar + " (Percent Down)</p>");
+			if(controlSet()) {
+				var theDataset = copyObject(fulldataset);
+				var splitArray = controlData(theDataset, conVar);
+				_.each(splitArray, function(d) {
+					var cat = "";
+					for(var i=0; i<conVar.length; i++) {
+						cat += conVar[i];
+						cat += "=";
+						cat += d["theData"][0][conVar[i]];
+						if(i != conVar.length-1) {
+							cat += ", ";
+						}
+						else {
+							cat += ".";
+						}
+					}
+					$("#workbook").append("<p class='control-header'>Control: " + cat + "</p>");
+					var pctDowns = pctDown(d, rowVar, colVar);
+					var crosstabDataset = crosstabData(pctDowns);
+					if (chartType == 'Bar Chart') {
+						generateBarCharts(crosstabDataset,'crosstab');
+					}
+					else if (chartType == 'Line Chart') {
+						generateLineCharts(crosstabDataset,'crosstab');
+					}
+					else if (chartType == 'Stacked Bar') {
+						generateStackedBars(crosstabDataset,'crosstab');
+					}
+				});
+			}
+			else {
+				var pctDowns = pctDown(fulldataset, rowVar, colVar);
+				var crosstabDataset = crosstabData(pctDowns);
+				if (chartType == 'Bar Chart') {
+					generateBarCharts(crosstabDataset,'crosstab');
+				}
+				else if (chartType == 'Line Chart') {
+					generateLineCharts(crosstabDataset,'crosstab');
+				}
+				else if (chartType == 'Stacked Bar') {
+					generateStackedBars(crosstabDataset,'crosstab');
+				}
+			}
+		}
+	}
+	else {
+		//generate title
+		if (chartMethod == 'Across') {
+			$("#workbook").append("<p class='object-header'>"+ chartType +": " + rowVar + "/" + colVar + " (Percent Across)</p>");
+		}
+		else {
+			$("#workbook").append("<p class='object-header'>"+ chartType +": " + rowVar + "/" + colVar + " (Percent Down)</p>");
+		}
+
+		if(controlSet()) {
+			var theDataset = copyObject(fulldataset);
+			var splitArray = controlData(theDataset, conVar);
+			_.each(splitArray, function(d) {
+				var cat = "";
+				for(var i=0; i<conVar.length; i++) {
+					cat += conVar[i];
+					cat += "=";
+					cat += d["theData"][0][conVar[i]];
+					if(i != conVar.length-1) {
+						cat += ", ";
+					}
+					else {
+						cat += ".";
+					}
+				}
+				$("#workbook").append("<p class='control-header'>Control: " + cat + "</p>");
+				var freqs = frequency(d, rowVar, colVar);
+				var crosstabDataset = crosstabData(freqs);
+				generatePieCharts(crosstabDataset,'crosstab');
+			});
+		}
+		else {
+			var freqs = frequency(fulldataset, rowVar, colVar);
+			var crosstabDataset = crosstabData(freqs);
+			generatePieCharts(crosstabDataset,'crosstab');
+		}
+	}
+	$("#command-history-body").append("<p>Generate "+ chartType +" (crosstab)</p>");
+	scrollWorkbook();
+}
