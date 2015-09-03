@@ -59,6 +59,7 @@ function marginals(dataset) {
 		margs.push(rcd);
 		i++;
 	});
+	console.log(margs);
 	return margs;
 }
 
@@ -100,6 +101,7 @@ function generateMarginalTables(marginalsData) {
   "row total" cells will be interspersed throughout the dictionary, at regular intervals,
   and "column total" cells will be the final elements of the collections
 */
+
 function frequency(dataset, row, col) {
 	var data = dataset["theData"];
 	var vars = dataset["varNames"];
@@ -325,7 +327,7 @@ function crosstabData(dataset) {
 				if (colCats.indexOf(colCat) == -1) {
 					colCats.push(colCat);
 				}
-				
+
 				if (colCat in finalDataBefore) {
 					finalDataBefore[colCat].push(varValue);
 				}
@@ -362,7 +364,7 @@ function crosstabData(dataset) {
 				if (colCats.indexOf(rowCat) == -1) {
 					colCats.push(rowCat);
 				}
-				
+
 				if (rowCat in finalDataBefore) {
 					finalDataBefore[rowCat].push(varValue);
 				}
@@ -390,13 +392,13 @@ function crosstabData(dataset) {
 		var temp = finalDataBefore[item].slice();
 		temp.unshift(item);
 		finalDataAfter.push(temp);
-	} 
+	}
 	return [finalDataAfter, rowCats, colCats, finalDataPie];
 }
 
 function generateBarCharts(dataset, numOfVar) {
-	if (numOfVar == 'single') {	
-		var catename = dataset[0];	
+	if (numOfVar == 'single') {
+		var catename = dataset[0];
 		var finalData = dataset[1];
 		var chart = c3.generate({
 			size: {
@@ -474,7 +476,7 @@ function generateBarCharts(dataset, numOfVar) {
 }
 
 function generatePieCharts(dataset, numOfVar) {
-	if (numOfVar == 'single') {	
+	if (numOfVar == 'single') {
 		var finalData = dataset[3];
 		var chart = c3.generate({
 			size: {
@@ -509,8 +511,8 @@ function generatePieCharts(dataset, numOfVar) {
 }
 
 function generateLineCharts(dataset, numOfVar) {
-	if (numOfVar == 'single') {	
-		var catename = dataset[0];	
+	if (numOfVar == 'single') {
+		var catename = dataset[0];
 		var finalData = dataset[1];
 		var chart = c3.generate({
 			size: {
@@ -576,8 +578,8 @@ function generateLineCharts(dataset, numOfVar) {
 }
 
 function generateStackedBars(dataset, numOfVar, singleVar) {
-	if (numOfVar == 'single') {	
-		var catename = dataset[0];	
+	if (numOfVar == 'single') {
+		var catename = dataset[0];
 		var finalData = dataset[2];
 		var xVar = singleVar;
 		var chart = c3.generate({
@@ -664,7 +666,7 @@ function generateStackedBars(dataset, numOfVar, singleVar) {
 	$('#workbook').append("<br>");
 }
 
-//plot charts for singleVar 
+//plot charts for singleVar
 function singleVarProcess(chartType, fulldataset) {
 	var singleVar = getSingleVar();
 	$("#workbook").append("<p class='object-header'>"+ chartType +": "+  singleVar + " (Single Variable)</p>");
@@ -687,7 +689,7 @@ function singleVarProcess(chartType, fulldataset) {
 	scrollWorkbook();
 }
 
-//plot charts for crosstab 
+//plot charts for crosstab
 function crosstabProcess(chartType, fulldataset, chartMethod) {
 	var rowVar = getRowVar();
 	var colVar = getColVar();

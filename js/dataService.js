@@ -1,9 +1,9 @@
 webchipApp.factory('dataService', ['$http',
   function($http) {
     var getIndex = function() {
-      $http.get('data/index.json').then(function(d) {
-  		  return d;
-      }, function(d) {
+      return $http.get('data/index.json').then(function(d) {
+        return d.data;
+      }, function() {
         return null;
       });
     };
@@ -14,12 +14,12 @@ webchipApp.factory('dataService', ['$http',
     //get dataset and prepare scope vars
     var getDataset = function() {
       var path = getSelectedDataset();
-      $http.get(path).then(function(d) {
-        var completeDataset = d;
-        var title = d.title;
-        var variableCategories = d.varCats;
-        var variableNames = d.varNames;
-        var theData = d.theData;
+      return $http.get(path).then(function(d) {
+        var completeDataset = d.data;
+        var title = d.data.title;
+        var variableCategories = d.data.varCats;
+        var variableNames = d.data.varNames;
+        var theData = d.data.theData;
         var numberCategories = [];
         _.each(variableCategories, function(variable) {
           var variableName = variable.name;
@@ -32,18 +32,18 @@ webchipApp.factory('dataService', ['$http',
           "completeDataset": completeDataset,
           "title": title,
           "variableCategories": variableCategories,
-          "variableName": variableNames,
+          "variableNames": variableNames,
           "theData": theData,
           "numberCategories": numberCategories
         }
-      }, function(d) {
+      }, function() {
         return null;
       });
     };
 
     return {
       "getIndex": getIndex,
-      "getCurrentDataset": getCurrentDataset,
+      "getSelectedDataset": getSelectedDataset,
       "getDataset": getDataset
     };
 }]);
