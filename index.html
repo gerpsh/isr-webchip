@@ -3,17 +3,25 @@
 <head>
 	<title>WebCHIP 4.0</title>
 	<link rel="shortcut icon" type="image/png" href="static/favicon.png"/>
-	<script src="js/lib/jquery.js"></script>
-	<script src="js/lib/helpers.js"></script>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="css/c3.min.css" />
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/lib/d3.min.js"></script>
-	<script type="text/javascript" src="js/lib/c3.min.js"></script>
-	<script type="text/javascript" src="js/lib/underscore.js"></script>
-	<script type="text/javascript" src="js/lib/angular.js"></script>
-	<script type="text/javascript" src="js/webchipControllers.js"></script>
+
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="bower_components/c3/c3.css" />
+	<!-- endbower -->
 	<link href="css/webchip.css" rel="stylesheet" type="text/css" />
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/d3/d3.js"></script>
+	<script src="bower_components/c3/c3.js"></script>
+	<script src="bower_components/underscore/underscore.js"></script>
+	<!-- endbower -->
+	<script src="js/helpers.js"></script>
+	<script type="text/javascript" src="js/webchipApp.js"></script>
+	<script type="text/javascript" src="js/dataService.js"></script>
+	<script type="text/javascript" src="js/webchipControllers.js"></script>
+
 </head>
 <body ng-controller="default">
 	<div class="container">
@@ -78,7 +86,7 @@
 			        <span class="section-caption single-var-elements">Single Variable:</span><br>
 			        	<select id="single-var" class="select-box single-var-elements" ng-model="na4" ng-options="obj for obj in varNames track by obj">
 			        		<option value='' selected='selected'>Select Variable</option>
-			        	</select>        
+			        	</select>
 		    	</div>
 		  	</div>
 		  	<hr class="panel-divider">
@@ -129,7 +137,6 @@
 	<div class="row">
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Footer content goes here</p
 	</div>
-	<script src="js/lib/saveSvgAsPng.js"></script>
 	<script src="js/ui.js"></script>
 	<script src="js/charts_tables.js"></script>
 </body>

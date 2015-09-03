@@ -1,8 +1,6 @@
-var webchipApp = angular.module('webchipApp', []);
-
 //controller serves entire index.html page
-webchipApp.controller("default", ['$scope', '$http',
-	function($scope, $http) {
+webchipApp.controller("default", ['$scope', '$http', 'dataService',
+	function($scope, $http, dataService) {
 		//fetch index file and store data
 		$http.get('data/index.json').success(function(d) {
 			$scope.availableDatasets = d;
@@ -206,7 +204,7 @@ webchipApp.controller("default", ['$scope', '$http',
 				singleVarProcess('Stacked Bar', $scope.completeDataset);
 			}
 			else {
-				//Crosstab				
+				//Crosstab
 				crosstabProcess('Stacked Bar', $scope.completeDataset, $scope.chartMethod);
 			}
 		};
